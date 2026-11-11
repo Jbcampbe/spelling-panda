@@ -1,1 +1,3863 @@
-[]
+[
+  {
+    "id": "medium-ship",
+    "word": "ship",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The big ship sailed across the wide ocean."
+  },
+  {
+    "id": "medium-shell",
+    "word": "shell",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I found a pink shell on the sandy beach."
+  },
+  {
+    "id": "medium-shop",
+    "word": "shop",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We went to the shop to buy fresh bread."
+  },
+  {
+    "id": "medium-fish",
+    "word": "fish",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My uncle caught a large fish in the lake."
+  },
+  {
+    "id": "medium-wish",
+    "word": "wish",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Close your eyes and make a birthday wish."
+  },
+  {
+    "id": "medium-brush",
+    "word": "brush",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Please brush your teeth before you go to bed."
+  },
+  {
+    "id": "medium-chair",
+    "word": "chair",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Grandma sat in the rocking chair by the window."
+  },
+  {
+    "id": "medium-chip",
+    "word": "chip",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The baby ate a crunchy potato chip."
+  },
+  {
+    "id": "medium-cheese",
+    "word": "cheese",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I like cheese melted on my sandwich."
+  },
+  {
+    "id": "medium-lunch",
+    "word": "lunch",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Mom packed an apple in my lunch box."
+  },
+  {
+    "id": "medium-catch",
+    "word": "catch",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Can you catch the ball with one hand?"
+  },
+  {
+    "id": "medium-match",
+    "word": "match",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Every sock in the drawer has a match."
+  },
+  {
+    "id": "medium-thick",
+    "word": "thick",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The snow was thick on the ground."
+  },
+  {
+    "id": "medium-thin",
+    "word": "thin",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "She drew a thin line with her pencil."
+  },
+  {
+    "id": "medium-think",
+    "word": "think",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Take a moment to think before you answer."
+  },
+  {
+    "id": "medium-thank",
+    "word": "thank",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I will thank my aunt for the nice gift."
+  },
+  {
+    "id": "medium-three",
+    "word": "three",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "There are three ducks swimming in the pond."
+  },
+  {
+    "id": "medium-with",
+    "word": "with",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Sam walked to school with his best friend."
+  },
+  {
+    "id": "medium-whale",
+    "word": "whale",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A huge whale splashed in the deep water."
+  },
+  {
+    "id": "medium-wheel",
+    "word": "wheel",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The wheel on my bike is spinning fast."
+  },
+  {
+    "id": "medium-white",
+    "word": "white",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Fresh white snow covered the roof."
+  },
+  {
+    "id": "medium-when",
+    "word": "when",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Tell me when the bus arrives."
+  },
+  {
+    "id": "medium-where",
+    "word": "where",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Where did you put your red hat?",
+    "homophoneGroup": "wear-where"
+  },
+  {
+    "id": "medium-duck",
+    "word": "duck",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A yellow duck waddled across the yard."
+  },
+  {
+    "id": "medium-clock",
+    "word": "clock",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The clock on the wall says it is noon."
+  },
+  {
+    "id": "medium-black",
+    "word": "black",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A black cat curled up on the rug."
+  },
+  {
+    "id": "medium-truck",
+    "word": "truck",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The big truck carried sand to the building site."
+  },
+  {
+    "id": "medium-stick",
+    "word": "stick",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The puppy ran off with a long stick."
+  },
+  {
+    "id": "medium-quick",
+    "word": "quick",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The rabbit gave a quick hop into the bushes."
+  },
+  {
+    "id": "medium-phone",
+    "word": "phone",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Grandpa called me on the phone last night."
+  },
+  {
+    "id": "medium-rain",
+    "word": "rain",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We stayed inside because of the heavy rain."
+  },
+  {
+    "id": "medium-train",
+    "word": "train",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The train rolled slowly into the station."
+  },
+  {
+    "id": "medium-paint",
+    "word": "paint",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Let us paint the fence bright green."
+  },
+  {
+    "id": "medium-snail",
+    "word": "snail",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A tiny snail crawled up the leaf."
+  },
+  {
+    "id": "medium-tail",
+    "word": "tail",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My dog wags his tail when he is happy.",
+    "homophoneGroup": "tail-tale"
+  },
+  {
+    "id": "medium-tale",
+    "word": "tale",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Dad read us a funny tale about a clever fox.",
+    "homophoneGroup": "tail-tale"
+  },
+  {
+    "id": "medium-mail",
+    "word": "mail",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The mail carrier brought a letter for me.",
+    "homophoneGroup": "mail-male"
+  },
+  {
+    "id": "medium-male",
+    "word": "male",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The male bird has bright blue feathers.",
+    "homophoneGroup": "mail-male"
+  },
+  {
+    "id": "medium-day",
+    "word": "day",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "It was a sunny day at the park."
+  },
+  {
+    "id": "medium-play",
+    "word": "play",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The children play tag after school."
+  },
+  {
+    "id": "medium-stay",
+    "word": "stay",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Please stay close to me in the crowd."
+  },
+  {
+    "id": "medium-say",
+    "word": "say",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "What did you say about the picture?"
+  },
+  {
+    "id": "medium-tray",
+    "word": "tray",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "She carried the tray of cups to the table."
+  },
+  {
+    "id": "medium-clay",
+    "word": "clay",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We made little bowls out of soft clay."
+  },
+  {
+    "id": "medium-bee",
+    "word": "bee",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A busy bee buzzed around the flower."
+  },
+  {
+    "id": "medium-tree",
+    "word": "tree",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The squirrel climbed up the tall tree."
+  },
+  {
+    "id": "medium-green",
+    "word": "green",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Frogs are often green and slippery."
+  },
+  {
+    "id": "medium-sleep",
+    "word": "sleep",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The baby will sleep through the night."
+  },
+  {
+    "id": "medium-street",
+    "word": "street",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Our house is at the end of the street."
+  },
+  {
+    "id": "medium-feet",
+    "word": "feet",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My feet were cold in the snow."
+  },
+  {
+    "id": "medium-week",
+    "word": "week",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "There are seven days in a week.",
+    "homophoneGroup": "weak-week"
+  },
+  {
+    "id": "medium-weak",
+    "word": "weak",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The kitten was weak after being lost in the cold.",
+    "homophoneGroup": "weak-week"
+  },
+  {
+    "id": "medium-sweet",
+    "word": "sweet",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The ripe peach tasted sweet and juicy."
+  },
+  {
+    "id": "medium-queen",
+    "word": "queen",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The queen wore a shiny gold crown."
+  },
+  {
+    "id": "medium-seed",
+    "word": "seed",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Plant each seed in a small cup of soil."
+  },
+  {
+    "id": "medium-beach",
+    "word": "beach",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We built a sandcastle at the beach."
+  },
+  {
+    "id": "medium-eat",
+    "word": "eat",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Birds eat the berries from the bush."
+  },
+  {
+    "id": "medium-meat",
+    "word": "meat",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Dad cooked the meat on the grill.",
+    "homophoneGroup": "meat-meet"
+  },
+  {
+    "id": "medium-meet",
+    "word": "meet",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Let us meet at the library after lunch.",
+    "homophoneGroup": "meat-meet"
+  },
+  {
+    "id": "medium-team",
+    "word": "team",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Our team won the game today."
+  },
+  {
+    "id": "medium-dream",
+    "word": "dream",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I had a strange dream about a flying cow."
+  },
+  {
+    "id": "medium-clean",
+    "word": "clean",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Please clean your room before dinner."
+  },
+  {
+    "id": "medium-beans",
+    "word": "beans",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We planted green beans in the garden."
+  },
+  {
+    "id": "medium-leaf",
+    "word": "leaf",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A red leaf floated down from the tree."
+  },
+  {
+    "id": "medium-sea",
+    "word": "sea",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The ship crossed the sea in a week.",
+    "homophoneGroup": "sea-see"
+  },
+  {
+    "id": "medium-see",
+    "word": "see",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I can see a rainbow in the sky.",
+    "homophoneGroup": "sea-see"
+  },
+  {
+    "id": "medium-road",
+    "word": "road",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The road curves around the hill.",
+    "homophoneGroup": "road-rode"
+  },
+  {
+    "id": "medium-rode",
+    "word": "rode",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Yesterday I rode my bike to the park.",
+    "homophoneGroup": "road-rode"
+  },
+  {
+    "id": "medium-boat",
+    "word": "boat",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We rowed the little boat across the pond."
+  },
+  {
+    "id": "medium-coat",
+    "word": "coat",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Put on your warm coat before going out."
+  },
+  {
+    "id": "medium-goat",
+    "word": "goat",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The goat nibbled grass near the barn."
+  },
+  {
+    "id": "medium-toast",
+    "word": "toast",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I spread jam on my warm toast."
+  },
+  {
+    "id": "medium-soap",
+    "word": "soap",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Wash your hands with soap and water."
+  },
+  {
+    "id": "medium-snow",
+    "word": "snow",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Fresh snow covered the yard."
+  },
+  {
+    "id": "medium-show",
+    "word": "show",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The magic show begins at noon."
+  },
+  {
+    "id": "medium-slow",
+    "word": "slow",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The turtle is slow but steady."
+  },
+  {
+    "id": "medium-grow",
+    "word": "grow",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Beans grow quickly in warm sunshine."
+  },
+  {
+    "id": "medium-yellow",
+    "word": "yellow",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The yellow sun rose over the hills."
+  },
+  {
+    "id": "medium-window",
+    "word": "window",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A bird landed on the window ledge."
+  },
+  {
+    "id": "medium-pillow",
+    "word": "pillow",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I hugged my soft pillow and fell asleep."
+  },
+  {
+    "id": "medium-blow",
+    "word": "blow",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Blow gently on the hot soup."
+  },
+  {
+    "id": "medium-low",
+    "word": "low",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The sun was low in the evening sky."
+  },
+  {
+    "id": "medium-cloud",
+    "word": "cloud",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "One white cloud drifted across the sky."
+  },
+  {
+    "id": "medium-house",
+    "word": "house",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Our house has a red door."
+  },
+  {
+    "id": "medium-mouse",
+    "word": "mouse",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A tiny mouse nibbled the cheese."
+  },
+  {
+    "id": "medium-out",
+    "word": "out",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The cat slipped out the open door."
+  },
+  {
+    "id": "medium-found",
+    "word": "found",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I found a quarter under the couch."
+  },
+  {
+    "id": "medium-round",
+    "word": "round",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The ball is round and bouncy."
+  },
+  {
+    "id": "medium-sound",
+    "word": "sound",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I heard a loud sound outside."
+  },
+  {
+    "id": "medium-ground",
+    "word": "ground",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The ground was wet after the rain."
+  },
+  {
+    "id": "medium-count",
+    "word": "count",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Count the apples in the basket."
+  },
+  {
+    "id": "medium-loud",
+    "word": "loud",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The drum was very loud."
+  },
+  {
+    "id": "medium-shout",
+    "word": "shout",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Do not shout in the library."
+  },
+  {
+    "id": "medium-coin",
+    "word": "coin",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I dropped a shiny coin in the jar."
+  },
+  {
+    "id": "medium-soil",
+    "word": "soil",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Seeds grow best in rich soil."
+  },
+  {
+    "id": "medium-point",
+    "word": "point",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Please point to the picture of the bird."
+  },
+  {
+    "id": "medium-oil",
+    "word": "oil",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Mom put oil in the hot pan."
+  },
+  {
+    "id": "medium-boy",
+    "word": "boy",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The boy kicked the ball across the field."
+  },
+  {
+    "id": "medium-toy",
+    "word": "toy",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My little sister loves her new toy."
+  },
+  {
+    "id": "medium-joy",
+    "word": "joy",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The puppy jumped with joy."
+  },
+  {
+    "id": "medium-enjoy",
+    "word": "enjoy",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We enjoy swimming in the summer."
+  },
+  {
+    "id": "medium-car",
+    "word": "car",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Dad parked the car in the garage."
+  },
+  {
+    "id": "medium-star",
+    "word": "star",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "One bright star shone above the barn."
+  },
+  {
+    "id": "medium-farm",
+    "word": "farm",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The farm has cows, pigs, and chickens."
+  },
+  {
+    "id": "medium-barn",
+    "word": "barn",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The horse slept in the red barn."
+  },
+  {
+    "id": "medium-park",
+    "word": "park",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We played on the swings at the park."
+  },
+  {
+    "id": "medium-dark",
+    "word": "dark",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The room was dark and quiet."
+  },
+  {
+    "id": "medium-card",
+    "word": "card",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I made a card for my grandma."
+  },
+  {
+    "id": "medium-yard",
+    "word": "yard",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Dad mowed the grass in the yard."
+  },
+  {
+    "id": "medium-arm",
+    "word": "arm",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "She raised her arm to wave."
+  },
+  {
+    "id": "medium-corn",
+    "word": "corn",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Farmers grow corn in tall rows."
+  },
+  {
+    "id": "medium-horse",
+    "word": "horse",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The horse galloped across the field."
+  },
+  {
+    "id": "medium-fork",
+    "word": "fork",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Use a fork to eat your peas."
+  },
+  {
+    "id": "medium-storm",
+    "word": "storm",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A big storm rolled in last night."
+  },
+  {
+    "id": "medium-morning",
+    "word": "morning",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The morning sun woke me up."
+  },
+  {
+    "id": "medium-store",
+    "word": "store",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We stopped at the store for milk."
+  },
+  {
+    "id": "medium-more",
+    "word": "more",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "May I have more juice, please?"
+  },
+  {
+    "id": "medium-before",
+    "word": "before",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Wash your hands before you eat."
+  },
+  {
+    "id": "medium-bird",
+    "word": "bird",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A small bird sang from the branch."
+  },
+  {
+    "id": "medium-girl",
+    "word": "girl",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The girl rode her bike to school."
+  },
+  {
+    "id": "medium-shirt",
+    "word": "shirt",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "He wore a blue shirt to the party."
+  },
+  {
+    "id": "medium-first",
+    "word": "first",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Maya was first in line."
+  },
+  {
+    "id": "medium-third",
+    "word": "third",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Our seat is in the third row."
+  },
+  {
+    "id": "medium-turn",
+    "word": "turn",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "It is your turn to roll the dice."
+  },
+  {
+    "id": "medium-burn",
+    "word": "burn",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Be careful not to burn the toast."
+  },
+  {
+    "id": "medium-hurt",
+    "word": "hurt",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I hope the little bird is not hurt."
+  },
+  {
+    "id": "medium-fur",
+    "word": "fur",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The kitten has soft gray fur."
+  },
+  {
+    "id": "medium-her",
+    "word": "her",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Mia hugged her grandmother tightly."
+  },
+  {
+    "id": "medium-fern",
+    "word": "fern",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A green fern grew by the shady creek."
+  },
+  {
+    "id": "medium-under",
+    "word": "under",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The cat hid under the bed."
+  },
+  {
+    "id": "medium-over",
+    "word": "over",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The cow jumped over the fence."
+  },
+  {
+    "id": "medium-after",
+    "word": "after",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We play outside after school."
+  },
+  {
+    "id": "medium-water",
+    "word": "water",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Please give the plant some water."
+  },
+  {
+    "id": "medium-paper",
+    "word": "paper",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I drew a picture on a sheet of paper."
+  },
+  {
+    "id": "medium-sister",
+    "word": "sister",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My sister helped me tie my shoes."
+  },
+  {
+    "id": "medium-brother",
+    "word": "brother",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My brother taught me to ride a bike."
+  },
+  {
+    "id": "medium-mother",
+    "word": "mother",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My mother sings while she cooks."
+  },
+  {
+    "id": "medium-father",
+    "word": "father",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My father reads me a story each night."
+  },
+  {
+    "id": "medium-mitten",
+    "word": "mitten",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I lost one mitten in the snow."
+  },
+  {
+    "id": "medium-pickle",
+    "word": "pickle",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Dad put a pickle on my sandwich."
+  },
+  {
+    "id": "medium-apple",
+    "word": "apple",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A red apple fell from the tree."
+  },
+  {
+    "id": "medium-little",
+    "word": "little",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The little duck followed its mother."
+  },
+  {
+    "id": "medium-funny",
+    "word": "funny",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The clown told a funny joke."
+  },
+  {
+    "id": "medium-sunny",
+    "word": "sunny",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "It was a warm and sunny afternoon."
+  },
+  {
+    "id": "medium-happy",
+    "word": "happy",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The happy dog wagged its tail."
+  },
+  {
+    "id": "medium-puppy",
+    "word": "puppy",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The puppy chewed on a rubber ball."
+  },
+  {
+    "id": "medium-kitten",
+    "word": "kitten",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The kitten chased a ball of yarn."
+  },
+  {
+    "id": "medium-rabbit",
+    "word": "rabbit",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A rabbit hopped through the garden."
+  },
+  {
+    "id": "medium-dinner",
+    "word": "dinner",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We eat dinner at six o'clock."
+  },
+  {
+    "id": "medium-pencil",
+    "word": "pencil",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I sharpened my pencil before class."
+  },
+  {
+    "id": "medium-basket",
+    "word": "basket",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Grandma filled the basket with ripe plums."
+  },
+  {
+    "id": "medium-picnic",
+    "word": "picnic",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We ate our picnic under a shady tree."
+  },
+  {
+    "id": "medium-sandwich",
+    "word": "sandwich",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I packed a cheese sandwich for lunch."
+  },
+  {
+    "id": "medium-garden",
+    "word": "garden",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Tomatoes are growing in our garden."
+  },
+  {
+    "id": "medium-flower",
+    "word": "flower",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A yellow flower bloomed by the gate.",
+    "homophoneGroup": "flour-flower"
+  },
+  {
+    "id": "medium-flour",
+    "word": "flour",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Mix the flour and eggs in a big bowl.",
+    "homophoneGroup": "flour-flower"
+  },
+  {
+    "id": "medium-winter",
+    "word": "winter",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Winter brings cold winds and snowy days."
+  },
+  {
+    "id": "medium-summer",
+    "word": "summer",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We swim at the lake every summer."
+  },
+  {
+    "id": "medium-spring",
+    "word": "spring",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Flowers pop up when spring comes."
+  },
+  {
+    "id": "medium-cold",
+    "word": "cold",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My hands felt cold in the snow."
+  },
+  {
+    "id": "medium-hold",
+    "word": "hold",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Hold my hand when we cross the street."
+  },
+  {
+    "id": "medium-gold",
+    "word": "gold",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The treasure chest was full of shiny gold coins."
+  },
+  {
+    "id": "medium-told",
+    "word": "told",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Grandpa told us a story about his farm."
+  },
+  {
+    "id": "medium-old",
+    "word": "old",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My old teddy bear has one button eye."
+  },
+  {
+    "id": "medium-find",
+    "word": "find",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Can you find my missing shoe?"
+  },
+  {
+    "id": "medium-kind",
+    "word": "kind",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A kind neighbor helped carry the bags."
+  },
+  {
+    "id": "medium-mind",
+    "word": "mind",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I do not mind waiting in line."
+  },
+  {
+    "id": "medium-child",
+    "word": "child",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Each child got a turn on the slide."
+  },
+  {
+    "id": "medium-wild",
+    "word": "wild",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A wild deer stood at the edge of the woods."
+  },
+  {
+    "id": "medium-climb",
+    "word": "climb",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Monkeys climb trees to find fruit."
+  },
+  {
+    "id": "medium-night",
+    "word": "night",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The stars come out at night."
+  },
+  {
+    "id": "medium-light",
+    "word": "light",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Please turn on the light."
+  },
+  {
+    "id": "medium-right",
+    "word": "right",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Raise your right hand if you know the answer.",
+    "homophoneGroup": "right-write"
+  },
+  {
+    "id": "medium-write",
+    "word": "write",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Write your name at the top of the page.",
+    "homophoneGroup": "right-write"
+  },
+  {
+    "id": "medium-bright",
+    "word": "bright",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The bright moon lit up the path."
+  },
+  {
+    "id": "medium-high",
+    "word": "high",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The kite flew high above the trees."
+  },
+  {
+    "id": "medium-sight",
+    "word": "sight",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A rainbow is a beautiful sight."
+  },
+  {
+    "id": "medium-tight",
+    "word": "tight",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "These shoes are too tight for me."
+  },
+  {
+    "id": "medium-knee",
+    "word": "knee",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I scraped my knee when I fell."
+  },
+  {
+    "id": "medium-knock",
+    "word": "knock",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Please knock before you come in."
+  },
+  {
+    "id": "medium-know",
+    "word": "know",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Do you know the way to the library?",
+    "homophoneGroup": "know-no"
+  },
+  {
+    "id": "medium-no",
+    "word": "no",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "There is no milk left in the jug.",
+    "homophoneGroup": "know-no"
+  },
+  {
+    "id": "medium-knot",
+    "word": "knot",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Dad tied a strong knot in the rope.",
+    "homophoneGroup": "knot-not"
+  },
+  {
+    "id": "medium-not",
+    "word": "not",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "It is not time for bed yet.",
+    "homophoneGroup": "knot-not"
+  },
+  {
+    "id": "medium-wrap",
+    "word": "wrap",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Wrap the gift in shiny paper."
+  },
+  {
+    "id": "medium-wrong",
+    "word": "wrong",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I picked the wrong door by mistake."
+  },
+  {
+    "id": "medium-lamb",
+    "word": "lamb",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The little lamb followed its mother."
+  },
+  {
+    "id": "medium-comb",
+    "word": "comb",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Use a comb to fix your hair."
+  },
+  {
+    "id": "medium-thumb",
+    "word": "thumb",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I hurt my thumb in the door."
+  },
+  {
+    "id": "medium-cake",
+    "word": "cake",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Mom baked a chocolate cake for my birthday."
+  },
+  {
+    "id": "medium-name",
+    "word": "name",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Write your name on the paper."
+  },
+  {
+    "id": "medium-game",
+    "word": "game",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We played a board game after dinner."
+  },
+  {
+    "id": "medium-lake",
+    "word": "lake",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Ducks swim on the quiet lake."
+  },
+  {
+    "id": "medium-snake",
+    "word": "snake",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A green snake slid through the grass."
+  },
+  {
+    "id": "medium-gate",
+    "word": "gate",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Please close the gate behind you."
+  },
+  {
+    "id": "medium-plate",
+    "word": "plate",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Put a plate of cookies on the table."
+  },
+  {
+    "id": "medium-make",
+    "word": "make",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Let us make a card for Grandma."
+  },
+  {
+    "id": "medium-bike",
+    "word": "bike",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I ride my bike to school."
+  },
+  {
+    "id": "medium-five",
+    "word": "five",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A hand has five fingers."
+  },
+  {
+    "id": "medium-kite",
+    "word": "kite",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The red kite danced in the wind."
+  },
+  {
+    "id": "medium-smile",
+    "word": "smile",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Her smile made everyone feel happy."
+  },
+  {
+    "id": "medium-slide",
+    "word": "slide",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We took turns on the slide at the park."
+  },
+  {
+    "id": "medium-hole",
+    "word": "hole",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The mole dug a deep hole.",
+    "homophoneGroup": "hole-whole"
+  },
+  {
+    "id": "medium-whole",
+    "word": "whole",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I ate the whole sandwich.",
+    "homophoneGroup": "hole-whole"
+  },
+  {
+    "id": "medium-bone",
+    "word": "bone",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The dog buried a bone in the yard."
+  },
+  {
+    "id": "medium-home",
+    "word": "home",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We walked home after the game."
+  },
+  {
+    "id": "medium-nose",
+    "word": "nose",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The clown had a big red nose."
+  },
+  {
+    "id": "medium-rope",
+    "word": "rope",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The children jumped over the rope."
+  },
+  {
+    "id": "medium-stone",
+    "word": "stone",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "He skipped a flat stone across the pond."
+  },
+  {
+    "id": "medium-cube",
+    "word": "cube",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Put one ice cube in my cup."
+  },
+  {
+    "id": "medium-huge",
+    "word": "huge",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The elephant at the zoo is huge."
+  },
+  {
+    "id": "medium-tune",
+    "word": "tune",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "She hummed a happy tune."
+  },
+  {
+    "id": "medium-blue",
+    "word": "blue",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The sky was bright blue.",
+    "homophoneGroup": "blew-blue"
+  },
+  {
+    "id": "medium-blew",
+    "word": "blew",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The wind blew my hat away.",
+    "homophoneGroup": "blew-blue"
+  },
+  {
+    "id": "medium-glue",
+    "word": "glue",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Use glue to stick the paper down."
+  },
+  {
+    "id": "medium-food",
+    "word": "food",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The cat finished its food."
+  },
+  {
+    "id": "medium-moon",
+    "word": "moon",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The moon was big and round tonight."
+  },
+  {
+    "id": "medium-room",
+    "word": "room",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My room has a bunk bed."
+  },
+  {
+    "id": "medium-spoon",
+    "word": "spoon",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Stir the soup with a big spoon."
+  },
+  {
+    "id": "medium-school",
+    "word": "school",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We walk to school together every day."
+  },
+  {
+    "id": "medium-tooth",
+    "word": "tooth",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "My front tooth is loose."
+  },
+  {
+    "id": "medium-zoo",
+    "word": "zoo",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We saw a tall giraffe at the zoo."
+  },
+  {
+    "id": "medium-cook",
+    "word": "cook",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Dad likes to cook pancakes on Sundays."
+  },
+  {
+    "id": "medium-book",
+    "word": "book",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I borrowed a book about dinosaurs."
+  },
+  {
+    "id": "medium-look",
+    "word": "look",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Look at the butterfly on that flower."
+  },
+  {
+    "id": "medium-good",
+    "word": "good",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "You did a good job cleaning up."
+  },
+  {
+    "id": "medium-foot",
+    "word": "foot",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I stubbed my foot on the chair."
+  },
+  {
+    "id": "medium-wood",
+    "word": "wood",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "We burned wood in the fireplace.",
+    "homophoneGroup": "wood-would"
+  },
+  {
+    "id": "medium-would",
+    "word": "would",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Would you like some more milk?",
+    "homophoneGroup": "wood-would"
+  },
+  {
+    "id": "medium-pull",
+    "word": "pull",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Pull the wagon up the hill."
+  },
+  {
+    "id": "medium-push",
+    "word": "push",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Push the swing a little higher, please."
+  },
+  {
+    "id": "medium-put",
+    "word": "put",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Put your coat on the hook."
+  },
+  {
+    "id": "medium-full",
+    "word": "full",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The jar is full of pennies."
+  },
+  {
+    "id": "medium-hear",
+    "word": "hear",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "I can hear the birds singing.",
+    "homophoneGroup": "hear-here"
+  },
+  {
+    "id": "medium-here",
+    "word": "here",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Come over here and sit by me.",
+    "homophoneGroup": "hear-here"
+  },
+  {
+    "id": "medium-near",
+    "word": "near",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The pond is near our house."
+  },
+  {
+    "id": "medium-year",
+    "word": "year",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Next year I will be eight."
+  },
+  {
+    "id": "medium-deer",
+    "word": "deer",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "A deer stood quietly in the woods.",
+    "homophoneGroup": "dear-deer"
+  },
+  {
+    "id": "medium-dear",
+    "word": "dear",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "Dear Grandma, thank you for the gift.",
+    "homophoneGroup": "dear-deer"
+  },
+  {
+    "id": "medium-ear",
+    "word": "ear",
+    "level": "medium",
+    "grade": "2",
+    "sentence": "The rabbit has one floppy ear."
+  },
+  {
+    "id": "medium-bear",
+    "word": "bear",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A brown bear caught a fish in the river.",
+    "homophoneGroup": "bare-bear"
+  },
+  {
+    "id": "medium-bare",
+    "word": "bare",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The baby walked across the grass in bare feet.",
+    "homophoneGroup": "bare-bear"
+  },
+  {
+    "id": "medium-pair",
+    "word": "pair",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I need a new pair of shoes.",
+    "homophoneGroup": "pair-pear"
+  },
+  {
+    "id": "medium-pear",
+    "word": "pear",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She packed a juicy pear in her lunch.",
+    "homophoneGroup": "pair-pear"
+  },
+  {
+    "id": "medium-sail",
+    "word": "sail",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We will sail across the bay on Saturday.",
+    "homophoneGroup": "sail-sale"
+  },
+  {
+    "id": "medium-sale",
+    "word": "sale",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The store has a big sale on winter coats.",
+    "homophoneGroup": "sail-sale"
+  },
+  {
+    "id": "medium-wait",
+    "word": "wait",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Please wait here until the bus comes.",
+    "homophoneGroup": "wait-weight"
+  },
+  {
+    "id": "medium-weight",
+    "word": "weight",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The scale showed the weight of the pumpkin.",
+    "homophoneGroup": "wait-weight"
+  },
+  {
+    "id": "medium-plain",
+    "word": "plain",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I like plain noodles with a little butter.",
+    "homophoneGroup": "plain-plane"
+  },
+  {
+    "id": "medium-plane",
+    "word": "plane",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The plane flew high above the clouds.",
+    "homophoneGroup": "plain-plane"
+  },
+  {
+    "id": "medium-brake",
+    "word": "brake",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Press the brake to stop your bike.",
+    "homophoneGroup": "brake-break"
+  },
+  {
+    "id": "medium-break",
+    "word": "break",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Be careful not to break the glass.",
+    "homophoneGroup": "brake-break"
+  },
+  {
+    "id": "medium-hour",
+    "word": "hour",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The movie lasts about one hour.",
+    "homophoneGroup": "hour-our"
+  },
+  {
+    "id": "medium-our",
+    "word": "our",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Our class is going to the museum.",
+    "homophoneGroup": "hour-our"
+  },
+  {
+    "id": "medium-sent",
+    "word": "sent",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Aunt Lee sent me a postcard from Spain.",
+    "homophoneGroup": "cent-scent-sent"
+  },
+  {
+    "id": "medium-scent",
+    "word": "scent",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The scent of fresh bread filled the kitchen.",
+    "homophoneGroup": "cent-scent-sent"
+  },
+  {
+    "id": "medium-cent",
+    "word": "cent",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "One cent is worth very little.",
+    "homophoneGroup": "cent-scent-sent"
+  },
+  {
+    "id": "medium-peace",
+    "word": "peace",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The garden was a place of peace and quiet.",
+    "homophoneGroup": "peace-piece"
+  },
+  {
+    "id": "medium-piece",
+    "word": "piece",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "May I have a piece of your cake?",
+    "homophoneGroup": "peace-piece"
+  },
+  {
+    "id": "medium-threw",
+    "word": "threw",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She threw the ball to her brother.",
+    "homophoneGroup": "threw-through"
+  },
+  {
+    "id": "medium-through",
+    "word": "through",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The train went through a long tunnel.",
+    "homophoneGroup": "threw-through"
+  },
+  {
+    "id": "medium-stair",
+    "word": "stair",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The baby crawled up each stair slowly.",
+    "homophoneGroup": "stair-stare"
+  },
+  {
+    "id": "medium-stare",
+    "word": "stare",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "It is not polite to stare at people.",
+    "homophoneGroup": "stair-stare"
+  },
+  {
+    "id": "medium-waist",
+    "word": "waist",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The belt fit snugly around her waist.",
+    "homophoneGroup": "waist-waste"
+  },
+  {
+    "id": "medium-waste",
+    "word": "waste",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Do not waste water when you brush your teeth.",
+    "homophoneGroup": "waist-waste"
+  },
+  {
+    "id": "medium-whether",
+    "word": "whether",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I wonder whether it will snow tomorrow.",
+    "homophoneGroup": "weather-whether"
+  },
+  {
+    "id": "medium-weather",
+    "word": "weather",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The weather today is warm and sunny.",
+    "homophoneGroup": "weather-whether"
+  },
+  {
+    "id": "medium-which",
+    "word": "which",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Which book would you like to read?"
+  },
+  {
+    "id": "medium-ate",
+    "word": "ate",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We ate pancakes for breakfast.",
+    "homophoneGroup": "ate-eight"
+  },
+  {
+    "id": "medium-eight",
+    "word": "eight",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My little brother is eight years old.",
+    "homophoneGroup": "ate-eight"
+  },
+  {
+    "id": "medium-heel",
+    "word": "heel",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I got a blister on my heel.",
+    "homophoneGroup": "heal-heel"
+  },
+  {
+    "id": "medium-heal",
+    "word": "heal",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A cut will heal in a few days.",
+    "homophoneGroup": "heal-heel"
+  },
+  {
+    "id": "medium-hair",
+    "word": "hair",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She tied her long hair with a ribbon.",
+    "homophoneGroup": "hair-hare"
+  },
+  {
+    "id": "medium-hare",
+    "word": "hare",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A hare darted across the meadow.",
+    "homophoneGroup": "hair-hare"
+  },
+  {
+    "id": "medium-pail",
+    "word": "pail",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "He filled the pail with sand.",
+    "homophoneGroup": "pail-pale"
+  },
+  {
+    "id": "medium-pale",
+    "word": "pale",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The sky was pale gray before sunrise.",
+    "homophoneGroup": "pail-pale"
+  },
+  {
+    "id": "medium-main",
+    "word": "main",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The main road goes through the center of town.",
+    "homophoneGroup": "main-mane"
+  },
+  {
+    "id": "medium-mane",
+    "word": "mane",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The lion has a thick golden mane.",
+    "homophoneGroup": "main-mane"
+  },
+  {
+    "id": "medium-made",
+    "word": "made",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We made a snowman after school.",
+    "homophoneGroup": "made-maid"
+  },
+  {
+    "id": "medium-maid",
+    "word": "maid",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The hotel maid cleaned the room.",
+    "homophoneGroup": "made-maid"
+  },
+  {
+    "id": "medium-sore",
+    "word": "sore",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My legs were sore after the long hike.",
+    "homophoneGroup": "soar-sore"
+  },
+  {
+    "id": "medium-soar",
+    "word": "soar",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Eagles soar high above the mountain.",
+    "homophoneGroup": "soar-sore"
+  },
+  {
+    "id": "medium-tied",
+    "word": "tied",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She tied the ribbon in a neat bow.",
+    "homophoneGroup": "tide-tied"
+  },
+  {
+    "id": "medium-tide",
+    "word": "tide",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The tide comes in and covers the sand.",
+    "homophoneGroup": "tide-tied"
+  },
+  {
+    "id": "medium-toe",
+    "word": "toe",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I stubbed my toe on the chair.",
+    "homophoneGroup": "toe-tow"
+  },
+  {
+    "id": "medium-tow",
+    "word": "tow",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A big truck came to tow our car.",
+    "homophoneGroup": "toe-tow"
+  },
+  {
+    "id": "medium-pane",
+    "word": "pane",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A bird tapped on the window pane.",
+    "homophoneGroup": "pain-pane"
+  },
+  {
+    "id": "medium-pain",
+    "word": "pain",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "He felt a sharp pain in his ankle.",
+    "homophoneGroup": "pain-pane"
+  },
+  {
+    "id": "medium-fair",
+    "word": "fair",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We rode the Ferris wheel at the county fair.",
+    "homophoneGroup": "fair-fare"
+  },
+  {
+    "id": "medium-fare",
+    "word": "fare",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The bus fare was two dollars.",
+    "homophoneGroup": "fair-fare"
+  },
+  {
+    "id": "medium-flea",
+    "word": "flea",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The dog scratched because of a flea.",
+    "homophoneGroup": "flea-flee"
+  },
+  {
+    "id": "medium-flee",
+    "word": "flee",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The mice flee when the cat walks in.",
+    "homophoneGroup": "flea-flee"
+  },
+  {
+    "id": "medium-grown",
+    "word": "grown",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The tomato plants have grown tall.",
+    "homophoneGroup": "groan-grown"
+  },
+  {
+    "id": "medium-groan",
+    "word": "groan",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Dad gave a groan when he saw the mess.",
+    "homophoneGroup": "groan-grown"
+  },
+  {
+    "id": "medium-great",
+    "word": "great",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We had a great time at the lake.",
+    "homophoneGroup": "grate-great"
+  },
+  {
+    "id": "medium-grate",
+    "word": "grate",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Grate the cheese over the pasta.",
+    "homophoneGroup": "grate-great"
+  },
+  {
+    "id": "medium-bored",
+    "word": "bored",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I was bored on the long car ride.",
+    "homophoneGroup": "board-bored"
+  },
+  {
+    "id": "medium-board",
+    "word": "board",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Write the answer on the board.",
+    "homophoneGroup": "board-bored"
+  },
+  {
+    "id": "medium-dye",
+    "word": "dye",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We used berries to dye the cloth purple."
+  },
+  {
+    "id": "medium-need",
+    "word": "need",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Plants need sunlight and water.",
+    "homophoneGroup": "knead-need"
+  },
+  {
+    "id": "medium-knead",
+    "word": "knead",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Knead the dough until it is soft.",
+    "homophoneGroup": "knead-need"
+  },
+  {
+    "id": "medium-won",
+    "word": "won",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Our team won the spelling contest.",
+    "homophoneGroup": "one-won"
+  },
+  {
+    "id": "medium-one",
+    "word": "one",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I have one pencil in my bag.",
+    "homophoneGroup": "one-won"
+  },
+  {
+    "id": "medium-seen",
+    "word": "seen",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Have you seen my missing mitten?",
+    "homophoneGroup": "scene-seen"
+  },
+  {
+    "id": "medium-scene",
+    "word": "scene",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The painting shows a calm scene of a lake.",
+    "homophoneGroup": "scene-seen"
+  },
+  {
+    "id": "medium-sun",
+    "word": "sun",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The sun warms the sand.",
+    "homophoneGroup": "son-sun"
+  },
+  {
+    "id": "medium-son",
+    "word": "son",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Their son plays the drums in the band.",
+    "homophoneGroup": "son-sun"
+  },
+  {
+    "id": "medium-sell",
+    "word": "sell",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "They sell fresh apples at the stand.",
+    "homophoneGroup": "cell-sell"
+  },
+  {
+    "id": "medium-cell",
+    "word": "cell",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Every living thing is made of tiny parts called a cell.",
+    "homophoneGroup": "cell-sell"
+  },
+  {
+    "id": "medium-wear",
+    "word": "wear",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Wear a hat when you play in the sun.",
+    "homophoneGroup": "wear-where"
+  },
+  {
+    "id": "medium-creek",
+    "word": "creek",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We waded in the cool creek.",
+    "homophoneGroup": "creak-creek"
+  },
+  {
+    "id": "medium-creak",
+    "word": "creak",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The old stairs creak when you step on them.",
+    "homophoneGroup": "creak-creek"
+  },
+  {
+    "id": "medium-higher",
+    "word": "higher",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The kite flew higher than the roof.",
+    "homophoneGroup": "higher-hire"
+  },
+  {
+    "id": "medium-hire",
+    "word": "hire",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The shop will hire two helpers this summer.",
+    "homophoneGroup": "higher-hire"
+  },
+  {
+    "id": "medium-loan",
+    "word": "loan",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The library will loan you three books.",
+    "homophoneGroup": "loan-lone"
+  },
+  {
+    "id": "medium-lone",
+    "word": "lone",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A lone tree stood on the hill.",
+    "homophoneGroup": "loan-lone"
+  },
+  {
+    "id": "medium-paws",
+    "word": "paws",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The kitten has tiny white paws.",
+    "homophoneGroup": "pause-paws"
+  },
+  {
+    "id": "medium-pause",
+    "word": "pause",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Pause the movie while we get snacks.",
+    "homophoneGroup": "pause-paws"
+  },
+  {
+    "id": "medium-yolk",
+    "word": "yolk",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The yolk of the egg is yellow."
+  },
+  {
+    "id": "medium-tea",
+    "word": "tea",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Grandma drinks hot tea with honey."
+  },
+  {
+    "id": "medium-wail",
+    "word": "wail",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The baby began to wail when she was hungry."
+  },
+  {
+    "id": "medium-weigh",
+    "word": "weigh",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Let us weigh the apples on the scale.",
+    "homophoneGroup": "way-weigh"
+  },
+  {
+    "id": "medium-way",
+    "word": "way",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Which way is the library?",
+    "homophoneGroup": "way-weigh"
+  },
+  {
+    "id": "medium-mist",
+    "word": "mist",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A light mist hung over the pond."
+  },
+  {
+    "id": "medium-pumpkin",
+    "word": "pumpkin",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We carved a pumpkin for the fall festival."
+  },
+  {
+    "id": "medium-sunshine",
+    "word": "sunshine",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The sunshine felt warm on my face."
+  },
+  {
+    "id": "medium-rainbow",
+    "word": "rainbow",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A rainbow appeared after the rain stopped."
+  },
+  {
+    "id": "medium-birthday",
+    "word": "birthday",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My birthday party is on Saturday."
+  },
+  {
+    "id": "medium-playground",
+    "word": "playground",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The playground has swings and a tall slide."
+  },
+  {
+    "id": "medium-breakfast",
+    "word": "breakfast",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I eat oatmeal for breakfast."
+  },
+  {
+    "id": "medium-chicken",
+    "word": "chicken",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The chicken pecked at the corn in the yard."
+  },
+  {
+    "id": "medium-pocket",
+    "word": "pocket",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I keep a marble in my pocket."
+  },
+  {
+    "id": "medium-butter",
+    "word": "butter",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Spread butter on the warm bread."
+  },
+  {
+    "id": "medium-button",
+    "word": "button",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "One button fell off my coat."
+  },
+  {
+    "id": "medium-ladder",
+    "word": "ladder",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Dad climbed the ladder to fix the gutter."
+  },
+  {
+    "id": "medium-letter",
+    "word": "letter",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I wrote a letter to my grandpa."
+  },
+  {
+    "id": "medium-supper",
+    "word": "supper",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We ate soup for supper."
+  },
+  {
+    "id": "medium-puddle",
+    "word": "puddle",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The ducks splashed in the muddy puddle."
+  },
+  {
+    "id": "medium-bubble",
+    "word": "bubble",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The soap made a big shiny bubble."
+  },
+  {
+    "id": "medium-candle",
+    "word": "candle",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A small candle glowed on the table."
+  },
+  {
+    "id": "medium-circle",
+    "word": "circle",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We sat in a circle on the rug."
+  },
+  {
+    "id": "medium-jungle",
+    "word": "jungle",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Monkeys swing from vines in the jungle."
+  },
+  {
+    "id": "medium-giant",
+    "word": "giant",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The giant oak tree is hundreds of years old."
+  },
+  {
+    "id": "medium-orange",
+    "word": "orange",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I peeled an orange for a snack."
+  },
+  {
+    "id": "medium-carrot",
+    "word": "carrot",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The rabbit nibbled a crunchy carrot."
+  },
+  {
+    "id": "medium-turkey",
+    "word": "turkey",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A turkey strutted across the farm."
+  },
+  {
+    "id": "medium-monkey",
+    "word": "monkey",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The monkey peeled a banana."
+  },
+  {
+    "id": "medium-donkey",
+    "word": "donkey",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The donkey carried baskets up the hill."
+  },
+  {
+    "id": "medium-chimney",
+    "word": "chimney",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Smoke curled out of the chimney."
+  },
+  {
+    "id": "medium-kitchen",
+    "word": "kitchen",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Dad is making soup in the kitchen."
+  },
+  {
+    "id": "medium-bedroom",
+    "word": "bedroom",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My bedroom has a bunk bed."
+  },
+  {
+    "id": "medium-blanket",
+    "word": "blanket",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I wrapped a warm blanket around my shoulders."
+  },
+  {
+    "id": "medium-mirror",
+    "word": "mirror",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She smiled at herself in the mirror."
+  },
+  {
+    "id": "medium-ticket",
+    "word": "ticket",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Dad bought a ticket for the train."
+  },
+  {
+    "id": "medium-rocket",
+    "word": "rocket",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The rocket zoomed up into the sky."
+  },
+  {
+    "id": "medium-planet",
+    "word": "planet",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Earth is the planet we live on."
+  },
+  {
+    "id": "medium-sunset",
+    "word": "sunset",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We watched the sunset from the porch."
+  },
+  {
+    "id": "medium-shadow",
+    "word": "shadow",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My shadow grew long in the evening."
+  },
+  {
+    "id": "medium-thunder",
+    "word": "thunder",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The thunder rumbled far away."
+  },
+  {
+    "id": "medium-lightning",
+    "word": "lightning",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Lightning flashed across the dark sky."
+  },
+  {
+    "id": "medium-farmer",
+    "word": "farmer",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The farmer fed the hungry chickens."
+  },
+  {
+    "id": "medium-teacher",
+    "word": "teacher",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My teacher reads to us every afternoon."
+  },
+  {
+    "id": "medium-painter",
+    "word": "painter",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The painter climbed up to paint the wall."
+  },
+  {
+    "id": "medium-singer",
+    "word": "singer",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The singer has a lovely voice."
+  },
+  {
+    "id": "medium-baker",
+    "word": "baker",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The baker pulled warm rolls from the oven."
+  },
+  {
+    "id": "medium-runner",
+    "word": "runner",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The runner crossed the finish line first."
+  },
+  {
+    "id": "medium-swimmer",
+    "word": "swimmer",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She is a fast swimmer."
+  },
+  {
+    "id": "medium-reader",
+    "word": "reader",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My brother is a fast reader."
+  },
+  {
+    "id": "medium-bigger",
+    "word": "bigger",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My shoes are bigger than yours."
+  },
+  {
+    "id": "medium-taller",
+    "word": "taller",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Ben is taller than his sister."
+  },
+  {
+    "id": "medium-faster",
+    "word": "faster",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A cheetah runs faster than a horse."
+  },
+  {
+    "id": "medium-smaller",
+    "word": "smaller",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A mouse is smaller than a rabbit."
+  },
+  {
+    "id": "medium-longer",
+    "word": "longer",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The days get longer in the summer."
+  },
+  {
+    "id": "medium-biggest",
+    "word": "biggest",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The whale is the biggest animal in the sea."
+  },
+  {
+    "id": "medium-tallest",
+    "word": "tallest",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "That is the tallest tree in the park."
+  },
+  {
+    "id": "medium-fastest",
+    "word": "fastest",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Who is the fastest runner in your class?"
+  },
+  {
+    "id": "medium-happiest",
+    "word": "happiest",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "It was the happiest day of my life."
+  },
+  {
+    "id": "medium-slowly",
+    "word": "slowly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The snail moved slowly across the path."
+  },
+  {
+    "id": "medium-quickly",
+    "word": "quickly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She quickly put on her coat."
+  },
+  {
+    "id": "medium-quietly",
+    "word": "quietly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The cat crept quietly across the room."
+  },
+  {
+    "id": "medium-gladly",
+    "word": "gladly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I will gladly help you carry the box."
+  },
+  {
+    "id": "medium-softly",
+    "word": "softly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She sang softly to the baby."
+  },
+  {
+    "id": "medium-loudly",
+    "word": "loudly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The band played loudly at the parade."
+  },
+  {
+    "id": "medium-carefully",
+    "word": "carefully",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Carry the full cup carefully."
+  },
+  {
+    "id": "medium-safely",
+    "word": "safely",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The bus got us home safely."
+  },
+  {
+    "id": "medium-kindly",
+    "word": "kindly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The nurse kindly gave me a bandage."
+  },
+  {
+    "id": "medium-badly",
+    "word": "badly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The plant died because I watered it badly."
+  },
+  {
+    "id": "medium-lovely",
+    "word": "lovely",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "What a lovely day for a walk."
+  },
+  {
+    "id": "medium-friendly",
+    "word": "friendly",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Our dog is gentle and friendly."
+  },
+  {
+    "id": "medium-lonely",
+    "word": "lonely",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The kitten felt lonely without its mother."
+  },
+  {
+    "id": "medium-bravely",
+    "word": "bravely",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The firefighter bravely climbed the ladder."
+  },
+  {
+    "id": "medium-helpful",
+    "word": "helpful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "You are always helpful in the kitchen."
+  },
+  {
+    "id": "medium-careful",
+    "word": "careful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Be careful on the icy steps."
+  },
+  {
+    "id": "medium-thankful",
+    "word": "thankful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I am thankful for my friends."
+  },
+  {
+    "id": "medium-joyful",
+    "word": "joyful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The joyful crowd cheered for the team."
+  },
+  {
+    "id": "medium-colorful",
+    "word": "colorful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The garden was bright and colorful."
+  },
+  {
+    "id": "medium-wonderful",
+    "word": "wonderful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We had a wonderful time at the fair."
+  },
+  {
+    "id": "medium-beautiful",
+    "word": "beautiful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The beautiful butterfly landed on my hand."
+  },
+  {
+    "id": "medium-playful",
+    "word": "playful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The playful puppy chased the ball."
+  },
+  {
+    "id": "medium-cheerful",
+    "word": "cheerful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She gave a cheerful wave."
+  },
+  {
+    "id": "medium-peaceful",
+    "word": "peaceful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The lake was calm and peaceful."
+  },
+  {
+    "id": "medium-useful",
+    "word": "useful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A map is useful on a long trip."
+  },
+  {
+    "id": "medium-painful",
+    "word": "painful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The splinter in my finger was painful."
+  },
+  {
+    "id": "medium-harmful",
+    "word": "harmful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Too much sun can be harmful to your skin."
+  },
+  {
+    "id": "medium-hopeful",
+    "word": "hopeful",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We are hopeful that the rain will stop."
+  },
+  {
+    "id": "medium-helpless",
+    "word": "helpless",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The tiny kitten looked helpless in the rain."
+  },
+  {
+    "id": "medium-careless",
+    "word": "careless",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A careless mistake made me lose points."
+  },
+  {
+    "id": "medium-endless",
+    "word": "endless",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The desert road seemed endless."
+  },
+  {
+    "id": "medium-hopeless",
+    "word": "hopeless",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "It felt hopeless until Dad found the key."
+  },
+  {
+    "id": "medium-pointless",
+    "word": "pointless",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "It is pointless to argue about the weather."
+  },
+  {
+    "id": "medium-fearless",
+    "word": "fearless",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The fearless puppy barked at the big dog."
+  },
+  {
+    "id": "medium-cloudless",
+    "word": "cloudless",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "It was a cloudless blue day."
+  },
+  {
+    "id": "medium-painting",
+    "word": "painting",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The painting hangs above the fireplace."
+  },
+  {
+    "id": "medium-helping",
+    "word": "helping",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I took a second helping of rice."
+  },
+  {
+    "id": "medium-jumping",
+    "word": "jumping",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The jumping frog landed in the pond."
+  },
+  {
+    "id": "medium-walking",
+    "word": "walking",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We enjoy walking in the woods."
+  },
+  {
+    "id": "medium-running",
+    "word": "running",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The running water filled the bucket."
+  },
+  {
+    "id": "medium-swimming",
+    "word": "swimming",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Swimming is fun on hot days."
+  },
+  {
+    "id": "medium-baking",
+    "word": "baking",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The smell of baking bread filled the house."
+  },
+  {
+    "id": "medium-hopping",
+    "word": "hopping",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The hopping rabbit disappeared into the grass."
+  },
+  {
+    "id": "medium-smiling",
+    "word": "smiling",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The smiling baby clapped her hands."
+  },
+  {
+    "id": "medium-shining",
+    "word": "shining",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A shining star appeared in the east."
+  },
+  {
+    "id": "medium-jumped",
+    "word": "jumped",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The cat jumped onto the shelf."
+  },
+  {
+    "id": "medium-helped",
+    "word": "helped",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My neighbor helped me carry the groceries."
+  },
+  {
+    "id": "medium-asked",
+    "word": "asked",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The teacher asked us to line up."
+  },
+  {
+    "id": "medium-looked",
+    "word": "looked",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I looked for my keys everywhere."
+  },
+  {
+    "id": "medium-played",
+    "word": "played",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We played in the sandbox all afternoon."
+  },
+  {
+    "id": "medium-walked",
+    "word": "walked",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She walked her dog around the block."
+  },
+  {
+    "id": "medium-smiled",
+    "word": "smiled",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "He smiled when he saw the cake."
+  },
+  {
+    "id": "medium-hoped",
+    "word": "hoped",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We hoped it would not rain."
+  },
+  {
+    "id": "medium-stopped",
+    "word": "stopped",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The bus stopped at the corner."
+  },
+  {
+    "id": "medium-dropped",
+    "word": "dropped",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I dropped my spoon on the floor."
+  },
+  {
+    "id": "medium-planted",
+    "word": "planted",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We planted tulips along the fence."
+  },
+  {
+    "id": "medium-wanted",
+    "word": "wanted",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The baby wanted her mother."
+  },
+  {
+    "id": "medium-cried",
+    "word": "cried",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The baby cried until she got her bottle."
+  },
+  {
+    "id": "medium-tried",
+    "word": "tried",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I tried to lift the heavy box."
+  },
+  {
+    "id": "medium-carried",
+    "word": "carried",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "He carried the groceries up the stairs."
+  },
+  {
+    "id": "medium-studied",
+    "word": "studied",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We studied hard for the spelling test."
+  },
+  {
+    "id": "medium-families",
+    "word": "families",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Many families come to the park on Sundays."
+  },
+  {
+    "id": "medium-babies",
+    "word": "babies",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The nurse held two sleeping babies."
+  },
+  {
+    "id": "medium-stories",
+    "word": "stories",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Grandpa tells the best stories."
+  },
+  {
+    "id": "medium-puppies",
+    "word": "puppies",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The puppies tumbled over one another."
+  },
+  {
+    "id": "medium-berries",
+    "word": "berries",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We picked berries in the field."
+  },
+  {
+    "id": "medium-cherries",
+    "word": "cherries",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The cherries on the tree are ripe."
+  },
+  {
+    "id": "medium-butterflies",
+    "word": "butterflies",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Butterflies landed on the purple flowers."
+  },
+  {
+    "id": "medium-leaves",
+    "word": "leaves",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The leaves turn red in the fall."
+  },
+  {
+    "id": "medium-shelves",
+    "word": "shelves",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The shelves are full of books."
+  },
+  {
+    "id": "medium-wolves",
+    "word": "wolves",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The wolves howled in the distance."
+  },
+  {
+    "id": "medium-dishes",
+    "word": "dishes",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "After supper we wash the dishes."
+  },
+  {
+    "id": "medium-boxes",
+    "word": "boxes",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We packed the boxes in the truck."
+  },
+  {
+    "id": "medium-foxes",
+    "word": "foxes",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Two foxes played near the den."
+  },
+  {
+    "id": "medium-lunches",
+    "word": "lunches",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We eat our lunches under the trees."
+  },
+  {
+    "id": "medium-brushes",
+    "word": "brushes",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The painter cleaned her brushes."
+  },
+  {
+    "id": "medium-teeth",
+    "word": "teeth",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Brush your teeth twice a day."
+  },
+  {
+    "id": "medium-mice",
+    "word": "mice",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Two tiny mice ran along the wall."
+  },
+  {
+    "id": "medium-geese",
+    "word": "geese",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The geese flew south for the winter."
+  },
+  {
+    "id": "medium-children",
+    "word": "children",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The children lined up for recess."
+  },
+  {
+    "id": "medium-people",
+    "word": "people",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Many people came to the parade."
+  },
+  {
+    "id": "medium-money",
+    "word": "money",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I saved my money to buy a bike."
+  },
+  {
+    "id": "medium-only",
+    "word": "only",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "There is only one cookie left."
+  },
+  {
+    "id": "medium-again",
+    "word": "again",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Please read the story again."
+  },
+  {
+    "id": "medium-because",
+    "word": "because",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I wore boots because the ground was wet."
+  },
+  {
+    "id": "medium-always",
+    "word": "always",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My dog always greets me at the door."
+  },
+  {
+    "id": "medium-around",
+    "word": "around",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We walked around the pond."
+  },
+  {
+    "id": "medium-another",
+    "word": "another",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "May I have another slice of pizza?"
+  },
+  {
+    "id": "medium-together",
+    "word": "together",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We built the tower together."
+  },
+  {
+    "id": "medium-today",
+    "word": "today",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Today we are going to the zoo."
+  },
+  {
+    "id": "medium-tomorrow",
+    "word": "tomorrow",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We will visit Grandma tomorrow."
+  },
+  {
+    "id": "medium-yesterday",
+    "word": "yesterday",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Yesterday we saw a parade."
+  },
+  {
+    "id": "medium-every",
+    "word": "every",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Every morning I feed the fish."
+  },
+  {
+    "id": "medium-very",
+    "word": "very",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The soup was very hot."
+  },
+  {
+    "id": "medium-many",
+    "word": "many",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Many birds visit our feeder."
+  },
+  {
+    "id": "medium-any",
+    "word": "any",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Do you have any questions?"
+  },
+  {
+    "id": "medium-could",
+    "word": "could",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I could hear the rain on the roof."
+  },
+  {
+    "id": "medium-should",
+    "word": "should",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "You should wear a helmet on your bike."
+  },
+  {
+    "id": "medium-laugh",
+    "word": "laugh",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The funny movie made us laugh."
+  },
+  {
+    "id": "medium-enough",
+    "word": "enough",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Do we have enough chairs for everyone?"
+  },
+  {
+    "id": "medium-though",
+    "word": "though",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The game went on even though it was raining."
+  },
+  {
+    "id": "medium-thought",
+    "word": "thought",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I thought about the answer for a long time."
+  },
+  {
+    "id": "medium-bought",
+    "word": "bought",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Mom bought apples at the market."
+  },
+  {
+    "id": "medium-brought",
+    "word": "brought",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Maria brought cookies to the party."
+  },
+  {
+    "id": "medium-caught",
+    "word": "caught",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "He caught a butterfly in his net."
+  },
+  {
+    "id": "medium-taught",
+    "word": "taught",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My dad taught me to swim."
+  },
+  {
+    "id": "medium-daughter",
+    "word": "daughter",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Their daughter drew a picture of the cat."
+  },
+  {
+    "id": "medium-laughter",
+    "word": "laughter",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Laughter filled the classroom during the funny skit."
+  },
+  {
+    "id": "medium-straight",
+    "word": "straight",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Draw a straight line with a ruler."
+  },
+  {
+    "id": "medium-neighbor",
+    "word": "neighbor",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Our neighbor waters his flowers every morning."
+  },
+  {
+    "id": "medium-sleigh",
+    "word": "sleigh",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The sleigh slid across the snowy field."
+  },
+  {
+    "id": "medium-early",
+    "word": "early",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We got up early to see the sunrise."
+  },
+  {
+    "id": "medium-learn",
+    "word": "learn",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We learn new words every week."
+  },
+  {
+    "id": "medium-earth",
+    "word": "earth",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Plants grow in the rich earth."
+  },
+  {
+    "id": "medium-heard",
+    "word": "heard",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I heard a bird singing outside."
+  },
+  {
+    "id": "medium-search",
+    "word": "search",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Let us search the attic for the old photo."
+  },
+  {
+    "id": "medium-pearl",
+    "word": "pearl",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The pearl shone inside the shell."
+  },
+  {
+    "id": "medium-world",
+    "word": "world",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The world is full of amazing animals."
+  },
+  {
+    "id": "medium-word",
+    "word": "word",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I do not know that word."
+  },
+  {
+    "id": "medium-work",
+    "word": "work",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Farmers work hard in the fields."
+  },
+  {
+    "id": "medium-worm",
+    "word": "worm",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A worm wriggled in the wet soil."
+  },
+  {
+    "id": "medium-worth",
+    "word": "worth",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "This old coin is worth a lot of money."
+  },
+  {
+    "id": "medium-color",
+    "word": "color",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "My favorite color is green."
+  },
+  {
+    "id": "medium-favorite",
+    "word": "favorite",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Pizza is my favorite food."
+  },
+  {
+    "id": "medium-travel",
+    "word": "travel",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We like to travel to the mountains."
+  },
+  {
+    "id": "medium-visit",
+    "word": "visit",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I will visit my cousins in June."
+  },
+  {
+    "id": "medium-chapter",
+    "word": "chapter",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I read one chapter before bed."
+  },
+  {
+    "id": "medium-picture",
+    "word": "picture",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She drew a picture of her house."
+  },
+  {
+    "id": "medium-nature",
+    "word": "nature",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We walked through the park and enjoyed nature."
+  },
+  {
+    "id": "medium-adventure",
+    "word": "adventure",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The treasure map led us on an adventure."
+  },
+  {
+    "id": "medium-treasure",
+    "word": "treasure",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The children hunted for the treasure in the sand."
+  },
+  {
+    "id": "medium-measure",
+    "word": "measure",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Measure the board before you cut it."
+  },
+  {
+    "id": "medium-pleasure",
+    "word": "pleasure",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "It was a pleasure to meet you."
+  },
+  {
+    "id": "medium-future",
+    "word": "future",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "In the future, I want to be a vet."
+  },
+  {
+    "id": "medium-mixture",
+    "word": "mixture",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Stir the mixture until it is smooth."
+  },
+  {
+    "id": "medium-capture",
+    "word": "capture",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The camera can capture a rainbow."
+  },
+  {
+    "id": "medium-station",
+    "word": "station",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The train pulled into the station."
+  },
+  {
+    "id": "medium-vacation",
+    "word": "vacation",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We went to the beach on vacation."
+  },
+  {
+    "id": "medium-question",
+    "word": "question",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Raise your hand if you have a question."
+  },
+  {
+    "id": "medium-magic",
+    "word": "magic",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The magician showed us a magic trick."
+  },
+  {
+    "id": "medium-music",
+    "word": "music",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We danced to the music."
+  },
+  {
+    "id": "medium-city",
+    "word": "city",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The city is busy and bright at night."
+  },
+  {
+    "id": "medium-circus",
+    "word": "circus",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The circus clown rode a tiny bike."
+  },
+  {
+    "id": "medium-face",
+    "word": "face",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "She had a big smile on her face."
+  },
+  {
+    "id": "medium-race",
+    "word": "race",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The turtle won the race."
+  },
+  {
+    "id": "medium-space",
+    "word": "space",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The astronaut floated in space."
+  },
+  {
+    "id": "medium-place",
+    "word": "place",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "This is my favorite place to read."
+  },
+  {
+    "id": "medium-fence",
+    "word": "fence",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "A white fence surrounds the garden."
+  },
+  {
+    "id": "medium-dance",
+    "word": "dance",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We learned a new dance in class."
+  },
+  {
+    "id": "medium-change",
+    "word": "change",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "I need to change my wet socks."
+  },
+  {
+    "id": "medium-stage",
+    "word": "stage",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The actors stood on the stage."
+  },
+  {
+    "id": "medium-page",
+    "word": "page",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Turn to the next page."
+  },
+  {
+    "id": "medium-cage",
+    "word": "cage",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The parrot sat in its cage."
+  },
+  {
+    "id": "medium-bridge",
+    "word": "bridge",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We crossed the old bridge over the river."
+  },
+  {
+    "id": "medium-fudge",
+    "word": "fudge",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Grandma makes sweet fudge every winter."
+  },
+  {
+    "id": "medium-badge",
+    "word": "badge",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The helper wore a shiny badge."
+  },
+  {
+    "id": "medium-edge",
+    "word": "edge",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "Do not stand too near the edge."
+  },
+  {
+    "id": "medium-judge",
+    "word": "judge",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "The judge gave the baker a blue ribbon."
+  },
+  {
+    "id": "medium-orchard",
+    "word": "orchard",
+    "level": "medium",
+    "grade": "3",
+    "sentence": "We picked apples in the orchard."
+  }
+]

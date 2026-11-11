@@ -1,1 +1,3548 @@
-[]
+[
+  {
+    "id": "easy-cat",
+    "word": "cat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The cat sleeps on the soft green rug."
+  },
+  {
+    "id": "easy-dog",
+    "word": "dog",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Our dog wags his tail when I come home."
+  },
+  {
+    "id": "easy-pig",
+    "word": "pig",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The pink pig rolled in the mud."
+  },
+  {
+    "id": "easy-hen",
+    "word": "hen",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The hen sat on her eggs all day."
+  },
+  {
+    "id": "easy-bat",
+    "word": "bat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "He swung the bat at the ball."
+  },
+  {
+    "id": "easy-rat",
+    "word": "rat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A tiny rat ran across the barn floor."
+  },
+  {
+    "id": "easy-hat",
+    "word": "hat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She wore a red hat in the sun."
+  },
+  {
+    "id": "easy-mat",
+    "word": "mat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please wipe your feet on the mat."
+  },
+  {
+    "id": "easy-sat",
+    "word": "sat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We sat in a circle on the floor."
+  },
+  {
+    "id": "easy-can",
+    "word": "can",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I can tie my own shoes now."
+  },
+  {
+    "id": "easy-fan",
+    "word": "fan",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Turn on the fan because it is hot."
+  },
+  {
+    "id": "easy-man",
+    "word": "man",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The man waved at us from his truck."
+  },
+  {
+    "id": "easy-pan",
+    "word": "pan",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Mom cooked eggs in a big pan."
+  },
+  {
+    "id": "easy-ran",
+    "word": "ran",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The puppy ran across the yard."
+  },
+  {
+    "id": "easy-van",
+    "word": "van",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We rode to the lake in a van."
+  },
+  {
+    "id": "easy-tan",
+    "word": "tan",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The sand on the beach was warm and tan."
+  },
+  {
+    "id": "easy-bad",
+    "word": "bad",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The old milk smells very bad."
+  },
+  {
+    "id": "easy-dad",
+    "word": "dad",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "My dad reads me a story at night."
+  },
+  {
+    "id": "easy-sad",
+    "word": "sad",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The boy felt sad when his balloon floated away."
+  },
+  {
+    "id": "easy-had",
+    "word": "had",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She had a small box of crayons."
+  },
+  {
+    "id": "easy-bag",
+    "word": "bag",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I put my lunch in my bag."
+  },
+  {
+    "id": "easy-tag",
+    "word": "tag",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We play tag at recess."
+  },
+  {
+    "id": "easy-rag",
+    "word": "rag",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dad wiped the table with a wet rag."
+  },
+  {
+    "id": "easy-wag",
+    "word": "wag",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dogs wag their tails when they are happy."
+  },
+  {
+    "id": "easy-cap",
+    "word": "cap",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "He put his cap on his head."
+  },
+  {
+    "id": "easy-map",
+    "word": "map",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We looked at the map to find the park."
+  },
+  {
+    "id": "easy-nap",
+    "word": "nap",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The baby took a nap after lunch."
+  },
+  {
+    "id": "easy-tap",
+    "word": "tap",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please tap on the door before you come in."
+  },
+  {
+    "id": "easy-lap",
+    "word": "lap",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The kitten curled up in my lap."
+  },
+  {
+    "id": "easy-gap",
+    "word": "gap",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "My front tooth has a gap in it."
+  },
+  {
+    "id": "easy-jam",
+    "word": "jam",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I spread grape jam on my toast."
+  },
+  {
+    "id": "easy-ham",
+    "word": "ham",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dad made a ham sandwich for lunch."
+  },
+  {
+    "id": "easy-yam",
+    "word": "yam",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We ate a baked yam with dinner."
+  },
+  {
+    "id": "easy-ram",
+    "word": "ram",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The ram has big curly horns."
+  },
+  {
+    "id": "easy-wax",
+    "word": "wax",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The candle is made of wax."
+  },
+  {
+    "id": "easy-bed",
+    "word": "bed",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I make my bed every morning."
+  },
+  {
+    "id": "easy-red",
+    "word": "red",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The apple on the tree is red."
+  },
+  {
+    "id": "easy-pen",
+    "word": "pen",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please write your name with a pen."
+  },
+  {
+    "id": "easy-ten",
+    "word": "ten",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I have ten toes on my feet."
+  },
+  {
+    "id": "easy-net",
+    "word": "net",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The fish was caught in the net."
+  },
+  {
+    "id": "easy-pet",
+    "word": "pet",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "My pet turtle is very slow."
+  },
+  {
+    "id": "easy-wet",
+    "word": "wet",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "My socks got wet in the rain."
+  },
+  {
+    "id": "easy-jet",
+    "word": "jet",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The jet flew high above the clouds."
+  },
+  {
+    "id": "easy-vet",
+    "word": "vet",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The vet looked at my sick kitten."
+  },
+  {
+    "id": "easy-get",
+    "word": "get",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Go get your coat before we leave."
+  },
+  {
+    "id": "easy-let",
+    "word": "let",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please let me hold the baby bunny."
+  },
+  {
+    "id": "easy-set",
+    "word": "set",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Mom will set the table for supper."
+  },
+  {
+    "id": "easy-web",
+    "word": "web",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A spider spun a web in the corner."
+  },
+  {
+    "id": "easy-leg",
+    "word": "leg",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "One leg of the chair is a little short."
+  },
+  {
+    "id": "easy-beg",
+    "word": "beg",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "My dog likes to beg for treats."
+  },
+  {
+    "id": "easy-peg",
+    "word": "peg",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Hang your wet coat on the peg."
+  },
+  {
+    "id": "easy-yes",
+    "word": "yes",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She said yes when I asked her to play."
+  },
+  {
+    "id": "easy-fin",
+    "word": "fin",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The shark has a big fin on its back."
+  },
+  {
+    "id": "easy-pin",
+    "word": "pin",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Mom used a pin to hold the cloth."
+  },
+  {
+    "id": "easy-bin",
+    "word": "bin",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Put the empty bottles in the bin."
+  },
+  {
+    "id": "easy-win",
+    "word": "win",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Our team hopes to win the game."
+  },
+  {
+    "id": "easy-sit",
+    "word": "sit",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please sit down in your chair."
+  },
+  {
+    "id": "easy-kit",
+    "word": "kit",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dad keeps a first aid kit in the car."
+  },
+  {
+    "id": "easy-lip",
+    "word": "lip",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I bit my lip when I fell."
+  },
+  {
+    "id": "easy-hip",
+    "word": "hip",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She put her hand on her hip."
+  },
+  {
+    "id": "easy-tip",
+    "word": "tip",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The tip of my pencil broke."
+  },
+  {
+    "id": "easy-zip",
+    "word": "zip",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please zip up your jacket."
+  },
+  {
+    "id": "easy-rip",
+    "word": "rip",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Be careful not to rip your paper."
+  },
+  {
+    "id": "easy-dip",
+    "word": "dip",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I like to dip my apple in honey."
+  },
+  {
+    "id": "easy-sip",
+    "word": "sip",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Take a small sip of cold water."
+  },
+  {
+    "id": "easy-big",
+    "word": "big",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "An elephant is a very big animal."
+  },
+  {
+    "id": "easy-dig",
+    "word": "dig",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dogs like to dig holes in the dirt."
+  },
+  {
+    "id": "easy-wig",
+    "word": "wig",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The clown wore a funny orange wig."
+  },
+  {
+    "id": "easy-fig",
+    "word": "fig",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A fig is a sweet, soft fruit."
+  },
+  {
+    "id": "easy-jig",
+    "word": "jig",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The little girl danced a happy jig."
+  },
+  {
+    "id": "easy-kid",
+    "word": "kid",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Each kid in class got a sticker."
+  },
+  {
+    "id": "easy-lid",
+    "word": "lid",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Put the lid back on the jar."
+  },
+  {
+    "id": "easy-did",
+    "word": "did",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Did you feed the fish this morning?"
+  },
+  {
+    "id": "easy-hid",
+    "word": "hid",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The cat hid under the bed."
+  },
+  {
+    "id": "easy-fix",
+    "word": "fix",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dad can fix my broken toy."
+  },
+  {
+    "id": "easy-mix",
+    "word": "mix",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Mix the flour and water in a bowl."
+  },
+  {
+    "id": "easy-six",
+    "word": "six",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A spider has more than six legs."
+  },
+  {
+    "id": "easy-box",
+    "word": "box",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The toys are in a big box."
+  },
+  {
+    "id": "easy-fox",
+    "word": "fox",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The red fox hid in the tall grass."
+  },
+  {
+    "id": "easy-dot",
+    "word": "dot",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Draw a dot at the end of the line."
+  },
+  {
+    "id": "easy-hot",
+    "word": "hot",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The soup is too hot to eat."
+  },
+  {
+    "id": "easy-cot",
+    "word": "cot",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The baby sleeps on a small cot."
+  },
+  {
+    "id": "easy-lot",
+    "word": "lot",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We picked a lot of apples."
+  },
+  {
+    "id": "easy-not",
+    "word": "not",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "It is not time to go home yet."
+  },
+  {
+    "id": "easy-top",
+    "word": "top",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I climbed to the top of the hill."
+  },
+  {
+    "id": "easy-hop",
+    "word": "hop",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Frogs hop from one lily pad to another."
+  },
+  {
+    "id": "easy-mop",
+    "word": "mop",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please use the mop to clean the floor."
+  },
+  {
+    "id": "easy-pop",
+    "word": "pop",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The balloon will pop if you squeeze it."
+  },
+  {
+    "id": "easy-job",
+    "word": "job",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "My mom has a job at the library."
+  },
+  {
+    "id": "easy-log",
+    "word": "log",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A frog sat on a log."
+  },
+  {
+    "id": "easy-fog",
+    "word": "fog",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The thick fog hid the tall trees."
+  },
+  {
+    "id": "easy-jog",
+    "word": "jog",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dad likes to jog in the park."
+  },
+  {
+    "id": "easy-dock",
+    "word": "dock",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We tied the boat to the dock."
+  },
+  {
+    "id": "easy-sock",
+    "word": "sock",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I cannot find my other sock."
+  },
+  {
+    "id": "easy-rock",
+    "word": "rock",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I found a smooth flat rock by the creek."
+  },
+  {
+    "id": "easy-clock",
+    "word": "clock",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The clock on the wall says three."
+  },
+  {
+    "id": "easy-cut",
+    "word": "cut",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Be careful when you cut with scissors."
+  },
+  {
+    "id": "easy-hut",
+    "word": "hut",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A small hut stood by the river."
+  },
+  {
+    "id": "easy-nut",
+    "word": "nut",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The squirrel hid a nut in the ground."
+  },
+  {
+    "id": "easy-bug",
+    "word": "bug",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A little bug crawled up my arm."
+  },
+  {
+    "id": "easy-hug",
+    "word": "hug",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I gave my grandma a big hug."
+  },
+  {
+    "id": "easy-mug",
+    "word": "mug",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Pour the hot cocoa into the mug."
+  },
+  {
+    "id": "easy-rug",
+    "word": "rug",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The cat sleeps on the rug."
+  },
+  {
+    "id": "easy-jug",
+    "word": "jug",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dad filled the jug with cold milk."
+  },
+  {
+    "id": "easy-tug",
+    "word": "tug",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Give the rope a hard tug."
+  },
+  {
+    "id": "easy-bun",
+    "word": "bun",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I ate a warm bun with butter."
+  },
+  {
+    "id": "easy-fun",
+    "word": "fun",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We had fun at the park today."
+  },
+  {
+    "id": "easy-run",
+    "word": "run",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I can run very fast."
+  },
+  {
+    "id": "easy-sun",
+    "word": "sun",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The sun is bright and warm.",
+    "homophoneGroup": "son-sun"
+  },
+  {
+    "id": "easy-gum",
+    "word": "gum",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please do not stick your gum on the desk."
+  },
+  {
+    "id": "easy-hum",
+    "word": "hum",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I like to hum a song while I work."
+  },
+  {
+    "id": "easy-bus",
+    "word": "bus",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I ride the bus to school."
+  },
+  {
+    "id": "easy-cup",
+    "word": "cup",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Fill the cup with orange juice."
+  },
+  {
+    "id": "easy-pup",
+    "word": "pup",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The pup chewed on a soft toy."
+  },
+  {
+    "id": "easy-tub",
+    "word": "tub",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The baby splashed in the tub."
+  },
+  {
+    "id": "easy-cub",
+    "word": "cub",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The bear cub followed its mother."
+  },
+  {
+    "id": "easy-mud",
+    "word": "mud",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The pig loves to roll in the mud."
+  },
+  {
+    "id": "easy-up",
+    "word": "up",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The balloon floated up into the sky."
+  },
+  {
+    "id": "easy-us",
+    "word": "us",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Grandma made cookies for us."
+  },
+  {
+    "id": "easy-in",
+    "word": "in",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The fish swims in the pond."
+  },
+  {
+    "id": "easy-on",
+    "word": "on",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The book is on the table."
+  },
+  {
+    "id": "easy-at",
+    "word": "at",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Look at the colorful rainbow."
+  },
+  {
+    "id": "easy-it",
+    "word": "it",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I found it under the couch."
+  },
+  {
+    "id": "easy-is",
+    "word": "is",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The sky is blue today."
+  },
+  {
+    "id": "easy-am",
+    "word": "am",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I am six years old."
+  },
+  {
+    "id": "easy-an",
+    "word": "an",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She ate an apple for a snack."
+  },
+  {
+    "id": "easy-as",
+    "word": "as",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "He ran as if he had wings."
+  },
+  {
+    "id": "easy-if",
+    "word": "if",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Tell me if you need help."
+  },
+  {
+    "id": "easy-of",
+    "word": "of",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I drank a glass of milk."
+  },
+  {
+    "id": "easy-off",
+    "word": "off",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Turn off the light when you leave."
+  },
+  {
+    "id": "easy-the",
+    "word": "the",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Wash your hands before the meal."
+  },
+  {
+    "id": "easy-and",
+    "word": "and",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I like peanut butter and jelly."
+  },
+  {
+    "id": "easy-but",
+    "word": "but",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I wanted to play, but it was raining."
+  },
+  {
+    "id": "easy-for",
+    "word": "for",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "This gift is for you.",
+    "homophoneGroup": "for-four"
+  },
+  {
+    "id": "easy-four",
+    "word": "four",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A dog has four legs.",
+    "homophoneGroup": "for-four"
+  },
+  {
+    "id": "easy-too",
+    "word": "too",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I want to come along too.",
+    "homophoneGroup": "to-too-two"
+  },
+  {
+    "id": "easy-two",
+    "word": "two",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I have two sisters and one brother.",
+    "homophoneGroup": "to-too-two"
+  },
+  {
+    "id": "easy-to",
+    "word": "to",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We walk to school each day.",
+    "homophoneGroup": "to-too-two"
+  },
+  {
+    "id": "easy-one",
+    "word": "one",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I have one nose and two eyes.",
+    "homophoneGroup": "one-won"
+  },
+  {
+    "id": "easy-won",
+    "word": "won",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Our team won the game yesterday.",
+    "homophoneGroup": "one-won"
+  },
+  {
+    "id": "easy-no",
+    "word": "no",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "No, thank you, I am full.",
+    "homophoneGroup": "know-no"
+  },
+  {
+    "id": "easy-know",
+    "word": "know",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Do you know the way to the store?",
+    "homophoneGroup": "know-no"
+  },
+  {
+    "id": "easy-see",
+    "word": "see",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I can see a bird in the tree.",
+    "homophoneGroup": "sea-see"
+  },
+  {
+    "id": "easy-sea",
+    "word": "sea",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Whales swim in the deep sea.",
+    "homophoneGroup": "sea-see"
+  },
+  {
+    "id": "easy-be",
+    "word": "be",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please be kind to your friends.",
+    "homophoneGroup": "be-bee"
+  },
+  {
+    "id": "easy-bee",
+    "word": "bee",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A bee buzzed around the flowers.",
+    "homophoneGroup": "be-bee"
+  },
+  {
+    "id": "easy-he",
+    "word": "he",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "He plays ball with his dad."
+  },
+  {
+    "id": "easy-she",
+    "word": "she",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She picks flowers in the garden."
+  },
+  {
+    "id": "easy-we",
+    "word": "we",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We play games after school."
+  },
+  {
+    "id": "easy-me",
+    "word": "me",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please sing a song to me."
+  },
+  {
+    "id": "easy-my",
+    "word": "my",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "This is my favorite toy."
+  },
+  {
+    "id": "easy-by",
+    "word": "by",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The cat sits by the window.",
+    "homophoneGroup": "buy-by"
+  },
+  {
+    "id": "easy-buy",
+    "word": "buy",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Dad will buy bread at the store.",
+    "homophoneGroup": "buy-by"
+  },
+  {
+    "id": "easy-you",
+    "word": "you",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I like you very much."
+  },
+  {
+    "id": "easy-your",
+    "word": "your",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Is this your coat on the floor?"
+  },
+  {
+    "id": "easy-they",
+    "word": "they",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "They run out to play."
+  },
+  {
+    "id": "easy-them",
+    "word": "them",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I gave the carrots to them."
+  },
+  {
+    "id": "easy-him",
+    "word": "him",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please give the ball to him."
+  },
+  {
+    "id": "easy-her",
+    "word": "her",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I gave her a pretty flower."
+  },
+  {
+    "id": "easy-his",
+    "word": "his",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "His bike is blue and shiny."
+  },
+  {
+    "id": "easy-its",
+    "word": "its",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The puppy wagged its tail."
+  },
+  {
+    "id": "easy-our",
+    "word": "our",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Our house has a green door.",
+    "homophoneGroup": "hour-our"
+  },
+  {
+    "id": "easy-hour",
+    "word": "hour",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "It takes one hour to get to the beach.",
+    "homophoneGroup": "hour-our"
+  },
+  {
+    "id": "easy-here",
+    "word": "here",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Come sit here next to me.",
+    "homophoneGroup": "hear-here"
+  },
+  {
+    "id": "easy-hear",
+    "word": "hear",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I can hear the birds singing.",
+    "homophoneGroup": "hear-here"
+  },
+  {
+    "id": "easy-go",
+    "word": "go",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Let us go to the park."
+  },
+  {
+    "id": "easy-so",
+    "word": "so",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I was so tired that I fell asleep."
+  },
+  {
+    "id": "easy-do",
+    "word": "do",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please do your homework before dinner."
+  },
+  {
+    "id": "easy-who",
+    "word": "who",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Who is knocking at the door?"
+  },
+  {
+    "id": "easy-what",
+    "word": "what",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "What is your favorite color?"
+  },
+  {
+    "id": "easy-when",
+    "word": "when",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "When will the bus come?"
+  },
+  {
+    "id": "easy-why",
+    "word": "why",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Why is the sky blue?"
+  },
+  {
+    "id": "easy-how",
+    "word": "how",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "How old is your little brother?"
+  },
+  {
+    "id": "easy-all",
+    "word": "all",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We ate all of the cake."
+  },
+  {
+    "id": "easy-are",
+    "word": "are",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Are you ready to go outside?"
+  },
+  {
+    "id": "easy-was",
+    "word": "was",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "It was a sunny day."
+  },
+  {
+    "id": "easy-were",
+    "word": "were",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We were happy to see you."
+  },
+  {
+    "id": "easy-with",
+    "word": "with",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I play with my best friend."
+  },
+  {
+    "id": "easy-have",
+    "word": "have",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I have a new red ball."
+  },
+  {
+    "id": "easy-has",
+    "word": "has",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She has a pink backpack."
+  },
+  {
+    "id": "easy-this",
+    "word": "this",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "This is my new puppy."
+  },
+  {
+    "id": "easy-that",
+    "word": "that",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Look at that big truck."
+  },
+  {
+    "id": "easy-these",
+    "word": "these",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "These flowers smell sweet and fresh."
+  },
+  {
+    "id": "easy-those",
+    "word": "those",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Those birds are flying south."
+  },
+  {
+    "id": "easy-said",
+    "word": "said",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Mom said it is time for bed."
+  },
+  {
+    "id": "easy-come",
+    "word": "come",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please come to my party."
+  },
+  {
+    "id": "easy-look",
+    "word": "look",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Look at the pretty butterfly."
+  },
+  {
+    "id": "easy-play",
+    "word": "play",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We play on the swings at recess."
+  },
+  {
+    "id": "easy-like",
+    "word": "like",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I like to eat pizza."
+  },
+  {
+    "id": "easy-make",
+    "word": "make",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Let us make a snowman."
+  },
+  {
+    "id": "easy-take",
+    "word": "take",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Please take your seat at the table."
+  },
+  {
+    "id": "easy-give",
+    "word": "give",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I will give you a hug."
+  },
+  {
+    "id": "easy-want",
+    "word": "want",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I want a drink of water."
+  },
+  {
+    "id": "easy-little",
+    "word": "little",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The little duck followed its mother."
+  },
+  {
+    "id": "easy-black",
+    "word": "black",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The black cat hid in the dark."
+  },
+  {
+    "id": "easy-blue",
+    "word": "blue",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The sky is bright blue today.",
+    "homophoneGroup": "blew-blue"
+  },
+  {
+    "id": "easy-blew",
+    "word": "blew",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The breeze blew my hat away.",
+    "homophoneGroup": "blew-blue"
+  },
+  {
+    "id": "easy-brown",
+    "word": "brown",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The brown horse ate some hay."
+  },
+  {
+    "id": "easy-green",
+    "word": "green",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Frogs are green and jump very far."
+  },
+  {
+    "id": "easy-pink",
+    "word": "pink",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She wore a pink dress to the party."
+  },
+  {
+    "id": "easy-white",
+    "word": "white",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Snow is cold and white."
+  },
+  {
+    "id": "easy-yellow",
+    "word": "yellow",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A yellow duck swam on the pond."
+  },
+  {
+    "id": "easy-orange",
+    "word": "orange",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I peeled an orange for my snack."
+  },
+  {
+    "id": "easy-purple",
+    "word": "purple",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Grapes can be purple or green."
+  },
+  {
+    "id": "easy-block",
+    "word": "block",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I stacked one block on top of another."
+  },
+  {
+    "id": "easy-blink",
+    "word": "blink",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Try not to blink while I take your picture."
+  },
+  {
+    "id": "easy-brick",
+    "word": "brick",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The little house was built of brick."
+  },
+  {
+    "id": "easy-bring",
+    "word": "bring",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please bring your book to school."
+  },
+  {
+    "id": "easy-brush",
+    "word": "brush",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Brush your teeth before bed."
+  },
+  {
+    "id": "easy-crab",
+    "word": "crab",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A crab walked sideways along the sand."
+  },
+  {
+    "id": "easy-clap",
+    "word": "clap",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We clap our hands when the song ends."
+  },
+  {
+    "id": "easy-clam",
+    "word": "clam",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A clam hides in its hard shell."
+  },
+  {
+    "id": "easy-club",
+    "word": "club",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I joined the art club after school."
+  },
+  {
+    "id": "easy-clip",
+    "word": "clip",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Use a clip to hold the papers together."
+  },
+  {
+    "id": "easy-cloud",
+    "word": "cloud",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "One white cloud floated across the sky."
+  },
+  {
+    "id": "easy-crib",
+    "word": "crib",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The baby slept in her crib."
+  },
+  {
+    "id": "easy-crop",
+    "word": "crop",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The farmer picked the crop of corn."
+  },
+  {
+    "id": "easy-drum",
+    "word": "drum",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "He beat the drum with two sticks."
+  },
+  {
+    "id": "easy-drop",
+    "word": "drop",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Be careful not to drop your cup."
+  },
+  {
+    "id": "easy-dress",
+    "word": "dress",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "She put on a pretty dress."
+  },
+  {
+    "id": "easy-drink",
+    "word": "drink",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I drink water when I am thirsty."
+  },
+  {
+    "id": "easy-drip",
+    "word": "drip",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I heard the faucet drip all night."
+  },
+  {
+    "id": "easy-flag",
+    "word": "flag",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We raised the flag at school."
+  },
+  {
+    "id": "easy-flat",
+    "word": "flat",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The road was long and flat."
+  },
+  {
+    "id": "easy-flip",
+    "word": "flip",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Watch me flip the pancake."
+  },
+  {
+    "id": "easy-flop",
+    "word": "flop",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The fish began to flop on the dock."
+  },
+  {
+    "id": "easy-flower",
+    "word": "flower",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A yellow flower grew by the fence.",
+    "homophoneGroup": "flour-flower"
+  },
+  {
+    "id": "easy-flour",
+    "word": "flour",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Mom mixed flour and eggs to make bread.",
+    "homophoneGroup": "flour-flower"
+  },
+  {
+    "id": "easy-frog",
+    "word": "frog",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The frog jumped into the pond."
+  },
+  {
+    "id": "easy-from",
+    "word": "from",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I got a letter from my grandma."
+  },
+  {
+    "id": "easy-fresh",
+    "word": "fresh",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The bread is warm and fresh."
+  },
+  {
+    "id": "easy-fly",
+    "word": "fly",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Birds can fly high in the sky."
+  },
+  {
+    "id": "easy-glad",
+    "word": "glad",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I am glad you came to my party."
+  },
+  {
+    "id": "easy-glass",
+    "word": "glass",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Pour the milk into a tall glass."
+  },
+  {
+    "id": "easy-glow",
+    "word": "glow",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Fireflies glow in the dark."
+  },
+  {
+    "id": "easy-glue",
+    "word": "glue",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Use glue to stick the paper down."
+  },
+  {
+    "id": "easy-grab",
+    "word": "grab",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Grab your coat before you go out."
+  },
+  {
+    "id": "easy-grin",
+    "word": "grin",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "He had a big grin on his face."
+  },
+  {
+    "id": "easy-grass",
+    "word": "grass",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The cows ate the green grass."
+  },
+  {
+    "id": "easy-grow",
+    "word": "grow",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Seeds need water and sun to grow."
+  },
+  {
+    "id": "easy-plan",
+    "word": "plan",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We made a plan for our picnic."
+  },
+  {
+    "id": "easy-plant",
+    "word": "plant",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I water the plant every day."
+  },
+  {
+    "id": "easy-plum",
+    "word": "plum",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A plum is a sweet purple fruit."
+  },
+  {
+    "id": "easy-plus",
+    "word": "plus",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Two plus two is four."
+  },
+  {
+    "id": "easy-press",
+    "word": "press",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Press the button to ring the bell."
+  },
+  {
+    "id": "easy-prize",
+    "word": "prize",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "She won first prize at the fair."
+  },
+  {
+    "id": "easy-skip",
+    "word": "skip",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We skip down the sidewalk together."
+  },
+  {
+    "id": "easy-skin",
+    "word": "skin",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A banana has a yellow skin."
+  },
+  {
+    "id": "easy-skate",
+    "word": "skate",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I learned to skate on the ice."
+  },
+  {
+    "id": "easy-sky",
+    "word": "sky",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The stars shine in the night sky."
+  },
+  {
+    "id": "easy-slam",
+    "word": "slam",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please do not slam the door."
+  },
+  {
+    "id": "easy-sled",
+    "word": "sled",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We rode the sled down the snowy hill."
+  },
+  {
+    "id": "easy-sleep",
+    "word": "sleep",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The baby will sleep all night."
+  },
+  {
+    "id": "easy-slide",
+    "word": "slide",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I went down the slide at the park."
+  },
+  {
+    "id": "easy-slip",
+    "word": "slip",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Be careful not to slip on the ice."
+  },
+  {
+    "id": "easy-slow",
+    "word": "slow",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The turtle is very slow."
+  },
+  {
+    "id": "easy-small",
+    "word": "small",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A mouse is a small animal."
+  },
+  {
+    "id": "easy-smell",
+    "word": "smell",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I can smell cookies baking in the oven."
+  },
+  {
+    "id": "easy-smile",
+    "word": "smile",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Your smile makes me happy."
+  },
+  {
+    "id": "easy-snack",
+    "word": "snack",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We eat a snack after school."
+  },
+  {
+    "id": "easy-snail",
+    "word": "snail",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A snail moves very slowly."
+  },
+  {
+    "id": "easy-snake",
+    "word": "snake",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The snake slid through the tall grass."
+  },
+  {
+    "id": "easy-snow",
+    "word": "snow",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We built a snowman in the snow."
+  },
+  {
+    "id": "easy-snap",
+    "word": "snap",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I heard a twig snap in the woods."
+  },
+  {
+    "id": "easy-spill",
+    "word": "spill",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Do not spill your juice on the table."
+  },
+  {
+    "id": "easy-spin",
+    "word": "spin",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I like to spin around until I am dizzy."
+  },
+  {
+    "id": "easy-spot",
+    "word": "spot",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The puppy has a brown spot on its ear."
+  },
+  {
+    "id": "easy-spoon",
+    "word": "spoon",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Use a spoon to eat your soup."
+  },
+  {
+    "id": "easy-stamp",
+    "word": "stamp",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Put a stamp on the letter."
+  },
+  {
+    "id": "easy-star",
+    "word": "star",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A bright star twinkled in the sky."
+  },
+  {
+    "id": "easy-stay",
+    "word": "stay",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please stay here with me."
+  },
+  {
+    "id": "easy-step",
+    "word": "step",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Take a step back from the edge."
+  },
+  {
+    "id": "easy-stick",
+    "word": "stick",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The dog ran after the stick."
+  },
+  {
+    "id": "easy-stop",
+    "word": "stop",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Stop at the red light."
+  },
+  {
+    "id": "easy-store",
+    "word": "store",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We went to the store to buy milk."
+  },
+  {
+    "id": "easy-swim",
+    "word": "swim",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I can swim across the pool."
+  },
+  {
+    "id": "easy-swing",
+    "word": "swing",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I swing high on the playground."
+  },
+  {
+    "id": "easy-swan",
+    "word": "swan",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A white swan floated on the lake."
+  },
+  {
+    "id": "easy-trap",
+    "word": "trap",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The mouse was caught in the trap."
+  },
+  {
+    "id": "easy-tree",
+    "word": "tree",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A bird built a nest in the tree."
+  },
+  {
+    "id": "easy-trip",
+    "word": "trip",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We took a trip to the zoo."
+  },
+  {
+    "id": "easy-truck",
+    "word": "truck",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The big truck carried sand."
+  },
+  {
+    "id": "easy-twin",
+    "word": "twin",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "My twin sister and I look alike."
+  },
+  {
+    "id": "easy-twig",
+    "word": "twig",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A bird carried a twig to its nest."
+  },
+  {
+    "id": "easy-scrub",
+    "word": "scrub",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Scrub your hands with soap and water."
+  },
+  {
+    "id": "easy-spring",
+    "word": "spring",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Flowers bloom in the spring."
+  },
+  {
+    "id": "easy-string",
+    "word": "string",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I tied a string around the box."
+  },
+  {
+    "id": "easy-three",
+    "word": "three",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I counted three birds on the wire."
+  },
+  {
+    "id": "easy-chip",
+    "word": "chip",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I ate a chip with my sandwich."
+  },
+  {
+    "id": "easy-chin",
+    "word": "chin",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "He rested his chin on his hand."
+  },
+  {
+    "id": "easy-chat",
+    "word": "chat",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We like to chat on the bus."
+  },
+  {
+    "id": "easy-check",
+    "word": "check",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please check your work for mistakes."
+  },
+  {
+    "id": "easy-chest",
+    "word": "chest",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The pirate map led to a toy chest."
+  },
+  {
+    "id": "easy-chick",
+    "word": "chick",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The little chick chirped for its mother."
+  },
+  {
+    "id": "easy-chair",
+    "word": "chair",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please pull up a chair and sit."
+  },
+  {
+    "id": "easy-cheese",
+    "word": "cheese",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I like melted cheese on my pizza."
+  },
+  {
+    "id": "easy-child",
+    "word": "child",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Each child got a turn on the swing."
+  },
+  {
+    "id": "easy-chop",
+    "word": "chop",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Dad will chop the carrots for soup."
+  },
+  {
+    "id": "easy-ship",
+    "word": "ship",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The big ship sailed across the sea."
+  },
+  {
+    "id": "easy-shop",
+    "word": "shop",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We went to the shop to buy bread."
+  },
+  {
+    "id": "easy-shell",
+    "word": "shell",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I found a pretty shell on the beach."
+  },
+  {
+    "id": "easy-shut",
+    "word": "shut",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please shut the door quietly."
+  },
+  {
+    "id": "easy-shed",
+    "word": "shed",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Dad keeps the tools in the shed."
+  },
+  {
+    "id": "easy-shoe",
+    "word": "shoe",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I lost my left shoe."
+  },
+  {
+    "id": "easy-shirt",
+    "word": "shirt",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "He wore a clean white shirt."
+  },
+  {
+    "id": "easy-shape",
+    "word": "shape",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A ball has a round shape."
+  },
+  {
+    "id": "easy-share",
+    "word": "share",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please share your crayons with me."
+  },
+  {
+    "id": "easy-shine",
+    "word": "shine",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The sun will shine all day."
+  },
+  {
+    "id": "easy-thin",
+    "word": "thin",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The paper was very thin."
+  },
+  {
+    "id": "easy-thick",
+    "word": "thick",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The soup was thick and hot."
+  },
+  {
+    "id": "easy-thing",
+    "word": "thing",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "What is that thing on the shelf?"
+  },
+  {
+    "id": "easy-think",
+    "word": "think",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I think it will rain today."
+  },
+  {
+    "id": "easy-thank",
+    "word": "thank",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please thank your aunt for the gift."
+  },
+  {
+    "id": "easy-thumb",
+    "word": "thumb",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I hurt my thumb in the door."
+  },
+  {
+    "id": "easy-then",
+    "word": "then",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "First we eat, and then we play."
+  },
+  {
+    "id": "easy-than",
+    "word": "than",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "My dog is bigger than my cat."
+  },
+  {
+    "id": "easy-which",
+    "word": "which",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Which book do you want to borrow?"
+  },
+  {
+    "id": "easy-whale",
+    "word": "whale",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A whale is the biggest animal in the sea."
+  },
+  {
+    "id": "easy-wheel",
+    "word": "wheel",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The wheel on my bike is flat."
+  },
+  {
+    "id": "easy-whisper",
+    "word": "whisper",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please whisper in the library."
+  },
+  {
+    "id": "easy-sing",
+    "word": "sing",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Let us sing a song together."
+  },
+  {
+    "id": "easy-king",
+    "word": "king",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The king wore a golden crown."
+  },
+  {
+    "id": "easy-ring",
+    "word": "ring",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "She wore a ring on her finger."
+  },
+  {
+    "id": "easy-wing",
+    "word": "wing",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A bird has one wing on each side."
+  },
+  {
+    "id": "easy-song",
+    "word": "song",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The bird sang a sweet song."
+  },
+  {
+    "id": "easy-long",
+    "word": "long",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The giraffe has a very long neck."
+  },
+  {
+    "id": "easy-bank",
+    "word": "bank",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Mom put the coins in the bank."
+  },
+  {
+    "id": "easy-sink",
+    "word": "sink",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Wash the dishes in the sink."
+  },
+  {
+    "id": "easy-tank",
+    "word": "tank",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The fish swam around in the tank."
+  },
+  {
+    "id": "easy-milk",
+    "word": "milk",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I drink a cold glass of milk."
+  },
+  {
+    "id": "easy-help",
+    "word": "help",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Can you help me carry this box?"
+  },
+  {
+    "id": "easy-gift",
+    "word": "gift",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "She gave me a gift for my birthday."
+  },
+  {
+    "id": "easy-hand",
+    "word": "hand",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Hold my hand when we cross the street."
+  },
+  {
+    "id": "easy-sand",
+    "word": "sand",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We built a castle in the sand."
+  },
+  {
+    "id": "easy-land",
+    "word": "land",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The plane will land soon."
+  },
+  {
+    "id": "easy-band",
+    "word": "band",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The band played a happy tune."
+  },
+  {
+    "id": "easy-lamp",
+    "word": "lamp",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Turn on the lamp so we can see."
+  },
+  {
+    "id": "easy-jump",
+    "word": "jump",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I can jump over the puddle."
+  },
+  {
+    "id": "easy-bump",
+    "word": "bump",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I got a bump on my knee."
+  },
+  {
+    "id": "easy-camp",
+    "word": "camp",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We sleep in a tent at camp."
+  },
+  {
+    "id": "easy-nest",
+    "word": "nest",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The bird sat in its nest."
+  },
+  {
+    "id": "easy-best",
+    "word": "best",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "You are my best friend."
+  },
+  {
+    "id": "easy-rest",
+    "word": "rest",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Take a rest if you are tired."
+  },
+  {
+    "id": "easy-test",
+    "word": "test",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We have a spelling test on Friday."
+  },
+  {
+    "id": "easy-desk",
+    "word": "desk",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I keep my books in my desk."
+  },
+  {
+    "id": "easy-fast",
+    "word": "fast",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The cheetah can run very fast."
+  },
+  {
+    "id": "easy-last",
+    "word": "last",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I was last in line."
+  },
+  {
+    "id": "easy-past",
+    "word": "past",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We walked past the school."
+  },
+  {
+    "id": "easy-mask",
+    "word": "mask",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "He wore a funny mask for the party."
+  },
+  {
+    "id": "easy-cake",
+    "word": "cake",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We ate cake at my birthday party."
+  },
+  {
+    "id": "easy-game",
+    "word": "game",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Let us play a game of tag."
+  },
+  {
+    "id": "easy-name",
+    "word": "name",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "My name is on my lunch box."
+  },
+  {
+    "id": "easy-page",
+    "word": "page",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Turn the page to see the next picture."
+  },
+  {
+    "id": "easy-gate",
+    "word": "gate",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Shut the gate so the dog stays in."
+  },
+  {
+    "id": "easy-late",
+    "word": "late",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We were late for the bus."
+  },
+  {
+    "id": "easy-wave",
+    "word": "wave",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I wave to my friends."
+  },
+  {
+    "id": "easy-cave",
+    "word": "cave",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A bat sleeps in the cave."
+  },
+  {
+    "id": "easy-bike",
+    "word": "bike",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I ride my bike to the park."
+  },
+  {
+    "id": "easy-kite",
+    "word": "kite",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "My kite flew high in the sky."
+  },
+  {
+    "id": "easy-ride",
+    "word": "ride",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We ride the bus to school."
+  },
+  {
+    "id": "easy-hide",
+    "word": "hide",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Let us hide behind the tree."
+  },
+  {
+    "id": "easy-nine",
+    "word": "nine",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The clock on the wall says nine."
+  },
+  {
+    "id": "easy-five",
+    "word": "five",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I have five fingers on one hand."
+  },
+  {
+    "id": "easy-line",
+    "word": "line",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Wait in line for your turn."
+  },
+  {
+    "id": "easy-mile",
+    "word": "mile",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We walked one mile to the lake."
+  },
+  {
+    "id": "easy-time",
+    "word": "time",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "It is time to go home."
+  },
+  {
+    "id": "easy-hive",
+    "word": "hive",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Bees make honey in a hive."
+  },
+  {
+    "id": "easy-ice",
+    "word": "ice",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The pond is covered with ice."
+  },
+  {
+    "id": "easy-rice",
+    "word": "rice",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We had rice and beans for dinner."
+  },
+  {
+    "id": "easy-mice",
+    "word": "mice",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The mice hid in a hole."
+  },
+  {
+    "id": "easy-nice",
+    "word": "nice",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "It is nice to see you."
+  },
+  {
+    "id": "easy-bone",
+    "word": "bone",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The dog buried a bone."
+  },
+  {
+    "id": "easy-home",
+    "word": "home",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I walk home after school."
+  },
+  {
+    "id": "easy-hole",
+    "word": "hole",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The mole dug a hole.",
+    "homophoneGroup": "hole-whole"
+  },
+  {
+    "id": "easy-whole",
+    "word": "whole",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I ate the whole sandwich.",
+    "homophoneGroup": "hole-whole"
+  },
+  {
+    "id": "easy-nose",
+    "word": "nose",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I smell with my nose.",
+    "homophoneGroup": "knows-nose"
+  },
+  {
+    "id": "easy-knows",
+    "word": "knows",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Grandpa knows many good stories.",
+    "homophoneGroup": "knows-nose"
+  },
+  {
+    "id": "easy-rose",
+    "word": "rose",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A red rose grew by the gate."
+  },
+  {
+    "id": "easy-rope",
+    "word": "rope",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We jump rope at recess."
+  },
+  {
+    "id": "easy-note",
+    "word": "note",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I wrote a note to my friend."
+  },
+  {
+    "id": "easy-joke",
+    "word": "joke",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "She told a funny joke."
+  },
+  {
+    "id": "easy-stone",
+    "word": "stone",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "He threw the stone into the pond."
+  },
+  {
+    "id": "easy-toe",
+    "word": "toe",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I stubbed my toe on the chair.",
+    "homophoneGroup": "toe-tow"
+  },
+  {
+    "id": "easy-tow",
+    "word": "tow",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The truck will tow our car.",
+    "homophoneGroup": "toe-tow"
+  },
+  {
+    "id": "easy-road",
+    "word": "road",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The road goes up the hill.",
+    "homophoneGroup": "road-rode"
+  },
+  {
+    "id": "easy-rode",
+    "word": "rode",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I rode my bike to the park.",
+    "homophoneGroup": "road-rode"
+  },
+  {
+    "id": "easy-boat",
+    "word": "boat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We sailed in a small boat."
+  },
+  {
+    "id": "easy-coat",
+    "word": "coat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Put on your coat because it is cold."
+  },
+  {
+    "id": "easy-goat",
+    "word": "goat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The goat ate the grass."
+  },
+  {
+    "id": "easy-soap",
+    "word": "soap",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Wash your hands with soap."
+  },
+  {
+    "id": "easy-toast",
+    "word": "toast",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I had toast with jam."
+  },
+  {
+    "id": "easy-rain",
+    "word": "rain",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The rain taps on the window."
+  },
+  {
+    "id": "easy-train",
+    "word": "train",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The train rolls down the track."
+  },
+  {
+    "id": "easy-tail",
+    "word": "tail",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The dog wagged its tail.",
+    "homophoneGroup": "tail-tale"
+  },
+  {
+    "id": "easy-tale",
+    "word": "tale",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Grandma told a tale about a clever fox.",
+    "homophoneGroup": "tail-tale"
+  },
+  {
+    "id": "easy-mail",
+    "word": "mail",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The mail comes at noon.",
+    "homophoneGroup": "mail-male"
+  },
+  {
+    "id": "easy-male",
+    "word": "male",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The male lion has a big mane.",
+    "homophoneGroup": "mail-male"
+  },
+  {
+    "id": "easy-pail",
+    "word": "pail",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I filled the pail with sand.",
+    "homophoneGroup": "pail-pale"
+  },
+  {
+    "id": "easy-pale",
+    "word": "pale",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The moon looked pale and white.",
+    "homophoneGroup": "pail-pale"
+  },
+  {
+    "id": "easy-wait",
+    "word": "wait",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please wait for me by the gate.",
+    "homophoneGroup": "wait-weight"
+  },
+  {
+    "id": "easy-weight",
+    "word": "weight",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The weight of the box was heavy.",
+    "homophoneGroup": "wait-weight"
+  },
+  {
+    "id": "easy-paint",
+    "word": "paint",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I paint pictures with a brush."
+  },
+  {
+    "id": "easy-plane",
+    "word": "plane",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The plane flew over the town.",
+    "homophoneGroup": "plain-plane"
+  },
+  {
+    "id": "easy-plain",
+    "word": "plain",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I like plain toast with no jam.",
+    "homophoneGroup": "plain-plane"
+  },
+  {
+    "id": "easy-day",
+    "word": "day",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Today is a sunny day."
+  },
+  {
+    "id": "easy-say",
+    "word": "say",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please say your name out loud."
+  },
+  {
+    "id": "easy-way",
+    "word": "way",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Which way is the park?"
+  },
+  {
+    "id": "easy-may",
+    "word": "may",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "You may go outside now."
+  },
+  {
+    "id": "easy-tray",
+    "word": "tray",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I carried my lunch on a tray."
+  },
+  {
+    "id": "easy-clay",
+    "word": "clay",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We made little bowls out of clay."
+  },
+  {
+    "id": "easy-eat",
+    "word": "eat",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I eat an apple every day."
+  },
+  {
+    "id": "easy-meat",
+    "word": "meat",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We cooked the meat on the grill.",
+    "homophoneGroup": "meat-meet"
+  },
+  {
+    "id": "easy-meet",
+    "word": "meet",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I will meet my friend at the park.",
+    "homophoneGroup": "meat-meet"
+  },
+  {
+    "id": "easy-seat",
+    "word": "seat",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please take a seat by the window."
+  },
+  {
+    "id": "easy-leaf",
+    "word": "leaf",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A red leaf fell from the tree."
+  },
+  {
+    "id": "easy-bean",
+    "word": "bean",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I planted one bean in a pot."
+  },
+  {
+    "id": "easy-dream",
+    "word": "dream",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I had a nice dream last night."
+  },
+  {
+    "id": "easy-clean",
+    "word": "clean",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I helped clean my room."
+  },
+  {
+    "id": "easy-sheep",
+    "word": "sheep",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The sheep eat grass on the hill."
+  },
+  {
+    "id": "easy-sweet",
+    "word": "sweet",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The strawberry was ripe and sweet."
+  },
+  {
+    "id": "easy-feet",
+    "word": "feet",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I wash my feet in the tub."
+  },
+  {
+    "id": "easy-week",
+    "word": "week",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "There are seven days in a week.",
+    "homophoneGroup": "weak-week"
+  },
+  {
+    "id": "easy-weak",
+    "word": "weak",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The baby bird was too weak to fly.",
+    "homophoneGroup": "weak-week"
+  },
+  {
+    "id": "easy-deer",
+    "word": "deer",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A deer ran across the field.",
+    "homophoneGroup": "dear-deer"
+  },
+  {
+    "id": "easy-dear",
+    "word": "dear",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Dear Grandma, thank you for the gift.",
+    "homophoneGroup": "dear-deer"
+  },
+  {
+    "id": "easy-bear",
+    "word": "bear",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A bear sleeps all winter.",
+    "homophoneGroup": "bare-bear"
+  },
+  {
+    "id": "easy-bare",
+    "word": "bare",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The tree was bare in winter.",
+    "homophoneGroup": "bare-bear"
+  },
+  {
+    "id": "easy-pair",
+    "word": "pair",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I need a new pair of shoes.",
+    "homophoneGroup": "pair-pear"
+  },
+  {
+    "id": "easy-pear",
+    "word": "pear",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A pear is a juicy fruit.",
+    "homophoneGroup": "pair-pear"
+  },
+  {
+    "id": "easy-made",
+    "word": "made",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Mom made soup for lunch.",
+    "homophoneGroup": "made-maid"
+  },
+  {
+    "id": "easy-maid",
+    "word": "maid",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The maid cleaned the rooms.",
+    "homophoneGroup": "made-maid"
+  },
+  {
+    "id": "easy-right",
+    "word": "right",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Turn right at the corner.",
+    "homophoneGroup": "right-write"
+  },
+  {
+    "id": "easy-write",
+    "word": "write",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I write my name on my paper.",
+    "homophoneGroup": "right-write"
+  },
+  {
+    "id": "easy-night",
+    "word": "night",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The moon shines at night."
+  },
+  {
+    "id": "easy-light",
+    "word": "light",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please turn on the light in the hall."
+  },
+  {
+    "id": "easy-high",
+    "word": "high",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The kite flew high in the sky.",
+    "homophoneGroup": "hi-high"
+  },
+  {
+    "id": "easy-hi",
+    "word": "hi",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I say hi to my teacher.",
+    "homophoneGroup": "hi-high"
+  },
+  {
+    "id": "easy-new",
+    "word": "new",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I got a new pair of boots.",
+    "homophoneGroup": "knew-new"
+  },
+  {
+    "id": "easy-knew",
+    "word": "knew",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I knew the answer right away.",
+    "homophoneGroup": "knew-new"
+  },
+  {
+    "id": "easy-son",
+    "word": "son",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The farmer and his son fed the cows.",
+    "homophoneGroup": "son-sun"
+  },
+  {
+    "id": "easy-sail",
+    "word": "sail",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We will sail across the bay.",
+    "homophoneGroup": "sail-sale"
+  },
+  {
+    "id": "easy-sale",
+    "word": "sale",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The store has a sale on shoes.",
+    "homophoneGroup": "sail-sale"
+  },
+  {
+    "id": "easy-would",
+    "word": "would",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I would like some more milk.",
+    "homophoneGroup": "wood-would"
+  },
+  {
+    "id": "easy-wood",
+    "word": "wood",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We burned wood in the fireplace.",
+    "homophoneGroup": "wood-would"
+  },
+  {
+    "id": "easy-ate",
+    "word": "ate",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I ate an egg for breakfast.",
+    "homophoneGroup": "ate-eight"
+  },
+  {
+    "id": "easy-eight",
+    "word": "eight",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A spider has eight legs.",
+    "homophoneGroup": "ate-eight"
+  },
+  {
+    "id": "easy-house",
+    "word": "house",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We stay in a little white house."
+  },
+  {
+    "id": "easy-mouse",
+    "word": "mouse",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The mouse ate a crumb of cheese."
+  },
+  {
+    "id": "easy-out",
+    "word": "out",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "Let us go out and play."
+  },
+  {
+    "id": "easy-now",
+    "word": "now",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "It is time for bed now."
+  },
+  {
+    "id": "easy-cow",
+    "word": "cow",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The cow gave us fresh milk."
+  },
+  {
+    "id": "easy-down",
+    "word": "down",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The ball rolled down the hill."
+  },
+  {
+    "id": "easy-town",
+    "word": "town",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We drove into town to shop."
+  },
+  {
+    "id": "easy-loud",
+    "word": "loud",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The drum was very loud."
+  },
+  {
+    "id": "easy-boy",
+    "word": "boy",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The boy kicked the ball."
+  },
+  {
+    "id": "easy-toy",
+    "word": "toy",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I put my toy in the box."
+  },
+  {
+    "id": "easy-joy",
+    "word": "joy",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The puppy jumped for joy."
+  },
+  {
+    "id": "easy-coin",
+    "word": "coin",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I found a shiny coin on the ground."
+  },
+  {
+    "id": "easy-oil",
+    "word": "oil",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Mom put oil in the pan."
+  },
+  {
+    "id": "easy-car",
+    "word": "car",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We drove in the car."
+  },
+  {
+    "id": "easy-farm",
+    "word": "farm",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The cows stay on the farm."
+  },
+  {
+    "id": "easy-barn",
+    "word": "barn",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The horse sleeps in the barn."
+  },
+  {
+    "id": "easy-park",
+    "word": "park",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We play ball at the park."
+  },
+  {
+    "id": "easy-dark",
+    "word": "dark",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "It gets dark at night."
+  },
+  {
+    "id": "easy-card",
+    "word": "card",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I made a card for my mom."
+  },
+  {
+    "id": "easy-arm",
+    "word": "arm",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I broke my arm last year."
+  },
+  {
+    "id": "easy-corn",
+    "word": "corn",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We ate corn at the picnic."
+  },
+  {
+    "id": "easy-horn",
+    "word": "horn",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The truck horn is very loud."
+  },
+  {
+    "id": "easy-fork",
+    "word": "fork",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Use a fork to eat your peas."
+  },
+  {
+    "id": "easy-storm",
+    "word": "storm",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The storm brought thunder and heavy rain."
+  },
+  {
+    "id": "easy-bird",
+    "word": "bird",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "A bird sang in the tree."
+  },
+  {
+    "id": "easy-girl",
+    "word": "girl",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The girl rode her bike."
+  },
+  {
+    "id": "easy-fur",
+    "word": "fur",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The kitten has soft fur."
+  },
+  {
+    "id": "easy-turn",
+    "word": "turn",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "It is your turn to play."
+  },
+  {
+    "id": "easy-burn",
+    "word": "burn",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Be careful or you may burn your toast."
+  },
+  {
+    "id": "easy-fern",
+    "word": "fern",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "A green fern grew in the shade."
+  },
+  {
+    "id": "easy-after",
+    "word": "after",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We play outside after school every day."
+  },
+  {
+    "id": "easy-over",
+    "word": "over",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The cow jumped over the fence."
+  },
+  {
+    "id": "easy-under",
+    "word": "under",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The cat hid under the bed."
+  },
+  {
+    "id": "easy-every",
+    "word": "every",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I brush my teeth every night."
+  },
+  {
+    "id": "easy-very",
+    "word": "very",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The soup is very hot."
+  },
+  {
+    "id": "easy-into",
+    "word": "into",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The ball rolled into the net."
+  },
+  {
+    "id": "easy-could",
+    "word": "could",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I could not find my shoe."
+  },
+  {
+    "id": "easy-should",
+    "word": "should",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "You should wash your hands."
+  },
+  {
+    "id": "easy-around",
+    "word": "around",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "We ran around the yard."
+  },
+  {
+    "id": "easy-again",
+    "word": "again",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Please sing the song again."
+  },
+  {
+    "id": "easy-because",
+    "word": "because",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I took my coat because it was cold."
+  },
+  {
+    "id": "easy-good",
+    "word": "good",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "Be a good friend to everyone."
+  },
+  {
+    "id": "easy-book",
+    "word": "book",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "I looked at a book at bedtime."
+  },
+  {
+    "id": "easy-foot",
+    "word": "foot",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "My foot is stuck in the mud."
+  },
+  {
+    "id": "easy-moon",
+    "word": "moon",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The moon is bright tonight."
+  },
+  {
+    "id": "easy-food",
+    "word": "food",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "The dog ate his food."
+  },
+  {
+    "id": "easy-cool",
+    "word": "cool",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "The water is cool and fresh."
+  },
+  {
+    "id": "easy-pool",
+    "word": "pool",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We swim in the pool."
+  },
+  {
+    "id": "easy-tooth",
+    "word": "tooth",
+    "level": "easy",
+    "grade": "1",
+    "sentence": "I lost my first tooth today."
+  },
+  {
+    "id": "easy-zoo",
+    "word": "zoo",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "We saw a lion at the zoo."
+  },
+  {
+    "id": "easy-room",
+    "word": "room",
+    "level": "easy",
+    "grade": "K",
+    "sentence": "My room is clean and tidy."
+  }
+]

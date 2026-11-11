@@ -1,1 +1,3641 @@
-[]
+[
+  {
+    "id": "hard-knee",
+    "word": "knee",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "She bumped her knee on the corner of the coffee table."
+  },
+  {
+    "id": "hard-write",
+    "word": "write",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please write your name at the top of the page.",
+    "homophoneGroup": "right-write"
+  },
+  {
+    "id": "hard-right",
+    "word": "right",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Raise your right hand if you know the answer.",
+    "homophoneGroup": "right-write"
+  },
+  {
+    "id": "hard-thumb",
+    "word": "thumb",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "He wore a bandage on his thumb after the craft project."
+  },
+  {
+    "id": "hard-castle",
+    "word": "castle",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The children built a sand castle with towers and a moat."
+  },
+  {
+    "id": "hard-knight",
+    "word": "knight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The knight in the storybook rode a gray horse across the hill.",
+    "homophoneGroup": "knight-night"
+  },
+  {
+    "id": "hard-night",
+    "word": "night",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We could see thousands of stars in the clear night sky.",
+    "homophoneGroup": "knight-night"
+  },
+  {
+    "id": "hard-knot",
+    "word": "knot",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Dad showed me how to tie a strong knot in the rope."
+  },
+  {
+    "id": "hard-wrinkle",
+    "word": "wrinkle",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Iron the shirt to smooth out every wrinkle."
+  },
+  {
+    "id": "hard-wrestle",
+    "word": "wrestle",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The two puppies like to wrestle on the living room rug."
+  },
+  {
+    "id": "hard-doubt",
+    "word": "doubt",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I have no doubt that you will do great."
+  },
+  {
+    "id": "hard-island",
+    "word": "island",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We took a small boat to the island for a picnic."
+  },
+  {
+    "id": "hard-listen",
+    "word": "listen",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please listen carefully while I read the directions."
+  },
+  {
+    "id": "hard-whistle",
+    "word": "whistle",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The coach blew her whistle to start the game."
+  },
+  {
+    "id": "hard-fasten",
+    "word": "fasten",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Remember to fasten your seat belt before the bus moves."
+  },
+  {
+    "id": "hard-answer",
+    "word": "answer",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Raise your hand if you think you know the answer."
+  },
+  {
+    "id": "hard-wrap",
+    "word": "wrap",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Mom will wrap the gift in shiny blue paper."
+  },
+  {
+    "id": "hard-wreath",
+    "word": "wreath",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A green wreath hung on the front door all winter."
+  },
+  {
+    "id": "hard-gnome",
+    "word": "gnome",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A tiny stone gnome stood beside the flowers in the garden."
+  },
+  {
+    "id": "hard-gnaw",
+    "word": "gnaw",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Beavers gnaw on trees with their strong front teeth."
+  },
+  {
+    "id": "hard-honest",
+    "word": "honest",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It is always best to be honest with your friends."
+  },
+  {
+    "id": "hard-hour",
+    "word": "hour",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The movie lasts about an hour and a half.",
+    "homophoneGroup": "hour-our"
+  },
+  {
+    "id": "hard-our",
+    "word": "our",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We cleaned our classroom before the holiday break.",
+    "homophoneGroup": "hour-our"
+  },
+  {
+    "id": "hard-weight",
+    "word": "weight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The scale showed the weight of the heavy backpack.",
+    "homophoneGroup": "wait-weight"
+  },
+  {
+    "id": "hard-wait",
+    "word": "wait",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We had to wait in line for the roller coaster.",
+    "homophoneGroup": "wait-weight"
+  },
+  {
+    "id": "hard-weigh",
+    "word": "weigh",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please weigh the apples before you put them in the bag."
+  },
+  {
+    "id": "hard-building",
+    "word": "building",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The tall building has twenty floors and a glass roof."
+  },
+  {
+    "id": "hard-caught",
+    "word": "caught",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "My sister caught the ball with one hand."
+  },
+  {
+    "id": "hard-taught",
+    "word": "taught",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Our music teacher taught us a new song today."
+  },
+  {
+    "id": "hard-thought",
+    "word": "thought",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I thought about the problem all the way home."
+  },
+  {
+    "id": "hard-brought",
+    "word": "brought",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Grandma brought a basket of warm muffins to the party."
+  },
+  {
+    "id": "hard-bought",
+    "word": "bought",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We bought fresh vegetables at the farmers market."
+  },
+  {
+    "id": "hard-fought",
+    "word": "fought",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The firefighters fought hard to save the old barn."
+  },
+  {
+    "id": "hard-daughter",
+    "word": "daughter",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The farmer and his daughter fed the animals at sunrise."
+  },
+  {
+    "id": "hard-laughter",
+    "word": "laughter",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Laughter filled the room when the puppy chased its tail."
+  },
+  {
+    "id": "hard-enough",
+    "word": "enough",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Do we have enough chairs for everyone at the table?"
+  },
+  {
+    "id": "hard-tough",
+    "word": "tough",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The old bread was too tough to chew."
+  },
+  {
+    "id": "hard-rough",
+    "word": "rough",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The sailors sailed across the rough water."
+  },
+  {
+    "id": "hard-cough",
+    "word": "cough",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Drink warm tea if you have a cough."
+  },
+  {
+    "id": "hard-though",
+    "word": "though",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I went outside even though it was raining."
+  },
+  {
+    "id": "hard-although",
+    "word": "although",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Although it was late, we kept playing the game."
+  },
+  {
+    "id": "hard-through",
+    "word": "through",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The train rushed through the long tunnel.",
+    "homophoneGroup": "threw-through"
+  },
+  {
+    "id": "hard-threw",
+    "word": "threw",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "She threw the ball over the fence.",
+    "homophoneGroup": "threw-through"
+  },
+  {
+    "id": "hard-thorough",
+    "word": "thorough",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please do a thorough job cleaning your room."
+  },
+  {
+    "id": "hard-dough",
+    "word": "dough",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Knead the dough until it feels soft and smooth."
+  },
+  {
+    "id": "hard-bough",
+    "word": "bough",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A bird built its nest on a high bough of the oak."
+  },
+  {
+    "id": "hard-tonight",
+    "word": "tonight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We are going to watch a movie tonight."
+  },
+  {
+    "id": "hard-sunlight",
+    "word": "sunlight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Warm sunlight streamed through the kitchen window."
+  },
+  {
+    "id": "hard-flashlight",
+    "word": "flashlight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Bring a flashlight so we can find the path in the dark."
+  },
+  {
+    "id": "hard-highlight",
+    "word": "highlight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Use a yellow marker to highlight the important words."
+  },
+  {
+    "id": "hard-delight",
+    "word": "delight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The magic trick filled the little children with delight."
+  },
+  {
+    "id": "hard-tight",
+    "word": "tight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "These shoes are too tight for my feet."
+  },
+  {
+    "id": "hard-height",
+    "word": "height",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Mark your height on the wall every birthday."
+  },
+  {
+    "id": "hard-eight",
+    "word": "eight",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "There are eight crayons in the new box."
+  },
+  {
+    "id": "hard-receive",
+    "word": "receive",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Did you receive my letter in the mail?"
+  },
+  {
+    "id": "hard-believe",
+    "word": "believe",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I believe that practice makes you better at anything."
+  },
+  {
+    "id": "hard-piece",
+    "word": "piece",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "May I have another piece of apple pie?",
+    "homophoneGroup": "peace-piece"
+  },
+  {
+    "id": "hard-peace",
+    "word": "peace",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The lake was calm and full of peace.",
+    "homophoneGroup": "peace-piece"
+  },
+  {
+    "id": "hard-field",
+    "word": "field",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The soccer team practiced on the grassy field."
+  },
+  {
+    "id": "hard-chief",
+    "word": "chief",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The chief of the village welcomed every visitor."
+  },
+  {
+    "id": "hard-ceiling",
+    "word": "ceiling",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A bright paper lantern hung from the ceiling."
+  },
+  {
+    "id": "hard-neither",
+    "word": "neither",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Neither of the twins wanted to go first."
+  },
+  {
+    "id": "hard-either",
+    "word": "either",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "You can choose either the red hat or the blue one."
+  },
+  {
+    "id": "hard-science",
+    "word": "science",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "In science class we grew beans in paper cups."
+  },
+  {
+    "id": "hard-scissors",
+    "word": "scissors",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Use the scissors to cut along the dotted line."
+  },
+  {
+    "id": "hard-scene",
+    "word": "scene",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The final scene of the play made everyone clap.",
+    "homophoneGroup": "scene-seen"
+  },
+  {
+    "id": "hard-seen",
+    "word": "seen",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Have you seen my blue jacket anywhere?",
+    "homophoneGroup": "scene-seen"
+  },
+  {
+    "id": "hard-muscle",
+    "word": "muscle",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Lifting the box made a muscle in my arm sore."
+  },
+  {
+    "id": "hard-fascinate",
+    "word": "fascinate",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Bright planets always fascinate young stargazers."
+  },
+  {
+    "id": "hard-decide",
+    "word": "decide",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It is hard to decide which flavor to pick."
+  },
+  {
+    "id": "hard-nation",
+    "word": "nation",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Every nation has its own flag and special holidays."
+  },
+  {
+    "id": "hard-station",
+    "word": "station",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We waited for the train at the busy station."
+  },
+  {
+    "id": "hard-vacation",
+    "word": "vacation",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Our family is going to the beach for vacation."
+  },
+  {
+    "id": "hard-question",
+    "word": "question",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Raise your hand if you have a question."
+  },
+  {
+    "id": "hard-direction",
+    "word": "direction",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Which direction should we walk to find the park?"
+  },
+  {
+    "id": "hard-education",
+    "word": "education",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A good education opens many doors in life."
+  },
+  {
+    "id": "hard-invention",
+    "word": "invention",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The telephone was a wonderful invention."
+  },
+  {
+    "id": "hard-collection",
+    "word": "collection",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "She keeps a collection of shells in a glass jar."
+  },
+  {
+    "id": "hard-information",
+    "word": "information",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The librarian gave us helpful information about frogs."
+  },
+  {
+    "id": "hard-celebration",
+    "word": "celebration",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The whole town joined in the celebration."
+  },
+  {
+    "id": "hard-population",
+    "word": "population",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The population of our town grew quickly this year."
+  },
+  {
+    "id": "hard-conversation",
+    "word": "conversation",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Their conversation about the trip lasted all evening."
+  },
+  {
+    "id": "hard-decision",
+    "word": "decision",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Choosing a name for the puppy was a hard decision."
+  },
+  {
+    "id": "hard-division",
+    "word": "division",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We practiced long division on the board today."
+  },
+  {
+    "id": "hard-television",
+    "word": "television",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The television in the living room is very old."
+  },
+  {
+    "id": "hard-confusion",
+    "word": "confusion",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "There was some confusion about when the bus would arrive."
+  },
+  {
+    "id": "hard-vision",
+    "word": "vision",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "An eye doctor checked my vision with a chart."
+  },
+  {
+    "id": "hard-treasure",
+    "word": "treasure",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The map showed where the pirate hid the treasure."
+  },
+  {
+    "id": "hard-measure",
+    "word": "measure",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Measure the board twice before you cut it."
+  },
+  {
+    "id": "hard-pleasure",
+    "word": "pleasure",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It was a pleasure to meet your grandparents."
+  },
+  {
+    "id": "hard-creature",
+    "word": "creature",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A strange little creature crept out from under the log."
+  },
+  {
+    "id": "hard-picture",
+    "word": "picture",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "She drew a picture of her dog at the park."
+  },
+  {
+    "id": "hard-nature",
+    "word": "nature",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We walk in nature every Saturday morning."
+  },
+  {
+    "id": "hard-future",
+    "word": "future",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "In the future, I want to be a marine scientist."
+  },
+  {
+    "id": "hard-adventure",
+    "word": "adventure",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The hike turned into a fun adventure."
+  },
+  {
+    "id": "hard-furniture",
+    "word": "furniture",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We moved the heavy furniture to the other room."
+  },
+  {
+    "id": "hard-temperature",
+    "word": "temperature",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The temperature dropped below freezing last night."
+  },
+  {
+    "id": "hard-capture",
+    "word": "capture",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Her camera can capture tiny details in the flowers."
+  },
+  {
+    "id": "hard-mixture",
+    "word": "mixture",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Stir the mixture until the sugar dissolves."
+  },
+  {
+    "id": "hard-texture",
+    "word": "texture",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The soft texture of the blanket felt wonderful."
+  },
+  {
+    "id": "hard-culture",
+    "word": "culture",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Each culture has its own songs and stories."
+  },
+  {
+    "id": "hard-signature",
+    "word": "signature",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please put your signature at the bottom of the form."
+  },
+  {
+    "id": "hard-curious",
+    "word": "curious",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The curious kitten peeked into every box."
+  },
+  {
+    "id": "hard-famous",
+    "word": "famous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The famous singer waved to the cheering crowd."
+  },
+  {
+    "id": "hard-nervous",
+    "word": "nervous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I felt nervous before my piano recital."
+  },
+  {
+    "id": "hard-dangerous",
+    "word": "dangerous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It is dangerous to swim in a fast river."
+  },
+  {
+    "id": "hard-enormous",
+    "word": "enormous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "An enormous whale rose out of the sea."
+  },
+  {
+    "id": "hard-delicious",
+    "word": "delicious",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Grandpa baked a delicious peach pie."
+  },
+  {
+    "id": "hard-generous",
+    "word": "generous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The generous woman gave her old books to the library."
+  },
+  {
+    "id": "hard-mysterious",
+    "word": "mysterious",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A mysterious note was tucked under the door."
+  },
+  {
+    "id": "hard-precious",
+    "word": "precious",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Grandma keeps her precious photographs in a special box."
+  },
+  {
+    "id": "hard-gorgeous",
+    "word": "gorgeous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The sunset over the hills was gorgeous."
+  },
+  {
+    "id": "hard-humorous",
+    "word": "humorous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The humorous story made the whole class giggle."
+  },
+  {
+    "id": "hard-adventurous",
+    "word": "adventurous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The adventurous goat climbed to the top of the rocks."
+  },
+  {
+    "id": "hard-courageous",
+    "word": "courageous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The courageous girl spoke up for her friend."
+  },
+  {
+    "id": "hard-ridiculous",
+    "word": "ridiculous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The clown wore a ridiculous hat with a feather."
+  },
+  {
+    "id": "hard-various",
+    "word": "various",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The store sells various kinds of colorful ribbons."
+  },
+  {
+    "id": "hard-serious",
+    "word": "serious",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please be serious while we practice the fire drill."
+  },
+  {
+    "id": "hard-previous",
+    "word": "previous",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Read the previous chapter before starting this one."
+  },
+  {
+    "id": "hard-unhappy",
+    "word": "unhappy",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The unhappy puppy waited by the door all day."
+  },
+  {
+    "id": "hard-unfair",
+    "word": "unfair",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It is unfair to skip your turn in line."
+  },
+  {
+    "id": "hard-unusual",
+    "word": "unusual",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We saw an unusual bird in the backyard."
+  },
+  {
+    "id": "hard-unlock",
+    "word": "unlock",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Use the small key to unlock the box."
+  },
+  {
+    "id": "hard-unfold",
+    "word": "unfold",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Unfold the map to find the nearest river."
+  },
+  {
+    "id": "hard-unable",
+    "word": "unable",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "He was unable to reach the top shelf."
+  },
+  {
+    "id": "hard-unknown",
+    "word": "unknown",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The explorers traveled to an unknown island."
+  },
+  {
+    "id": "hard-untie",
+    "word": "untie",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please untie your shoes before you put them away."
+  },
+  {
+    "id": "hard-unwrap",
+    "word": "unwrap",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The children could not wait to unwrap their presents."
+  },
+  {
+    "id": "hard-unpack",
+    "word": "unpack",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We will unpack our bags when we reach the cabin."
+  },
+  {
+    "id": "hard-replace",
+    "word": "replace",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Replace the old batteries with new ones."
+  },
+  {
+    "id": "hard-rebuild",
+    "word": "rebuild",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The town will rebuild the bridge by spring."
+  },
+  {
+    "id": "hard-refill",
+    "word": "refill",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please refill the water bottle before the hike."
+  },
+  {
+    "id": "hard-rewrite",
+    "word": "rewrite",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I had to rewrite my story to fix the ending."
+  },
+  {
+    "id": "hard-review",
+    "word": "review",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Let us review the spelling list one more time."
+  },
+  {
+    "id": "hard-return",
+    "word": "return",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Remember to return your library books on Friday."
+  },
+  {
+    "id": "hard-repeat",
+    "word": "repeat",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please repeat the last sentence a little slower."
+  },
+  {
+    "id": "hard-replay",
+    "word": "replay",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Let us replay the song from the beginning."
+  },
+  {
+    "id": "hard-disagree",
+    "word": "disagree",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Friends can disagree and still be kind to each other."
+  },
+  {
+    "id": "hard-disappear",
+    "word": "disappear",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The rabbit seemed to disappear into the tall grass."
+  },
+  {
+    "id": "hard-discover",
+    "word": "discover",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Scientists discover new kinds of plants in the rainforest."
+  },
+  {
+    "id": "hard-dislike",
+    "word": "dislike",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I dislike the sound of the squeaky door."
+  },
+  {
+    "id": "hard-preview",
+    "word": "preview",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We watched a preview of the movie before the show."
+  },
+  {
+    "id": "hard-prepare",
+    "word": "prepare",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Let us prepare a snack for the long car ride."
+  },
+  {
+    "id": "hard-preheat",
+    "word": "preheat",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Preheat the oven before you mix the batter."
+  },
+  {
+    "id": "hard-prehistoric",
+    "word": "prehistoric",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The museum has bones from a prehistoric creature."
+  },
+  {
+    "id": "hard-mistake",
+    "word": "mistake",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Everyone makes a mistake now and then."
+  },
+  {
+    "id": "hard-misspell",
+    "word": "misspell",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Many people misspell that tricky word."
+  },
+  {
+    "id": "hard-misplace",
+    "word": "misplace",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I always misplace my glasses on the kitchen counter."
+  },
+  {
+    "id": "hard-misunderstand",
+    "word": "misunderstand",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I did not mean to misunderstand your directions."
+  },
+  {
+    "id": "hard-excitement",
+    "word": "excitement",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The excitement of the first snowfall filled the school."
+  },
+  {
+    "id": "hard-movement",
+    "word": "movement",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The dancers practiced each movement carefully."
+  },
+  {
+    "id": "hard-treatment",
+    "word": "treatment",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The vet gave the puppy a gentle treatment."
+  },
+  {
+    "id": "hard-payment",
+    "word": "payment",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The store asked for payment at the front counter."
+  },
+  {
+    "id": "hard-agreement",
+    "word": "agreement",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The two teams reached an agreement about the rules."
+  },
+  {
+    "id": "hard-argument",
+    "word": "argument",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The two friends settled their argument with a handshake."
+  },
+  {
+    "id": "hard-statement",
+    "word": "statement",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please read the statement out loud to the class."
+  },
+  {
+    "id": "hard-amusement",
+    "word": "amusement",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The children shouted with amusement at the silly show."
+  },
+  {
+    "id": "hard-equipment",
+    "word": "equipment",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The team keeps its sports equipment in a large shed."
+  },
+  {
+    "id": "hard-kindness",
+    "word": "kindness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A little kindness can brighten someone's whole day."
+  },
+  {
+    "id": "hard-happiness",
+    "word": "happiness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Her face glowed with happiness on the first day of summer."
+  },
+  {
+    "id": "hard-sadness",
+    "word": "sadness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A moment of sadness passed when the movie ended."
+  },
+  {
+    "id": "hard-darkness",
+    "word": "darkness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The cabin was in darkness until we lit the lamp."
+  },
+  {
+    "id": "hard-sickness",
+    "word": "sickness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A winter sickness kept half the class at home."
+  },
+  {
+    "id": "hard-weakness",
+    "word": "weakness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Spelling long words was her one weakness, so she practiced daily."
+  },
+  {
+    "id": "hard-business",
+    "word": "business",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Her uncle runs a small business selling homemade soap."
+  },
+  {
+    "id": "hard-fairness",
+    "word": "fairness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The judge was known for her fairness to everyone."
+  },
+  {
+    "id": "hard-politeness",
+    "word": "politeness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Politeness means saying please and thank you."
+  },
+  {
+    "id": "hard-usefulness",
+    "word": "usefulness",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The usefulness of a good map is easy to see on a hike."
+  },
+  {
+    "id": "hard-careful",
+    "word": "careful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Be careful when you carry the glass pitcher."
+  },
+  {
+    "id": "hard-helpful",
+    "word": "helpful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The helpful clerk showed us where to find the markers."
+  },
+  {
+    "id": "hard-thankful",
+    "word": "thankful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I am thankful for my family and good friends."
+  },
+  {
+    "id": "hard-beautiful",
+    "word": "beautiful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The garden was beautiful in the spring."
+  },
+  {
+    "id": "hard-peaceful",
+    "word": "peaceful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The lake looked peaceful in the early morning."
+  },
+  {
+    "id": "hard-powerful",
+    "word": "powerful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A powerful wind bent the tall trees."
+  },
+  {
+    "id": "hard-wonderful",
+    "word": "wonderful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We had a wonderful picnic by the river."
+  },
+  {
+    "id": "hard-cheerful",
+    "word": "cheerful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The cheerful baker whistled while she worked."
+  },
+  {
+    "id": "hard-grateful",
+    "word": "grateful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We were grateful for the warm soup on a cold day."
+  },
+  {
+    "id": "hard-playful",
+    "word": "playful",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The playful otters slid down the muddy bank."
+  },
+  {
+    "id": "hard-yacht",
+    "word": "yacht",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A white yacht sailed slowly out of the harbor."
+  },
+  {
+    "id": "hard-rhyme",
+    "word": "rhyme",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Can you think of a word that will rhyme with moon?"
+  },
+  {
+    "id": "hard-rhythm",
+    "word": "rhythm",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The drummer kept a steady rhythm all through the song."
+  },
+  {
+    "id": "hard-column",
+    "word": "column",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A tall stone column stood at the front of the museum."
+  },
+  {
+    "id": "hard-autumn",
+    "word": "autumn",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Red and orange leaves fall in autumn."
+  },
+  {
+    "id": "hard-solemn",
+    "word": "solemn",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The class was solemn as the flag was lowered."
+  },
+  {
+    "id": "hard-limb",
+    "word": "limb",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A squirrel ran along a thick limb of the maple tree."
+  },
+  {
+    "id": "hard-plumber",
+    "word": "plumber",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The plumber fixed the leaky pipe under the sink."
+  },
+  {
+    "id": "hard-subtle",
+    "word": "subtle",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "There was a subtle change in the color of the sky."
+  },
+  {
+    "id": "hard-debt",
+    "word": "debt",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "He worked every Saturday to pay off his small debt."
+  },
+  {
+    "id": "hard-receipt",
+    "word": "receipt",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Keep the receipt in case you need to return the toy."
+  },
+  {
+    "id": "hard-calm",
+    "word": "calm",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The sea was calm and the boat barely moved."
+  },
+  {
+    "id": "hard-salmon",
+    "word": "salmon",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We watched a salmon leap up the waterfall."
+  },
+  {
+    "id": "hard-half",
+    "word": "half",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Cut the sandwich in half so we can share it."
+  },
+  {
+    "id": "hard-talk",
+    "word": "talk",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The teacher asked us to talk quietly in the hall."
+  },
+  {
+    "id": "hard-walk",
+    "word": "walk",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We like to walk to the park after lunch."
+  },
+  {
+    "id": "hard-climb",
+    "word": "climb",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Be careful when you climb the steep ladder."
+  },
+  {
+    "id": "hard-comb",
+    "word": "comb",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please comb your hair before the class picture."
+  },
+  {
+    "id": "hard-lamb",
+    "word": "lamb",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The little lamb followed its mother across the pasture."
+  },
+  {
+    "id": "hard-foreign",
+    "word": "foreign",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "She studied a foreign language at the library."
+  },
+  {
+    "id": "hard-guard",
+    "word": "guard",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The guard opened the gate for the delivery truck."
+  },
+  {
+    "id": "hard-guess",
+    "word": "guess",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Can you guess what is inside the wrapped box?"
+  },
+  {
+    "id": "hard-guest",
+    "word": "guest",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Our guest arrived with a bouquet of flowers.",
+    "homophoneGroup": "guessed-guest"
+  },
+  {
+    "id": "hard-guessed",
+    "word": "guessed",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I guessed the riddle on my second try.",
+    "homophoneGroup": "guessed-guest"
+  },
+  {
+    "id": "hard-guitar",
+    "word": "guitar",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "He plays the guitar in the school band."
+  },
+  {
+    "id": "hard-rhinoceros",
+    "word": "rhinoceros",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The rhinoceros has thick skin and a horn on its nose."
+  },
+  {
+    "id": "hard-squirrel",
+    "word": "squirrel",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A squirrel buried an acorn beside the old fence."
+  },
+  {
+    "id": "hard-library",
+    "word": "library",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I borrowed three books from the library."
+  },
+  {
+    "id": "hard-vegetable",
+    "word": "vegetable",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Carrots are my favorite vegetable."
+  },
+  {
+    "id": "hard-different",
+    "word": "different",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Each snowflake looks different under the magnifying glass."
+  },
+  {
+    "id": "hard-interesting",
+    "word": "interesting",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The museum had an interesting display about ancient coins."
+  },
+  {
+    "id": "hard-important",
+    "word": "important",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It is important to drink water on a hot day."
+  },
+  {
+    "id": "hard-beginning",
+    "word": "beginning",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The beginning of the story was exciting."
+  },
+  {
+    "id": "hard-surprise",
+    "word": "surprise",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The surprise party made her smile."
+  },
+  {
+    "id": "hard-carefully",
+    "word": "carefully",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "He carried the eggs carefully across the yard."
+  },
+  {
+    "id": "hard-probably",
+    "word": "probably",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It will probably rain before we reach the lake."
+  },
+  {
+    "id": "hard-especially",
+    "word": "especially",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I like fruit, especially juicy oranges."
+  },
+  {
+    "id": "hard-sincerely",
+    "word": "sincerely",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "She thanked the helpers sincerely for their hard work."
+  },
+  {
+    "id": "hard-principal",
+    "word": "principal",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The principal welcomed the new students at the school gate.",
+    "homophoneGroup": "principal-principle"
+  },
+  {
+    "id": "hard-principle",
+    "word": "principle",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Honesty is a principle that we try to follow every day.",
+    "homophoneGroup": "principal-principle"
+  },
+  {
+    "id": "hard-stationary",
+    "word": "stationary",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The stationary bike stayed in the corner of the gym.",
+    "homophoneGroup": "stationary-stationery"
+  },
+  {
+    "id": "hard-stationery",
+    "word": "stationery",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She wrote a thank-you note on pretty blue stationery.",
+    "homophoneGroup": "stationary-stationery"
+  },
+  {
+    "id": "hard-weather",
+    "word": "weather",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The weather was sunny and warm for the parade.",
+    "homophoneGroup": "weather-whether"
+  },
+  {
+    "id": "hard-whether",
+    "word": "whether",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I cannot decide whether to bring an umbrella.",
+    "homophoneGroup": "weather-whether"
+  },
+  {
+    "id": "hard-aloud",
+    "word": "aloud",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The teacher read the poem aloud to the class.",
+    "homophoneGroup": "allowed-aloud"
+  },
+  {
+    "id": "hard-allowed",
+    "word": "allowed",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Pets are not allowed inside the library.",
+    "homophoneGroup": "allowed-aloud"
+  },
+  {
+    "id": "hard-cereal",
+    "word": "cereal",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "My brother eats a bowl of cereal every morning.",
+    "homophoneGroup": "cereal-serial"
+  },
+  {
+    "id": "hard-serial",
+    "word": "serial",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Each machine has a unique serial number on its back.",
+    "homophoneGroup": "cereal-serial"
+  },
+  {
+    "id": "hard-course",
+    "word": "course",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The runners followed the course along the river.",
+    "homophoneGroup": "coarse-course"
+  },
+  {
+    "id": "hard-coarse",
+    "word": "coarse",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The coarse sand scratched our feet at the beach.",
+    "homophoneGroup": "coarse-course"
+  },
+  {
+    "id": "hard-break",
+    "word": "break",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Let us take a break and drink some water.",
+    "homophoneGroup": "brake-break"
+  },
+  {
+    "id": "hard-brake",
+    "word": "brake",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Squeeze the brake lever to slow down your bike.",
+    "homophoneGroup": "brake-break"
+  },
+  {
+    "id": "hard-council",
+    "word": "council",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The student council planned a bake sale for the school.",
+    "homophoneGroup": "council-counsel"
+  },
+  {
+    "id": "hard-counsel",
+    "word": "counsel",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Our coach gave us wise counsel before the big game.",
+    "homophoneGroup": "council-counsel"
+  },
+  {
+    "id": "hard-cite",
+    "word": "cite",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Remember to cite your sources in the report.",
+    "homophoneGroup": "cite-sight-site"
+  },
+  {
+    "id": "hard-sight",
+    "word": "sight",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The rainbow over the hills was a lovely sight.",
+    "homophoneGroup": "cite-sight-site"
+  },
+  {
+    "id": "hard-site",
+    "word": "site",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We visited the building site where the new library will stand.",
+    "homophoneGroup": "cite-sight-site"
+  },
+  {
+    "id": "hard-heard",
+    "word": "heard",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I heard the school bells ring in the distance.",
+    "homophoneGroup": "heard-herd"
+  },
+  {
+    "id": "hard-herd",
+    "word": "herd",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A herd of cattle grazed in the green valley.",
+    "homophoneGroup": "heard-herd"
+  },
+  {
+    "id": "hard-plain",
+    "word": "plain",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She wore a plain white shirt with blue jeans.",
+    "homophoneGroup": "plain-plane"
+  },
+  {
+    "id": "hard-plane",
+    "word": "plane",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The plane lifted smoothly off the runway.",
+    "homophoneGroup": "plain-plane"
+  },
+  {
+    "id": "hard-whole",
+    "word": "whole",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I ate the whole sandwich because I was so hungry.",
+    "homophoneGroup": "hole-whole"
+  },
+  {
+    "id": "hard-hole",
+    "word": "hole",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The mole dug a deep hole in the garden.",
+    "homophoneGroup": "hole-whole"
+  },
+  {
+    "id": "hard-brilliant",
+    "word": "brilliant",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The scientist had a brilliant idea for saving water."
+  },
+  {
+    "id": "hard-absence",
+    "word": "absence",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "His absence from school lasted only two days."
+  },
+  {
+    "id": "hard-audience",
+    "word": "audience",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The audience clapped loudly after the final song."
+  },
+  {
+    "id": "hard-conscience",
+    "word": "conscience",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her conscience told her to return the lost wallet."
+  },
+  {
+    "id": "hard-conscious",
+    "word": "conscious",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The patient was awake and conscious when the nurse arrived."
+  },
+  {
+    "id": "hard-immediately",
+    "word": "immediately",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Please come inside immediately when you hear the bell."
+  },
+  {
+    "id": "hard-environment",
+    "word": "environment",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We should protect the environment by recycling paper."
+  },
+  {
+    "id": "hard-necessary",
+    "word": "necessary",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It is necessary to wear a helmet when you ride a bike."
+  },
+  {
+    "id": "hard-occasion",
+    "word": "occasion",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her birthday was a special occasion for the whole family."
+  },
+  {
+    "id": "hard-opportunity",
+    "word": "opportunity",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The trip was a great opportunity to learn about birds."
+  },
+  {
+    "id": "hard-pronunciation",
+    "word": "pronunciation",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her pronunciation of the French word was perfect."
+  },
+  {
+    "id": "hard-recommend",
+    "word": "recommend",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I recommend this book to anyone who likes mysteries."
+  },
+  {
+    "id": "hard-restaurant",
+    "word": "restaurant",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We ate dinner at a cozy restaurant near the park."
+  },
+  {
+    "id": "hard-rhubarb",
+    "word": "rhubarb",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Grandma baked a rhubarb pie with a flaky crust."
+  },
+  {
+    "id": "hard-signal",
+    "word": "signal",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The flag was the signal for the race to begin."
+  },
+  {
+    "id": "hard-sincere",
+    "word": "sincere",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "He gave a sincere apology for breaking the vase."
+  },
+  {
+    "id": "hard-vocabulary",
+    "word": "vocabulary",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Reading every night helped her build a larger vocabulary."
+  },
+  {
+    "id": "hard-accident",
+    "word": "accident",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Wearing a helmet can prevent an accident."
+  },
+  {
+    "id": "hard-accomplish",
+    "word": "accomplish",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "With practice, you can accomplish almost anything."
+  },
+  {
+    "id": "hard-accurate",
+    "word": "accurate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The map was accurate and easy to follow."
+  },
+  {
+    "id": "hard-achieve",
+    "word": "achieve",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Hard work will help you achieve your goals."
+  },
+  {
+    "id": "hard-acquire",
+    "word": "acquire",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Students acquire new skills when they practice often."
+  },
+  {
+    "id": "hard-advantage",
+    "word": "advantage",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Being tall gave him an advantage on the basketball court."
+  },
+  {
+    "id": "hard-ancient",
+    "word": "ancient",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The museum displays an ancient clay pot from Greece."
+  },
+  {
+    "id": "hard-annual",
+    "word": "annual",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The annual fair comes to our town every August."
+  },
+  {
+    "id": "hard-anxious",
+    "word": "anxious",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She felt anxious before her first day at the new school."
+  },
+  {
+    "id": "hard-apparent",
+    "word": "apparent",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It was apparent from her smile that she loved the gift."
+  },
+  {
+    "id": "hard-appreciate",
+    "word": "appreciate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We appreciate everyone who helped clean the park."
+  },
+  {
+    "id": "hard-architect",
+    "word": "architect",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The architect drew plans for a new library."
+  },
+  {
+    "id": "hard-atmosphere",
+    "word": "atmosphere",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Earth's atmosphere is a blanket of air around the planet."
+  },
+  {
+    "id": "hard-audible",
+    "word": "audible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The whisper was barely audible from the back row."
+  },
+  {
+    "id": "hard-available",
+    "word": "available",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Are there any seats available near the stage?"
+  },
+  {
+    "id": "hard-bargain",
+    "word": "bargain",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Mom found a bargain on a pair of winter boots."
+  },
+  {
+    "id": "hard-biography",
+    "word": "biography",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I wrote a report from a biography of a famous inventor."
+  },
+  {
+    "id": "hard-boundary",
+    "word": "boundary",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A low stone wall marks the boundary of the farm."
+  },
+  {
+    "id": "hard-brochure",
+    "word": "brochure",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The travel agent gave us a colorful brochure about the island."
+  },
+  {
+    "id": "hard-calendar",
+    "word": "calendar",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Write the day of the concert on the calendar."
+  },
+  {
+    "id": "hard-campaign",
+    "word": "campaign",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Our class began a campaign to collect books for the shelter."
+  },
+  {
+    "id": "hard-canyon",
+    "word": "canyon",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The river carved a deep canyon through the red rock."
+  },
+  {
+    "id": "hard-category",
+    "word": "category",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Sort the animals into the correct category."
+  },
+  {
+    "id": "hard-ceremony",
+    "word": "ceremony",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The graduation ceremony took place on the school lawn."
+  },
+  {
+    "id": "hard-challenge",
+    "word": "challenge",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Solving the maze was a fun challenge."
+  },
+  {
+    "id": "hard-champion",
+    "word": "champion",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The champion proudly held up the shiny trophy."
+  },
+  {
+    "id": "hard-character",
+    "word": "character",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "My favorite character in the book is a clever fox."
+  },
+  {
+    "id": "hard-chocolate",
+    "word": "chocolate",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Mix the melted chocolate into the batter."
+  },
+  {
+    "id": "hard-circumstance",
+    "word": "circumstance",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "In any circumstance, it helps to stay calm."
+  },
+  {
+    "id": "hard-citizen",
+    "word": "citizen",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Every citizen can help keep the town clean."
+  },
+  {
+    "id": "hard-classify",
+    "word": "classify",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Scientists classify animals into groups by their features."
+  },
+  {
+    "id": "hard-climate",
+    "word": "climate",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The climate in the desert is hot and dry."
+  },
+  {
+    "id": "hard-collaborate",
+    "word": "collaborate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The two classes will collaborate on a mural."
+  },
+  {
+    "id": "hard-commercial",
+    "word": "commercial",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The commercial on television was very short."
+  },
+  {
+    "id": "hard-community",
+    "word": "community",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Our community gathered to plant trees along the road."
+  },
+  {
+    "id": "hard-companion",
+    "word": "companion",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The old dog was a loyal companion to the farmer."
+  },
+  {
+    "id": "hard-competition",
+    "word": "competition",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The spelling competition lasted all afternoon."
+  },
+  {
+    "id": "hard-complicated",
+    "word": "complicated",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The directions for the puzzle were complicated."
+  },
+  {
+    "id": "hard-concentrate",
+    "word": "concentrate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It is hard to concentrate when the room is noisy."
+  },
+  {
+    "id": "hard-conclusion",
+    "word": "conclusion",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The conclusion of the book answered all my questions."
+  },
+  {
+    "id": "hard-confident",
+    "word": "confident",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She felt confident about her speech."
+  },
+  {
+    "id": "hard-consider",
+    "word": "consider",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Please consider all the choices before you decide."
+  },
+  {
+    "id": "hard-convenient",
+    "word": "convenient",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The store is convenient because it is close to our house."
+  },
+  {
+    "id": "hard-courteous",
+    "word": "courteous",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The courteous driver waved us across the street."
+  },
+  {
+    "id": "hard-creative",
+    "word": "creative",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "He found a creative way to reuse old jars."
+  },
+  {
+    "id": "hard-criticize",
+    "word": "criticize",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It is unkind to criticize someone's drawing."
+  },
+  {
+    "id": "hard-curiosity",
+    "word": "curiosity",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her curiosity led her to explore the attic."
+  },
+  {
+    "id": "hard-customer",
+    "word": "customer",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The customer asked for a bag of apples."
+  },
+  {
+    "id": "hard-decorate",
+    "word": "decorate",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We will decorate the gym for the dance."
+  },
+  {
+    "id": "hard-definition",
+    "word": "definition",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Look up the definition of the word in the dictionary."
+  },
+  {
+    "id": "hard-dependable",
+    "word": "dependable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Our dependable neighbor always collects the mail."
+  },
+  {
+    "id": "hard-describe",
+    "word": "describe",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Can you describe the animal you saw in the woods?"
+  },
+  {
+    "id": "hard-description",
+    "word": "description",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her description of the beach made me want to visit."
+  },
+  {
+    "id": "hard-determine",
+    "word": "determine",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We used a ruler to determine the length of the table."
+  },
+  {
+    "id": "hard-development",
+    "word": "development",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The development of the new park took two years."
+  },
+  {
+    "id": "hard-dictionary",
+    "word": "dictionary",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I looked up the spelling in a dictionary."
+  },
+  {
+    "id": "hard-disappoint",
+    "word": "disappoint",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I did not want to disappoint my team."
+  },
+  {
+    "id": "hard-discipline",
+    "word": "discipline",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It takes discipline to practice every single day."
+  },
+  {
+    "id": "hard-dramatic",
+    "word": "dramatic",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The dramatic ending of the play left us speechless."
+  },
+  {
+    "id": "hard-eager",
+    "word": "eager",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The eager students lined up at the classroom door."
+  },
+  {
+    "id": "hard-efficient",
+    "word": "efficient",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The new machine is more efficient than the old one."
+  },
+  {
+    "id": "hard-electricity",
+    "word": "electricity",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Electricity powers the lights in our school."
+  },
+  {
+    "id": "hard-elegant",
+    "word": "elegant",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She wore an elegant dress to the concert."
+  },
+  {
+    "id": "hard-embarrass",
+    "word": "embarrass",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Please do not embarrass your little brother in front of his friends."
+  },
+  {
+    "id": "hard-emergency",
+    "word": "emergency",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Dial the number on the poster in an emergency."
+  },
+  {
+    "id": "hard-encourage",
+    "word": "encourage",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Good coaches encourage their players to keep trying."
+  },
+  {
+    "id": "hard-encyclopedia",
+    "word": "encyclopedia",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I found the answer in an old encyclopedia."
+  },
+  {
+    "id": "hard-energetic",
+    "word": "energetic",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The energetic puppy ran circles around the yard."
+  },
+  {
+    "id": "hard-engineer",
+    "word": "engineer",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The engineer designed a strong bridge."
+  },
+  {
+    "id": "hard-enthusiasm",
+    "word": "enthusiasm",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She showed great enthusiasm for the science project."
+  },
+  {
+    "id": "hard-equator",
+    "word": "equator",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The equator is an imaginary line around the middle of Earth."
+  },
+  {
+    "id": "hard-essential",
+    "word": "essential",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Water is essential for all living things."
+  },
+  {
+    "id": "hard-evidence",
+    "word": "evidence",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The footprints were evidence that a deer had walked by."
+  },
+  {
+    "id": "hard-exaggerate",
+    "word": "exaggerate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Do not exaggerate when you tell the story."
+  },
+  {
+    "id": "hard-excellent",
+    "word": "excellent",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "You did an excellent job on your report."
+  },
+  {
+    "id": "hard-exception",
+    "word": "exception",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Everyone finished the test with one exception."
+  },
+  {
+    "id": "hard-exercise",
+    "word": "exercise",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Regular exercise keeps your heart strong."
+  },
+  {
+    "id": "hard-exhausted",
+    "word": "exhausted",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The hikers were exhausted after the long climb."
+  },
+  {
+    "id": "hard-expensive",
+    "word": "expensive",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The expensive watch was kept in a glass case."
+  },
+  {
+    "id": "hard-experience",
+    "word": "experience",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Camping was a new experience for the whole family."
+  },
+  {
+    "id": "hard-experiment",
+    "word": "experiment",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We did an experiment to see which plants grow fastest."
+  },
+  {
+    "id": "hard-explanation",
+    "word": "explanation",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her explanation of the game was clear and simple."
+  },
+  {
+    "id": "hard-extraordinary",
+    "word": "extraordinary",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The magician performed an extraordinary trick."
+  },
+  {
+    "id": "hard-familiar",
+    "word": "familiar",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The song sounded familiar, but I could not name it."
+  },
+  {
+    "id": "hard-fascinating",
+    "word": "fascinating",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The video about octopuses was fascinating."
+  },
+  {
+    "id": "hard-fortunate",
+    "word": "fortunate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We were fortunate to find seats near the front."
+  },
+  {
+    "id": "hard-fragile",
+    "word": "fragile",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Handle the fragile glass bowl with both hands."
+  },
+  {
+    "id": "hard-frustrated",
+    "word": "frustrated",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "He felt frustrated when the puzzle piece would not fit."
+  },
+  {
+    "id": "hard-generations",
+    "word": "generations",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Three generations of the family lived in the old farmhouse."
+  },
+  {
+    "id": "hard-genuine",
+    "word": "genuine",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The shop sells genuine leather boots."
+  },
+  {
+    "id": "hard-geography",
+    "word": "geography",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "In geography class we studied rivers and mountains."
+  },
+  {
+    "id": "hard-gradually",
+    "word": "gradually",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The sky gradually turned from pink to deep blue."
+  },
+  {
+    "id": "hard-grammar",
+    "word": "grammar",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Good grammar helps your writing make sense."
+  },
+  {
+    "id": "hard-guarantee",
+    "word": "guarantee",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The store will guarantee that the toy works."
+  },
+  {
+    "id": "hard-hesitate",
+    "word": "hesitate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Do not hesitate to ask if you need help."
+  },
+  {
+    "id": "hard-horizon",
+    "word": "horizon",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The sun sank slowly below the horizon."
+  },
+  {
+    "id": "hard-hospitality",
+    "word": "hospitality",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The family treated us with great hospitality."
+  },
+  {
+    "id": "hard-identify",
+    "word": "identify",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Can you identify the bird by its song?"
+  },
+  {
+    "id": "hard-imagination",
+    "word": "imagination",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her imagination turned the cardboard box into a spaceship."
+  },
+  {
+    "id": "hard-immense",
+    "word": "immense",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "An immense oak tree shaded the whole yard."
+  },
+  {
+    "id": "hard-impatient",
+    "word": "impatient",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The impatient child tapped her foot while she waited."
+  },
+  {
+    "id": "hard-impossible",
+    "word": "impossible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Lifting the giant rock by myself was impossible."
+  },
+  {
+    "id": "hard-impressive",
+    "word": "impressive",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The gymnast gave an impressive performance."
+  },
+  {
+    "id": "hard-incredible",
+    "word": "incredible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The view from the mountain was incredible."
+  },
+  {
+    "id": "hard-independent",
+    "word": "independent",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She is an independent reader who loves long books."
+  },
+  {
+    "id": "hard-influence",
+    "word": "influence",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Good friends can have a positive influence on you."
+  },
+  {
+    "id": "hard-ingredient",
+    "word": "ingredient",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Flour is the main ingredient in bread."
+  },
+  {
+    "id": "hard-inhabitant",
+    "word": "inhabitant",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Each inhabitant of the village knew the old bridge well."
+  },
+  {
+    "id": "hard-inspire",
+    "word": "inspire",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her kind words inspire me to try harder."
+  },
+  {
+    "id": "hard-instrument",
+    "word": "instrument",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The cello is my favorite instrument."
+  },
+  {
+    "id": "hard-intelligent",
+    "word": "intelligent",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Dolphins are intelligent animals that can learn tricks."
+  },
+  {
+    "id": "hard-interrupt",
+    "word": "interrupt",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It is rude to interrupt when someone is speaking."
+  },
+  {
+    "id": "hard-introduce",
+    "word": "introduce",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Let me introduce you to my cousin from Texas."
+  },
+  {
+    "id": "hard-invisible",
+    "word": "invisible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The magician pretended to make the coin invisible."
+  },
+  {
+    "id": "hard-irregular",
+    "word": "irregular",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The path was irregular and full of bumps."
+  },
+  {
+    "id": "hard-knowledge",
+    "word": "knowledge",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Reading widely will increase your knowledge."
+  },
+  {
+    "id": "hard-languages",
+    "word": "languages",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She speaks three languages fluently."
+  },
+  {
+    "id": "hard-legible",
+    "word": "legible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Please make your handwriting neat and legible."
+  },
+  {
+    "id": "hard-literature",
+    "word": "literature",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We read stories and poems in literature class."
+  },
+  {
+    "id": "hard-magnificent",
+    "word": "magnificent",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The magnificent waterfall roared over the cliff."
+  },
+  {
+    "id": "hard-majority",
+    "word": "majority",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The majority of the class voted for a picnic."
+  },
+  {
+    "id": "hard-mechanic",
+    "word": "mechanic",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The mechanic fixed the engine in an hour."
+  },
+  {
+    "id": "hard-memorable",
+    "word": "memorable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It was a memorable day at the aquarium."
+  },
+  {
+    "id": "hard-miniature",
+    "word": "miniature",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "He built a miniature train for the model town."
+  },
+  {
+    "id": "hard-navigate",
+    "word": "navigate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Sailors once used stars to navigate across the ocean."
+  },
+  {
+    "id": "hard-negotiate",
+    "word": "negotiate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The two friends tried to negotiate a fair trade."
+  },
+  {
+    "id": "hard-nuisance",
+    "word": "nuisance",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The buzzing fly was a nuisance during the test."
+  },
+  {
+    "id": "hard-observe",
+    "word": "observe",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Observe the caterpillar closely and write what you see."
+  },
+  {
+    "id": "hard-obstacle",
+    "word": "obstacle",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The race had a wall as the last obstacle."
+  },
+  {
+    "id": "hard-occupy",
+    "word": "occupy",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Who will occupy the empty seat next to me?"
+  },
+  {
+    "id": "hard-official",
+    "word": "official",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The official rules were posted on the gym wall."
+  },
+  {
+    "id": "hard-ordinary",
+    "word": "ordinary",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It started as an ordinary Tuesday at school."
+  },
+  {
+    "id": "hard-organize",
+    "word": "organize",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Let us organize the books by size."
+  },
+  {
+    "id": "hard-original",
+    "word": "original",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Her original story won first prize."
+  },
+  {
+    "id": "hard-outrageous",
+    "word": "outrageous",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The prices at the fair were outrageous."
+  },
+  {
+    "id": "hard-parallel",
+    "word": "parallel",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Draw two parallel lines on the paper."
+  },
+  {
+    "id": "hard-participate",
+    "word": "participate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Everyone is welcome to participate in the relay."
+  },
+  {
+    "id": "hard-particular",
+    "word": "particular",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Is there a particular book you would like?"
+  },
+  {
+    "id": "hard-patience",
+    "word": "patience",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Fishing takes a lot of patience."
+  },
+  {
+    "id": "hard-peculiar",
+    "word": "peculiar",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A peculiar smell came from the old closet."
+  },
+  {
+    "id": "hard-persuade",
+    "word": "persuade",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Can I persuade you to join our team?"
+  },
+  {
+    "id": "hard-phenomenon",
+    "word": "phenomenon",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A rainbow is a natural phenomenon caused by sunlight and rain."
+  },
+  {
+    "id": "hard-physical",
+    "word": "physical",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Swimming is a good physical activity."
+  },
+  {
+    "id": "hard-pioneer",
+    "word": "pioneer",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The pioneer built a small cabin near the stream."
+  },
+  {
+    "id": "hard-possession",
+    "word": "possession",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her most treasured possession was her grandfather's watch."
+  },
+  {
+    "id": "hard-possibility",
+    "word": "possibility",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "There is a possibility of snow tomorrow."
+  },
+  {
+    "id": "hard-practical",
+    "word": "practical",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A raincoat is a practical gift for a rainy town."
+  },
+  {
+    "id": "hard-precipitation",
+    "word": "precipitation",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Rain and snow are two kinds of precipitation."
+  },
+  {
+    "id": "hard-prefer",
+    "word": "prefer",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I prefer to read in the quiet corner of the library."
+  },
+  {
+    "id": "hard-privilege",
+    "word": "privilege",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It is a privilege to meet such a kind scientist."
+  },
+  {
+    "id": "hard-procedure",
+    "word": "procedure",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Follow each step of the procedure in order."
+  },
+  {
+    "id": "hard-profession",
+    "word": "profession",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Teaching is a respected profession."
+  },
+  {
+    "id": "hard-pronounce",
+    "word": "pronounce",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "How do you pronounce the name of that city?"
+  },
+  {
+    "id": "hard-protection",
+    "word": "protection",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A hat gives protection from the hot sun."
+  },
+  {
+    "id": "hard-punctuation",
+    "word": "punctuation",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Do not forget the punctuation at the end of each sentence."
+  },
+  {
+    "id": "hard-qualify",
+    "word": "qualify",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "You must finish the course to qualify for the prize."
+  },
+  {
+    "id": "hard-quantity",
+    "word": "quantity",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A large quantity of apples was packed into the crate."
+  },
+  {
+    "id": "hard-recognize",
+    "word": "recognize",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "I did not recognize my teacher without her glasses."
+  },
+  {
+    "id": "hard-reference",
+    "word": "reference",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Use a reference book to check the facts."
+  },
+  {
+    "id": "hard-refrigerator",
+    "word": "refrigerator",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Put the milk back in the refrigerator."
+  },
+  {
+    "id": "hard-regular",
+    "word": "regular",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We have a regular meeting every Monday."
+  },
+  {
+    "id": "hard-relevant",
+    "word": "relevant",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Keep only the details that are relevant to your topic."
+  },
+  {
+    "id": "hard-reliable",
+    "word": "reliable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A reliable friend keeps every promise."
+  },
+  {
+    "id": "hard-reluctant",
+    "word": "reluctant",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The reluctant swimmer dipped one toe in the cold pool."
+  },
+  {
+    "id": "hard-remarkable",
+    "word": "remarkable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The young pianist had a remarkable talent."
+  },
+  {
+    "id": "hard-representative",
+    "word": "representative",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Each class chose a representative for the school meeting."
+  },
+  {
+    "id": "hard-reputation",
+    "word": "reputation",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The bakery has a good reputation in town."
+  },
+  {
+    "id": "hard-requirement",
+    "word": "requirement",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Reading ten books is a requirement for the summer program."
+  },
+  {
+    "id": "hard-resemble",
+    "word": "resemble",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Twins often resemble each other closely."
+  },
+  {
+    "id": "hard-resource",
+    "word": "resource",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Water is a precious natural resource."
+  },
+  {
+    "id": "hard-responsible",
+    "word": "responsible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A responsible pet owner feeds the animals on time."
+  },
+  {
+    "id": "hard-restore",
+    "word": "restore",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Workers will restore the old clock tower."
+  },
+  {
+    "id": "hard-sacrifice",
+    "word": "sacrifice",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The coach asked the team to sacrifice their free time to practice."
+  },
+  {
+    "id": "hard-satisfaction",
+    "word": "satisfaction",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She felt great satisfaction after finishing the puzzle."
+  },
+  {
+    "id": "hard-schedule",
+    "word": "schedule",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Our class schedule changes on Fridays."
+  },
+  {
+    "id": "hard-sensible",
+    "word": "sensible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Wearing boots in the snow is a sensible choice."
+  },
+  {
+    "id": "hard-sentence",
+    "word": "sentence",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Read the first sentence of the story aloud."
+  },
+  {
+    "id": "hard-shepherd",
+    "word": "shepherd",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The shepherd led the flock down the hill."
+  },
+  {
+    "id": "hard-significant",
+    "word": "significant",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The discovery was significant for the whole town."
+  },
+  {
+    "id": "hard-silhouette",
+    "word": "silhouette",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The tree made a dark silhouette against the sunset."
+  },
+  {
+    "id": "hard-similar",
+    "word": "similar",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The two paintings looked very similar."
+  },
+  {
+    "id": "hard-situation",
+    "word": "situation",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The teacher calmly handled the situation."
+  },
+  {
+    "id": "hard-skeleton",
+    "word": "skeleton",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The museum has a dinosaur skeleton in the main hall."
+  },
+  {
+    "id": "hard-solution",
+    "word": "solution",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We found a solution to the math problem."
+  },
+  {
+    "id": "hard-souvenir",
+    "word": "souvenir",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "I bought a small souvenir at the gift shop."
+  },
+  {
+    "id": "hard-spacious",
+    "word": "spacious",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The spacious room had windows on three sides."
+  },
+  {
+    "id": "hard-specific",
+    "word": "specific",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Please be specific when you describe the lost bag."
+  },
+  {
+    "id": "hard-spectacular",
+    "word": "spectacular",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The fireworks display was spectacular."
+  },
+  {
+    "id": "hard-strategy",
+    "word": "strategy",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Our team had a good strategy for winning the game."
+  },
+  {
+    "id": "hard-strength",
+    "word": "strength",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It takes strength to carry the heavy boxes."
+  },
+  {
+    "id": "hard-structure",
+    "word": "structure",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The structure of the bridge is made of steel."
+  },
+  {
+    "id": "hard-successful",
+    "word": "successful",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Their bake sale was very successful."
+  },
+  {
+    "id": "hard-sufficient",
+    "word": "sufficient",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Is there sufficient light to read in here?"
+  },
+  {
+    "id": "hard-suggestion",
+    "word": "suggestion",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She made a helpful suggestion about the garden."
+  },
+  {
+    "id": "hard-summarize",
+    "word": "summarize",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Can you summarize the chapter in two sentences?"
+  },
+  {
+    "id": "hard-surround",
+    "word": "surround",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Tall trees surround the little cabin."
+  },
+  {
+    "id": "hard-sympathy",
+    "word": "sympathy",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "He showed sympathy when his friend lost the game."
+  },
+  {
+    "id": "hard-technique",
+    "word": "technique",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The artist used a special technique to paint the clouds."
+  },
+  {
+    "id": "hard-technology",
+    "word": "technology",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Technology has changed the way we learn."
+  },
+  {
+    "id": "hard-telescope",
+    "word": "telescope",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We looked at the moon through a telescope."
+  },
+  {
+    "id": "hard-temporary",
+    "word": "temporary",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The sign is temporary and will come down on Monday."
+  },
+  {
+    "id": "hard-tolerant",
+    "word": "tolerant",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A tolerant person respects the views of others."
+  },
+  {
+    "id": "hard-tomorrow",
+    "word": "tomorrow",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We are going to the zoo tomorrow."
+  },
+  {
+    "id": "hard-tradition",
+    "word": "tradition",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Baking bread together is a family tradition."
+  },
+  {
+    "id": "hard-translate",
+    "word": "translate",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Can you translate this sentence into Spanish?"
+  },
+  {
+    "id": "hard-transparent",
+    "word": "transparent",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The jar was made of transparent glass."
+  },
+  {
+    "id": "hard-tremendous",
+    "word": "tremendous",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "A tremendous cheer rose from the crowd."
+  },
+  {
+    "id": "hard-tropical",
+    "word": "tropical",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Parrots live in the tropical forest."
+  },
+  {
+    "id": "hard-typical",
+    "word": "typical",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "It was a typical day at the farm."
+  },
+  {
+    "id": "hard-unanimous",
+    "word": "unanimous",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The team's choice was unanimous, so everyone agreed."
+  },
+  {
+    "id": "hard-universe",
+    "word": "universe",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Our galaxy is just one part of the universe."
+  },
+  {
+    "id": "hard-unnecessary",
+    "word": "unnecessary",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It is unnecessary to bring a pencil because we have extras."
+  },
+  {
+    "id": "hard-variety",
+    "word": "variety",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The market sells a variety of fresh fruit."
+  },
+  {
+    "id": "hard-vehicle",
+    "word": "vehicle",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The vehicle stopped at the red light."
+  },
+  {
+    "id": "hard-volunteer",
+    "word": "volunteer",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Every Saturday I volunteer at the animal shelter."
+  },
+  {
+    "id": "hard-whisper",
+    "word": "whisper",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Please whisper so we do not wake the baby."
+  },
+  {
+    "id": "hard-wilderness",
+    "word": "wilderness",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Hikers walked deep into the wilderness."
+  },
+  {
+    "id": "hard-youngster",
+    "word": "youngster",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The youngster waved from the back of the bus."
+  },
+  {
+    "id": "hard-accessible",
+    "word": "accessible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The new library is accessible to everyone."
+  },
+  {
+    "id": "hard-admirable",
+    "word": "admirable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Her honesty was admirable and kind."
+  },
+  {
+    "id": "hard-adorable",
+    "word": "adorable",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The adorable kitten curled up on the pillow."
+  },
+  {
+    "id": "hard-affordable",
+    "word": "affordable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We found an affordable bike at the garage sale."
+  },
+  {
+    "id": "hard-comfortable",
+    "word": "comfortable",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The soft chair was very comfortable."
+  },
+  {
+    "id": "hard-enjoyable",
+    "word": "enjoyable",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The class trip was an enjoyable day for everyone."
+  },
+  {
+    "id": "hard-flexible",
+    "word": "flexible",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "A gymnast has to be flexible."
+  },
+  {
+    "id": "hard-possible",
+    "word": "possible",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "Is it possible to visit the farm on Sunday?"
+  },
+  {
+    "id": "hard-valuable",
+    "word": "valuable",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The old coin may be valuable."
+  },
+  {
+    "id": "hard-visible",
+    "word": "visible",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The lighthouse was visible from miles away."
+  },
+  {
+    "id": "hard-edible",
+    "word": "edible",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "The berries were edible, but we did not pick them."
+  },
+  {
+    "id": "hard-reversible",
+    "word": "reversible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "My jacket is reversible, with red on one side and blue on the other."
+  },
+  {
+    "id": "hard-predictable",
+    "word": "predictable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The ending of the story was predictable."
+  },
+  {
+    "id": "hard-unbelievable",
+    "word": "unbelievable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The tiny puppy's size was unbelievable."
+  },
+  {
+    "id": "hard-unforgettable",
+    "word": "unforgettable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The trip to the mountains was unforgettable."
+  },
+  {
+    "id": "hard-uncomfortable",
+    "word": "uncomfortable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The hard bench was uncomfortable."
+  },
+  {
+    "id": "hard-unpredictable",
+    "word": "unpredictable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Spring weather can be unpredictable."
+  },
+  {
+    "id": "hard-irresistible",
+    "word": "irresistible",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The smell of fresh bread was irresistible."
+  },
+  {
+    "id": "hard-reasonable",
+    "word": "reasonable",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The price of the ticket was reasonable."
+  },
+  {
+    "id": "hard-terrific",
+    "word": "terrific",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We had a terrific time at the lake."
+  },
+  {
+    "id": "hard-disappointed",
+    "word": "disappointed",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She was disappointed when rain ended the picnic early."
+  },
+  {
+    "id": "hard-discouraged",
+    "word": "discouraged",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Do not feel discouraged when something is hard at first."
+  },
+  {
+    "id": "hard-disconnect",
+    "word": "disconnect",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Disconnect the charger from the wall when you finish."
+  },
+  {
+    "id": "hard-dishonest",
+    "word": "dishonest",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "It is dishonest to copy someone's work."
+  },
+  {
+    "id": "hard-disobey",
+    "word": "disobey",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Good dogs rarely disobey their trainers."
+  },
+  {
+    "id": "hard-disorganized",
+    "word": "disorganized",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "My desk was disorganized until I cleaned it."
+  },
+  {
+    "id": "hard-rearrange",
+    "word": "rearrange",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "We decided to rearrange the furniture in the classroom."
+  },
+  {
+    "id": "hard-reconsider",
+    "word": "reconsider",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Please reconsider your answer before you hand in the test."
+  },
+  {
+    "id": "hard-recycle",
+    "word": "recycle",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "We recycle cans and paper at our school."
+  },
+  {
+    "id": "hard-reappear",
+    "word": "reappear",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The sun will reappear after the clouds pass."
+  },
+  {
+    "id": "hard-rediscover",
+    "word": "rediscover",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "She loved to rediscover old toys in the attic."
+  },
+  {
+    "id": "hard-precaution",
+    "word": "precaution",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Wearing a helmet is a wise precaution."
+  },
+  {
+    "id": "hard-predict",
+    "word": "predict",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Can you predict how the story will end?"
+  },
+  {
+    "id": "hard-premature",
+    "word": "premature",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The kitten was born premature but grew strong."
+  },
+  {
+    "id": "hard-preschool",
+    "word": "preschool",
+    "level": "hard",
+    "grade": "4",
+    "sentence": "My little cousin goes to preschool three days a week."
+  },
+  {
+    "id": "hard-misbehave",
+    "word": "misbehave",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Puppies sometimes misbehave when they are bored."
+  },
+  {
+    "id": "hard-misjudge",
+    "word": "misjudge",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "Do not misjudge a book by its cover."
+  },
+  {
+    "id": "hard-misunderstanding",
+    "word": "misunderstanding",
+    "level": "hard",
+    "grade": "5",
+    "sentence": "The misunderstanding was cleared up with a quick talk."
+  }
+]
