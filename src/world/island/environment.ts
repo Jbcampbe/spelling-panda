@@ -1,5 +1,5 @@
 import type { Environment } from '../panda/behaviour';
-import { EDGE_MARGIN, OBSTACLES, PANDA_RADIUS, edgeRadius } from './layout';
+import { EDGE_MARGIN, OBSTACLES, PANDA_RADIUS, POND, edgeRadius, pondDistance } from './layout';
 
 function edgeLimit(x: number, z: number): number {
   return edgeRadius(Math.atan2(z, x)) - EDGE_MARGIN;
@@ -7,6 +7,7 @@ function edgeLimit(x: number, z: number): number {
 
 /** The floating island as seen by panda brains. */
 export const islandEnvironment: Environment = {
+  water: POND,
   isWalkable(x, z, margin) {
     if (Math.hypot(x, z) > edgeLimit(x, z) - margin) return false;
     for (const o of OBSTACLES) {
@@ -74,4 +75,43 @@ export function spawnPoint(
     }
   }
   return best;
+}
+
+/** True when a panda dropped at (x,z) lands in the pond. */
+export function inPond(x: number, z: number): boolean {
+  return pondDistance(x, z) < POND.r * 0.92;
+}
+
+/** Pull a point into the part of the pond that is deep enough to swim in. */
+export function clampToPond(x: number, z: number, out: { x: number; z: number }): void {
+  const d = pondDistance(x, z);
+  const lim = POND.r * 0.62;
+  const k = d > lim ? lim / d : 1;
+  out.x = POND.x + (x - POND.x) * k;
+  out.z = POND.z + (z - POND.z) * k;
+}
+
+/**
+ * Nearest spot to (x,z) where a panda can stand (the point itself when it is already fine).
+ * Searches outward in rings, so a drop on a tree or off the edge lands just beside it.
+ */
+export function nearestWalkable(x: number, z: number, out: { x: number; z: number }): void {
+  out.x = x;
+  out.z = z;
+  if (islandEnvironment.isWalkable(x, z, 0)) return;
+  for (let r = 0.12; r < 7; r += 0.12) {
+    const n = Math.max(8, Math.ceil(r * 14));
+    for (let i = 0; i < n; i++) {
+      const a = (i / n) * Math.PI * 2;
+      const px = x + Math.cos(a) * r;
+      const pz = z + Math.sin(a) * r;
+      if (islandEnvironment.isWalkable(px, pz, 0.04)) {
+        out.x = px;
+        out.z = pz;
+        return;
+      }
+    }
+  }
+  out.x = 0;
+  out.z = 0.5;
 }

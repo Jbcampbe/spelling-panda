@@ -40,6 +40,8 @@ const params = new URLSearchParams(location.search);
 const tierParam = params.get('tier');
 const count = Number(params.get('n') ?? 10);
 const ui = params.get('ui') !== '0';
+/** `?still=1` turns on reduced motion (no idle camera drift), handy for poking at pandas. */
+const still = params.get('still') === '1';
 
 export default function HarnessApp() {
   const [pandas, setPandas] = useState(() => Array.from({ length: count }, (_, i) => makePanda(i)));
@@ -99,6 +101,7 @@ export default function HarnessApp() {
           if (window.__pw) window.__pw.cap = c;
         }}
         forceQualityTier={tierParam === null ? undefined : Number(tierParam)}
+        reducedMotion={still ? true : undefined}
       />
       {ui && (
         <>

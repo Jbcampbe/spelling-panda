@@ -6,7 +6,24 @@
  */
 import { angleDelta, clamp, mulberryStep } from '../random';
 
-export type Activity = 'idle' | 'walk' | 'sit' | 'eat' | 'nap' | 'react' | 'arrive';
+export type Activity =
+  | 'idle'
+  | 'walk'
+  | 'sit'
+  | 'eat'
+  | 'nap'
+  | 'react'
+  | 'arrive'
+  /** Picked up by the child; the herd moves it, the brain only blinks. */
+  | 'held'
+  /** Let go: glides from where it was released to `target` and lands. */
+  | 'drop'
+  /** Paddling around the pond. */
+  | 'swim'
+  /** Wading out of the pond to `target`. */
+  | 'climb'
+  /** Fed by the child: sits and munches bamboo. */
+  | 'munch';
 export type Reaction = 'wave' | 'roll' | 'hop';
 export const REACTIONS: readonly Reaction[] = ['wave', 'roll', 'hop'];
 
@@ -25,6 +42,9 @@ export interface Brain {
   duration: number;
   targetX: number;
   targetZ: number;
+  /** Where a 'drop' started. */
+  fromX: number;
+  fromZ: number;
   /** Accumulated stride phase (radians) for the walk cycle. */
   walkPhase: number;
   lookYaw: number;
@@ -46,6 +66,8 @@ export interface Environment {
   segmentClear(ax: number, az: number, bx: number, bz: number, margin: number): boolean;
   /** A uniformly random point on the island (may be unwalkable; caller filters). */
   randomPoint(rand: () => number): { x: number; z: number };
+  /** The pond pandas can swim in (omit when there is no water). */
+  water?: { x: number; z: number; r: number };
 }
 
 export interface BehaviourOptions {
@@ -70,6 +92,10 @@ export const ARRIVAL_TIME = 3.4;
 /** Seconds into an arrival when the panda starts dropping in. */
 export const ARRIVAL_DROP_START = 0.75;
 export const ARRIVAL_DROP_TIME = 0.85;
+export const SWIM_SPEED = 0.26;
+export const MUNCH_TIME = 5.5;
+/** Fraction of the pond radius swimmers stay inside. */
+const SWIM_REACH = 0.6;
 
 function rand(b: Brain): number {
   const [v, n] = mulberryStep(b.rng);
@@ -90,6 +116,8 @@ export function createBrain(x: number, z: number, heading: number, seed: number)
     duration: 1,
     targetX: x,
     targetZ: z,
+    fromX: x,
+    fromZ: z,
     walkPhase: 0,
     lookYaw: 0,
     lookPitch: 0,
@@ -202,6 +230,145 @@ export function isBusy(b: Brain): boolean {
   return b.activity === 'react' || b.activity === 'arrive';
 }
 
+/** The child picked the panda up. */
+export function startHold(b: Brain): void {
+  begin(b, 'held', Infinity);
+  b.speed = 0;
+  b.lookYaw = 0;
+  b.lookPitch = -0.05;
+}
+
+/** Let go of a held panda: it glides to (x,z) and lands there. */
+export function startDrop(b: Brain, x: number, z: number): void {
+  const dist = Math.hypot(x - b.x, z - b.z);
+  begin(b, 'drop', 0.5 + Math.min(0.7, dist * 0.22));
+  b.fromX = b.x;
+  b.fromZ = b.z;
+  b.targetX = x;
+  b.targetZ = z;
+  b.speed = 0;
+}
+
+/** Start paddling around the pond (the caller has put the panda in the water). */
+export function startSwim(b: Brain): void {
+  begin(b, 'swim', range(b, 9, 14));
+  b.targetX = b.x;
+  b.targetZ = b.z;
+  b.speed = 0;
+}
+
+/** Feed the panda: it sits down and munches. False if it can't eat right now. */
+export function startMunch(b: Brain): boolean {
+  if (!canFeed(b)) return false;
+  begin(b, 'munch', MUNCH_TIME);
+  b.speed = 0;
+  b.lookYaw = 0;
+  b.lookPitch = 0.05;
+  return true;
+}
+
+export function canFeed(b: Brain): boolean {
+  const a = b.activity;
+  return a === 'idle' || a === 'walk' || a === 'sit' || a === 'eat' || a === 'nap' || a === 'react';
+}
+
+function turnToward(b: Brain, desired: number, rate: number, dt: number): number {
+  const dh = angleDelta(b.heading, desired);
+  const maxTurn = rate * dt;
+  b.heading += clamp(dh, -maxTurn, maxTurn);
+  return Math.max(0, Math.cos(dh));
+}
+
+/** Child-driven activities; returns true when it handled this step. */
+function stepSpecial(b: Brain, dt: number, env: Environment): boolean {
+  const a = b.activity;
+  if (a === 'held') return true;
+  if (a === 'drop') {
+    const u = clamp(b.elapsed / b.duration, 0, 1);
+    const k = u * u * (3 - 2 * u);
+    b.x = b.fromX + (b.targetX - b.fromX) * k;
+    b.z = b.fromZ + (b.targetZ - b.fromZ) * k;
+    if (u >= 1) begin(b, 'idle', range(b, 1.5, 3));
+    return true;
+  }
+  if (a === 'munch') {
+    if (b.elapsed >= b.duration) startReaction(b, 'hop');
+    return true;
+  }
+  if (a === 'swim') {
+    const w = env.water;
+    if (!w) {
+      begin(b, 'idle', 1);
+      return true;
+    }
+    if (b.elapsed >= b.duration) {
+      // Wade out towards the nearest bit of open shore.
+      const base = Math.atan2(b.z - w.z, b.x - w.x);
+      for (let i = 0; i < 24; i++) {
+        const ang = base + (i % 2 ? -1 : 1) * Math.ceil(i / 2) * 0.28;
+        const r = w.r + 0.75;
+        const x = w.x + Math.cos(ang) * r;
+        const z = w.z + Math.sin(ang) * r;
+        if (!env.isWalkable(x, z, 0.05)) continue;
+        b.targetX = x;
+        b.targetZ = z;
+        begin(b, 'climb', 8);
+        return true;
+      }
+      b.duration += 3;
+    }
+    let dx = b.targetX - b.x;
+    let dz = b.targetZ - b.z;
+    let dist = Math.hypot(dx, dz);
+    if (dist < 0.12) {
+      const ang = rand(b) * Math.PI * 2;
+      const r = Math.sqrt(rand(b)) * w.r * SWIM_REACH;
+      b.targetX = w.x + Math.cos(ang) * r;
+      b.targetZ = w.z + Math.sin(ang) * r;
+      dx = b.targetX - b.x;
+      dz = b.targetZ - b.z;
+      dist = Math.hypot(dx, dz);
+    }
+    const align = dist > 1e-4 ? turnToward(b, Math.atan2(dx, dz), TURN_RATE * 0.8, dt) : 0;
+    b.speed += (SWIM_SPEED * align - b.speed) * (1 - Math.exp(-3 * dt));
+    b.x += Math.sin(b.heading) * b.speed * dt;
+    b.z += Math.cos(b.heading) * b.speed * dt;
+    // Never drift out of the deep part.
+    const ox = b.x - w.x;
+    const oz = b.z - w.z;
+    const od = Math.hypot(ox, oz);
+    const lim = w.r * (SWIM_REACH + 0.08);
+    if (od > lim) {
+      // Eased, so a panda dropped at the pond's edge drifts in rather than snapping.
+      const pull = ((od - lim) / od) * Math.min(1, 5 * dt);
+      b.x -= ox * pull;
+      b.z -= oz * pull;
+    }
+    b.walkPhase += dt * 5.5;
+    return true;
+  }
+  if (a === 'climb') {
+    const dx = b.targetX - b.x;
+    const dz = b.targetZ - b.z;
+    const dist = Math.hypot(dx, dz);
+    if (dist < 0.1 || b.elapsed >= b.duration) {
+      if (dist < 0.1 || env.isWalkable(b.x, b.z, -0.1)) begin(b, 'idle', range(b, 1.5, 3));
+      else {
+        // Ran out of time in a bad spot: finish with a glide to the target.
+        startDrop(b, b.targetX, b.targetZ);
+      }
+      return true;
+    }
+    const align = turnToward(b, Math.atan2(dx, dz), TURN_RATE * 1.4, dt);
+    b.speed += (WALK_SPEED * align * align - b.speed) * (1 - Math.exp(-4 * dt));
+    b.x += Math.sin(b.heading) * b.speed * dt;
+    b.z += Math.cos(b.heading) * b.speed * dt;
+    b.walkPhase += ((b.speed * dt) / STRIDE) * Math.PI;
+    return true;
+  }
+  return false;
+}
+
 export interface Neighbour {
   x: number;
   z: number;
@@ -238,6 +405,8 @@ export function stepBrain(
     b.lookPitch = range(b, -0.12, 0.18) * calm;
     b.lookTimer = range(b, 1.8, 5);
   }
+
+  if (stepSpecial(b, dt, env)) return b;
 
   // Separation from neighbours (always on, gentle).
   let sx = 0;

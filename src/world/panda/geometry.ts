@@ -12,16 +12,21 @@ import { merge, piece, trs, trq } from '../geom';
 // ---- Rig proportions (root space: origin on the ground, facing +z) ----
 export const PIVOT_Y = 0.42;
 export const NECK = new THREE.Vector3(0, 0.68, 0.02);
-export const HEAD_C = new THREE.Vector3(0, 0.27, 0.03); // relative to NECK
-export const HEAD_R = new THREE.Vector3(0.37, 0.325, 0.315);
+export const HEAD_C = new THREE.Vector3(0, 0.285, 0.03); // relative to NECK
+// A big, round head (roughly as wide as the body is tall) reads as a baby animal.
+export const HEAD_R = new THREE.Vector3(0.4, 0.348, 0.34);
 export const SHOULDER = new THREE.Vector3(0.245, 0.565, 0.075);
 export const HIP = new THREE.Vector3(0.155, 0.2, 0.05);
 
 const CREAM = '#fff8ef';
 const NOSE = '#3a3138';
-const BLUSH = '#f6b5c0';
+const BLUSH = '#f7a3b6';
 const PAD = '#f3c9c6';
-const EYE = '#211b26';
+const EYE = '#17121c';
+/** Warm reflected light in the lower half of the eye (gives depth without an iris mesh). */
+const EYE_WARM = '#6a4636';
+/** Catch-light: off-white and lit like everything else, so it never glows. */
+const EYE_GLINT = '#f4f1ee';
 
 export interface PandaGeometries {
   body: THREE.BufferGeometry;
@@ -95,9 +100,9 @@ function surfacePiece(
 
 function buildBody(dark: string): THREE.BufferGeometry {
   return merge([
-    piece(bodySphere, trs(0, 0.4, 0, 0.34, 0.37, 0.31), WHITE_FUR_HEX, { aFur: 0 }),
-    piece(bandShell, trs(0, 0.4, 0, 0.34, 0.37, 0.31), dark, { aFur: 1 }),
-    piece(smallSphere, trs(0, 0.22, -0.305, 0.075), WHITE_FUR_HEX, { aFur: 0 }),
+    piece(bodySphere, trs(0, 0.4, 0, 0.35, 0.37, 0.325), WHITE_FUR_HEX, { aFur: 0 }),
+    piece(bandShell, trs(0, 0.4, 0, 0.35, 0.37, 0.325), dark, { aFur: 1 }),
+    piece(smallSphere, trs(0, 0.22, -0.32, 0.08), WHITE_FUR_HEX, { aFur: 0 }),
   ]);
 }
 
@@ -105,38 +110,54 @@ function buildHead(dark: string): THREE.BufferGeometry {
   const parts: THREE.BufferGeometry[] = [
     piece(headSphere, trs(HEAD_C.x, HEAD_C.y, HEAD_C.z, HEAD_R.x, HEAD_R.y, HEAD_R.z), WHITE_FUR_HEX, { aFur: 0 }),
     // Muzzle, nose and a tiny smile.
-    piece(smallSphere, trs(0, HEAD_C.y - 0.1, HEAD_C.z + 0.232, 0.155, 0.1, 0.12), CREAM, { aFur: 0 }),
-    piece(smallSphere, trs(0, HEAD_C.y - 0.06, HEAD_C.z + 0.342, 0.052, 0.034, 0.03, -0.2), NOSE, { aFur: 0 }),
+    piece(smallSphere, trs(0, HEAD_C.y - 0.125, HEAD_C.z + 0.262, 0.13, 0.086, 0.11), CREAM, { aFur: 0 }),
+    piece(smallSphere, trs(0, HEAD_C.y - 0.092, HEAD_C.z + 0.366, 0.044, 0.03, 0.026, -0.2), NOSE, { aFur: 0 }),
   ];
   const smile = new THREE.TorusGeometry(0.019, 0.0052, 6, 14, Math.PI);
   for (const sx of [-1, 1]) {
     parts.push(
-      piece(smile, trs(sx * 0.019, HEAD_C.y - 0.112, HEAD_C.z + 0.346, 1, 1, 1, -0.25, 0, Math.PI), NOSE, {
+      piece(smile, trs(sx * 0.019, HEAD_C.y - 0.138, HEAD_C.z + 0.366, 1, 1, 1, -0.25, 0, Math.PI), NOSE, {
         aFur: 0,
       }),
     );
     // Eye patches: tilted teardrops, top leaning in.
-    parts.push(surfacePiece(smallSphere, onHead(sx * 0.4, 0.02, 0.92, -0.012), [0.088, 0.118, 0.05], sx * 0.52, dark, 1));
+    parts.push(surfacePiece(smallSphere, onHead(sx * 0.42, -0.04, 0.92, -0.012), [0.112, 0.142, 0.05], sx * 0.5, dark, 1));
     // Ears.
-    parts.push(surfacePiece(smallSphere, onHead(sx * 0.66, 0.7, -0.1, -0.02), [0.118, 0.115, 0.078], 0, dark, 1));
+    parts.push(surfacePiece(smallSphere, onHead(sx * 0.68, 0.7, -0.1, -0.025), [0.13, 0.125, 0.085], 0, dark, 1));
     // Blush.
-    parts.push(surfacePiece(smallSphere, onHead(sx * 0.66, -0.3, 0.7, -0.004), [0.062, 0.038, 0.02], 0, BLUSH, 0));
+    parts.push(surfacePiece(smallSphere, onHead(sx * 0.74, -0.36, 0.62, -0.006), [0.07, 0.044, 0.02], 0, BLUSH, 0));
   }
   return merge(parts);
 }
 
-/** Eye mesh geometry (both eyes), authored relative to EYE_PIVOT so scale.y blinks. */
+/**
+ * Eye mesh geometry (both eyes), authored relative to EYE_PIVOT so scale.y blinks.
+ * Big dark glossy eyes set low and wide on the face: a soft warm gradient at the bottom
+ * and one small catch-light. Nothing here is emissive.
+ */
 function buildEyes(): { geo: THREE.BufferGeometry; pivotY: number } {
   const parts: THREE.BufferGeometry[] = [];
   let pivotY = 0;
+  const dark = new THREE.Color(EYE);
+  const warm = new THREE.Color(EYE_WARM);
+  const RY = 0.082;
   for (const sx of [-1, 1]) {
-    const at = onHead(sx * 0.385, 0.06, 0.92, 0.004);
+    const at = onHead(sx * 0.415, -0.04, 0.92, 0.014);
     pivotY = at.pos.y;
-    parts.push(surfacePiece(smallSphere, at, [0.047, 0.054, 0.03], 0, EYE, 0));
-    const hl = at.pos.clone().addScaledVector(at.normal, 0.024).add(new THREE.Vector3(-0.012, 0.017, 0));
-    parts.push(piece(tinySphere, trs(hl.x, hl.y, hl.z, 0.0155), '#ffffff', { aFur: 0 }));
-    const hl2 = at.pos.clone().addScaledVector(at.normal, 0.024).add(new THREE.Vector3(0.014, -0.016, 0));
-    parts.push(piece(tinySphere, trs(hl2.x, hl2.y, hl2.z, 0.0075), '#ffffff', { aFur: 0 }));
+    const q = at.quat.clone();
+    const cy = at.pos.y;
+    parts.push(
+      piece(
+        smallSphere,
+        trq(at.pos, q, new THREE.Vector3(0.071, RY, 0.04)),
+        (p) => dark.clone().lerp(warm, 0.75 * Math.min(1, Math.max(0, (cy - p.y) / RY - 0.15))),
+        { aFur: 0 },
+      ),
+    );
+    const hl = at.pos.clone().addScaledVector(at.normal, 0.033).add(new THREE.Vector3(-0.02, 0.03, 0));
+    parts.push(piece(tinySphere, trs(hl.x, hl.y, hl.z, 0.023, 0.023, 0.012), EYE_GLINT, { aFur: 0 }));
+    const hl2 = at.pos.clone().addScaledVector(at.normal, 0.036).add(new THREE.Vector3(0.024, -0.018, 0));
+    parts.push(piece(tinySphere, trs(hl2.x, hl2.y, hl2.z, 0.01, 0.01, 0.005), EYE_GLINT, { aFur: 0 }));
   }
   const geo = merge(parts);
   geo.translate(0, -pivotY, 0);
@@ -144,7 +165,7 @@ function buildEyes(): { geo: THREE.BufferGeometry; pivotY: number } {
 }
 
 function buildArm(dark: string): THREE.BufferGeometry {
-  return merge([piece(unitSphere, trs(0, -0.115, 0, 0.098, 0.175, 0.102), dark, { aFur: 1 })]);
+  return merge([piece(unitSphere, trs(0, -0.11, 0, 0.102, 0.17, 0.106), dark, { aFur: 1 })]);
 }
 
 function buildLeg(dark: string): THREE.BufferGeometry {

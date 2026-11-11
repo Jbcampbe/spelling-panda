@@ -1,8 +1,9 @@
 import { PerformanceMonitor } from '@react-three/drei';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent, type ReactNode, type RefObject } from 'react';
 import * as THREE from 'three';
-import { CameraRig } from './CameraRig';
+import { sfx } from '../audio/sfxEngine';
+import { CameraRig, type CameraApi } from './CameraRig';
 import { Herd, type HerdApi } from './herd/Herd';
 import { Clouds } from './island/Clouds';
 import { Island } from './island/Island';
@@ -67,6 +68,104 @@ function Bob({ amount, children }: { amount: number; children: ReactNode }) {
   return <group ref={ref}>{children}</group>;
 }
 
+function BambooIcon({ size }: { size: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 48 48" aria-hidden="true">
+      <g transform="rotate(24 24 24)">
+        <path d="M33 13c7-5 12-3 13-2-2 5-7 7-13 5z" fill="#8ed06c" />
+        <path d="M15 20C8 16 3 18 2 20c3 4 8 5 13 3z" fill="#74bf58" />
+        <rect x="19" y="3" width="10" height="42" rx="5" fill="#7cc35c" />
+        <rect x="19" y="3" width="4" height="42" rx="2" fill="#a4dc7f" />
+        <rect x="18" y="15" width="12" height="3.4" rx="1.7" fill="#4f9a45" />
+        <rect x="18" y="29" width="12" height="3.4" rx="1.7" fill="#4f9a45" />
+      </g>
+    </svg>
+  );
+}
+
+/** How far (px) the finger must travel before a press on the bamboo button becomes a drag. */
+const FOOD_DRAG_PX = 10;
+
+/**
+ * Child controls drawn over the island: a bamboo snack (tap to feed a panda, or drag it
+ * onto the one you want) and +/- zoom buttons.
+ */
+function Controls({ herd, rig }: { herd: RefObject<HerdApi | null>; rig: RefObject<CameraApi | null> }) {
+  const ghost = useRef<HTMLDivElement>(null);
+  const press = useRef<{ id: number; x: number; y: number; dragging: boolean } | null>(null);
+  const [miss, setMiss] = useState(0);
+
+  const place = (x: number, y: number) => {
+    const g = ghost.current;
+    if (g) g.style.transform = `translate3d(${x}px, ${y}px, 0) translate(-50%, -70%)`;
+  };
+  const down = (e: ReactPointerEvent<HTMLButtonElement>) => {
+    if (press.current) return;
+    sfx.unlock();
+    e.currentTarget.setPointerCapture(e.pointerId);
+    press.current = { id: e.pointerId, x: e.clientX, y: e.clientY, dragging: false };
+  };
+  const move = (e: ReactPointerEvent<HTMLButtonElement>) => {
+    const p = press.current;
+    if (!p || p.id !== e.pointerId) return;
+    if (!p.dragging && Math.hypot(e.clientX - p.x, e.clientY - p.y) > FOOD_DRAG_PX) {
+      p.dragging = true;
+      ghost.current?.classList.add('is-on');
+      rig.current?.poke();
+    }
+    if (p.dragging) place(e.clientX, e.clientY);
+  };
+  const end = (e: ReactPointerEvent<HTMLButtonElement>, cancelled: boolean) => {
+    const p = press.current;
+    if (!p || p.id !== e.pointerId) return;
+    press.current = null;
+    ghost.current?.classList.remove('is-on');
+    if (cancelled) return;
+    const fed = p.dragging ? herd.current?.feedAt(e.clientX, e.clientY) : herd.current?.feedAny();
+    if (!fed) {
+      sfx.play('tap');
+      setMiss((n) => n + 1);
+    }
+  };
+  const zoom = (factor: number) => {
+    sfx.play('tap');
+    rig.current?.zoomBy(factor);
+  };
+
+  return (
+    <div className="pw-controls">
+      <button
+        key={miss}
+        type="button"
+        className={miss ? 'pw-btn pw-food pw-food--miss' : 'pw-btn pw-food'}
+        aria-label="Feed a panda"
+        onPointerDown={down}
+        onPointerMove={move}
+        onPointerUp={(e) => end(e, false)}
+        onPointerCancel={(e) => end(e, true)}
+        onContextMenu={(e) => e.preventDefault()}
+      >
+        <BambooIcon size={40} />
+      </button>
+      <div className="pw-zoom">
+        <button type="button" className="pw-btn" aria-label="Zoom in" onClick={() => zoom(0.7)}>
+          <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12 5v14M5 12h14" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" />
+          </svg>
+        </button>
+        <button type="button" className="pw-btn" aria-label="Zoom out" onClick={() => zoom(1 / 0.7)}>
+          <svg width="26" height="26" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round" />
+          </svg>
+        </button>
+      </div>
+      <div ref={ghost} className="pw-food-ghost">
+        <BambooIcon size={64} />
+      </div>
+    </div>
+  );
+}
+
 export default function World(props: WorldProps) {
   const {
     pandas,
@@ -108,6 +207,9 @@ export default function World(props: WorldProps) {
   }, [pandas, tier.pandaCap, arrivalPandaId]);
 
   const herd = useRef<HerdApi | null>(null);
+  const rig = useRef<CameraApi | null>(null);
+  // Play controls only while the island is the thing on screen.
+  const playable = !paused && !dimmed && !arrivalPandaId;
   const frameloop = paused || !visible ? 'never' : 'always';
 
   return (
@@ -140,6 +242,7 @@ export default function World(props: WorldProps) {
             onPandaTap={onPandaTap}
             pandaShadows={tier.pandaShadows}
             apiRef={herd}
+            onInteract={() => rig.current?.poke()}
           />
         </Bob>
         <Clouds count={CLOUD_COUNT[tierIndex]} animate={!reducedMotion} />
@@ -148,8 +251,10 @@ export default function World(props: WorldProps) {
           arrivalPandaId={arrivalPandaId}
           onArrivalDone={onArrivalDone}
           reducedMotion={reducedMotion}
+          apiRef={rig}
         />
       </Canvas>
+      {playable && <Controls herd={herd} rig={rig} />}
     </div>
   );
 }

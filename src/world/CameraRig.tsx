@@ -3,13 +3,36 @@ import { useFrame, useThree } from '@react-three/fiber';
 import { useEffect, useLayoutEffect, useRef, type ComponentRef, type RefObject } from 'react';
 import * as THREE from 'three';
 import type { HerdApi } from './herd/Herd';
-import { clamp, easeInOutCubic } from './random';
+import { clamp, damp, easeInOutCubic, smoothstep } from './random';
 
 type Controls = ComponentRef<typeof OrbitControls>;
 
 const TARGET = new THREE.Vector3(0, 0.1, 0);
 const POLAR = 1.0; // default view angle from vertical
 const IDLE_BEFORE_ROTATE = 6;
+const MAX_POLAR = 1.24;
+/** Zoom limits: never closer than this many units, never further than the framed view × ZOOM_OUT. */
+const MIN_DISTANCE = 5.4;
+const ZOOM_IN = 0.3;
+const ZOOM_OUT = 1.22;
+/** How far the look-at point may wander from the island centre when fully zoomed in. */
+const ROAM = 4.2;
+/** The camera never drops below this height, so it can't dip into the ground or the bushes. */
+const MIN_CAMERA_HEIGHT = 2.3;
+
+const minDistance = (fit: number) => Math.max(MIN_DISTANCE, fit * ZOOM_IN);
+const maxDistance = (fit: number) => fit * ZOOM_OUT;
+
+/** Imperative handle for the on-screen zoom buttons. */
+export interface CameraApi {
+  /** Smoothly zoom by a factor (< 1 zooms in). */
+  zoomBy(factor: number): void;
+  /** The child did something: hold off the idle camera drift. */
+  poke(): void;
+}
+
+const tmpOffset = new THREE.Vector3();
+const tmpShift = new THREE.Vector3();
 /** Half-extent of the island we want in frame (world units). */
 const FRAME_HALF = 7.4;
 
@@ -50,9 +73,10 @@ export interface CameraRigProps {
   arrivalPandaId?: string;
   onArrivalDone?: () => void;
   reducedMotion: boolean;
+  apiRef?: RefObject<CameraApi | null>;
 }
 
-export function CameraRig({ herd, arrivalPandaId, onArrivalDone, reducedMotion }: CameraRigProps) {
+export function CameraRig({ herd, arrivalPandaId, onArrivalDone, reducedMotion, apiRef }: CameraRigProps) {
   const controls = useRef<Controls>(null);
   const camera = useThree((s) => s.camera) as THREE.PerspectiveCamera;
   const aspect = useThree((s) => s.size.width / Math.max(1, s.size.height));
@@ -63,6 +87,27 @@ export function CameraRig({ herd, arrivalPandaId, onArrivalDone, reducedMotion }
     doneRef.current = onArrivalDone;
   }, [onArrivalDone]);
   const base = useRef(fitDistance(aspect, camera.fov));
+  /** Distance the +/- buttons are easing towards (null when not zooming). */
+  const zoomGoal = useRef<number | null>(null);
+
+  useLayoutEffect(() => {
+    if (!apiRef) return;
+    apiRef.current = {
+      zoomBy(factor) {
+        const c = controls.current;
+        if (!c || run.current) return;
+        const from = zoomGoal.current ?? camera.position.distanceTo(c.target);
+        zoomGoal.current = clamp(from * factor, minDistance(base.current), maxDistance(base.current));
+        idle.current = 0;
+      },
+      poke() {
+        idle.current = 0;
+      },
+    };
+    return () => {
+      apiRef.current = null;
+    };
+  }, [apiRef, camera]);
 
   // Fit the view to the canvas aspect.
   useLayoutEffect(() => {
@@ -70,9 +115,10 @@ export function CameraRig({ herd, arrivalPandaId, onArrivalDone, reducedMotion }
     base.current = d;
     const c = controls.current;
     if (c) {
-      c.minDistance = d * 0.62;
-      c.maxDistance = d * 1.2;
+      c.minDistance = minDistance(d);
+      c.maxDistance = maxDistance(d);
     }
+    zoomGoal.current = null;
     if (run.current) return;
     const dir = camera.position.clone().sub(TARGET);
     if (dir.lengthSq() < 1e-6 || !c) {
@@ -121,9 +167,38 @@ export function CameraRig({ herd, arrivalPandaId, onArrivalDone, reducedMotion }
     if (!r) {
       idle.current += dt;
       c.autoRotate = !reducedMotion && idle.current > IDLE_BEFORE_ROTATE;
+
+      // Button zoom: ease the distance towards the goal along the current view direction.
+      tmpOffset.copy(camera.position).sub(c.target);
+      let dist = tmpOffset.length();
+      const goal = zoomGoal.current;
+      if (goal !== null && dist > 1e-3) {
+        const next = Math.abs(goal - dist) < 0.02 ? goal : damp(dist, goal, reducedMotion ? 30 : 7, dt);
+        camera.position.copy(c.target).addScaledVector(tmpOffset, next / dist);
+        dist = next;
+        if (next === goal) zoomGoal.current = null;
+      }
+
+      // Zooming in may pull the view towards a panda, but the look-at point stays over the
+      // island, and slides back to the centre as the view zooms out again.
+      const min = c.minDistance;
+      const near = 1 - smoothstep(min, Math.max(min + 0.1, base.current), dist);
+      const roam = ROAM * near;
+      tmpShift.set(-c.target.x, TARGET.y - c.target.y, -c.target.z);
+      const off = Math.hypot(c.target.x, c.target.z);
+      const pull = off > roam ? 1 - roam / off : 0;
+      tmpShift.x *= pull;
+      tmpShift.z *= pull;
+      if (tmpShift.lengthSq() > 1e-10) {
+        c.target.add(tmpShift);
+        camera.position.add(tmpShift);
+      }
+      // Up close, keep the camera above the meadow.
+      c.maxPolarAngle = Math.min(MAX_POLAR, Math.acos(clamp(MIN_CAMERA_HEIGHT / Math.max(dist, 0.1), 0, 1)));
       return;
     }
 
+    zoomGoal.current = null;
     c.autoRotate = false;
     c.enabled = false;
     const tl = reducedMotion ? TIMELINE_REDUCED : TIMELINE;
@@ -180,14 +255,15 @@ export function CameraRig({ herd, arrivalPandaId, onArrivalDone, reducedMotion }
       enableDamping
       dampingFactor={0.08}
       rotateSpeed={0.55}
-      zoomSpeed={0.6}
-      minDistance={d * 0.62}
-      maxDistance={d * 1.2}
+      zoomSpeed={0.8}
+      zoomToCursor
+      minDistance={minDistance(d)}
+      maxDistance={maxDistance(d)}
       minPolarAngle={0.5}
-      maxPolarAngle={1.24}
       autoRotateSpeed={0.35}
       onStart={() => {
         idle.current = 0;
+        zoomGoal.current = null;
       }}
     />
   );

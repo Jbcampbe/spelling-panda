@@ -21,10 +21,17 @@ export interface PoseState {
   phase: number;
   /** 0..1 eviction shrink ("poof" back to the Book). */
   leave: number;
+  /** 0..1 picked up and dangling from the child's finger. */
+  held: number;
+  /** 0..1 floating in the pond (the herd also sinks the root by this). */
+  swim: number;
+  /** Dangle swing while carried, in the panda's own frame (set by the herd). */
+  swayX: number;
+  swayZ: number;
 }
 
 export function createPose(phase: number): PoseState {
-  return { sit: 0, lie: 0, walk: 0, eat: 0, sleepy: 0, yaw: 0, pitch: 0, phase, leave: 0 };
+  return { sit: 0, lie: 0, walk: 0, eat: 0, sleepy: 0, yaw: 0, pitch: 0, phase, leave: 0, held: 0, swim: 0, swayX: 0, swayZ: 0 };
 }
 
 /** Short hop curve: 0 → 1 → 0 over v ∈ [0,1]. */
@@ -43,16 +50,22 @@ export function animateRig(rig: PandaRig, b: Brain, p: PoseState, dt: number, t:
   const tp = t + p.phase;
 
   // ---- Continuous pose weights ----
-  p.sit = damp(p.sit, a === 'sit' || a === 'eat' ? 1 : 0, 3.2, dt);
+  const munch = a === 'munch';
+  p.sit = damp(p.sit, a === 'sit' || a === 'eat' || munch ? 1 : 0, munch ? 6 : 3.2, dt);
   p.lie = damp(p.lie, a === 'nap' ? 1 : 0, 1.7, dt);
-  p.walk = damp(p.walk, a === 'walk' ? clamp((b.speed / WALK_SPEED) * 1.3, 0, 1) : 0, 6, dt);
-  p.eat = damp(p.eat, a === 'eat' && b.elapsed > 0.7 && b.elapsed < b.duration - 0.6 ? 1 : 0, 3, dt);
+  p.walk = damp(p.walk, a === 'walk' || a === 'climb' ? clamp((b.speed / WALK_SPEED) * 1.3, 0, 1) : 0, 6, dt);
+  const eating =
+    (a === 'eat' && b.elapsed > 0.7 && b.elapsed < b.duration - 0.6) ||
+    (munch && b.elapsed > 0.25 && b.elapsed < b.duration - 0.45);
+  p.eat = damp(p.eat, eating ? 1 : 0, munch ? 5 : 3, dt);
+  p.held = damp(p.held, a === 'held' ? 1 : 0, a === 'held' ? 12 : 7, dt);
+  p.swim = damp(p.swim, a === 'swim' ? 1 : 0, a === 'swim' ? 6 : 2.4, dt);
   p.sleepy = damp(p.sleepy, a === 'nap' && b.elapsed > 0.9 && b.elapsed < b.duration - 0.8 ? 1 : 0, 2.5, dt);
-  const lookScale = a === 'nap' ? 0.1 : a === 'eat' ? 0.35 : 1;
+  const lookScale = a === 'nap' ? 0.1 : a === 'eat' || munch ? 0.35 : 1;
   p.yaw = damp(p.yaw, b.lookYaw * lookScale, 2.2, dt);
   p.pitch = damp(p.pitch, b.lookPitch * lookScale, 2.2, dt);
 
-  const { sit, lie, walk, eat } = p;
+  const { sit, lie, walk, eat, held, swim } = p;
   const phase = b.walkPhase;
   const sw = Math.sin(phase);
 
@@ -108,6 +121,23 @@ export function animateRig(rig: PandaRig, b: Brain, p: PoseState, dt: number, t:
     }
   }
 
+  if (a === 'drop') {
+    // Glide down, with a little arc when it has to travel to a valid spot, then a soft landing.
+    const u = clamp(b.elapsed / b.duration, 0, 1);
+    const far = clamp(Math.hypot(b.targetX - b.fromX, b.targetZ - b.fromZ) / 1.5, 0, 1);
+    lift = arc(u) * 0.3 * far;
+    squash = u > 0.62 ? Math.sin(((u - 0.62) / 0.38) * Math.PI) * 0.15 : 0;
+  }
+  if (munch) happy = Math.max(happy, eat * 0.55);
+  lift += held * 0.55;
+  squash -= held * 0.05;
+  const paddle = Math.sin(phase);
+  // Now and then a curious head tilt while standing or sitting about.
+  const curio = Math.sin(tp * 0.23) * Math.sin(tp * 0.37 + 1);
+  const calm = (1 - walk) * (1 - lie) * (1 - eat) * (1 - held) * (1 - swim);
+  const tilt = Math.sign(curio) * smoothstep(0.5, 0.8, Math.abs(curio)) * 0.24 * calm;
+  const dangle = Math.sin(t * 8.5 + p.phase);
+
   const leaveK = p.leave * p.leave;
   rig.root.visible = visible && p.leave < 0.999;
   rig.root.rotation.y = b.heading + spin + leaveK * Math.PI * 2;
@@ -115,16 +145,17 @@ export function animateRig(rig: PandaRig, b: Brain, p: PoseState, dt: number, t:
   // ---- Mover: vertical + squash & stretch ----
   const breathRate = a === 'nap' ? 1.35 : 2.1;
   const br = Math.sin(tp * breathRate);
-  rig.mover.position.y = Math.abs(sw) * 0.035 * walk - 0.11 * sit * (1 - lie) - 0.075 * lie + lift;
+  rig.mover.position.y =
+    Math.abs(sw) * 0.035 * walk - 0.11 * sit * (1 - lie) - 0.075 * lie + lift + Math.sin(tp * 2.4) * 0.03 * swim;
   const sq = squash;
   const shrink = 1 - leaveK;
   rig.mover.scale.set((1 + sq * 0.55) * shrink, (1 - sq) * shrink + leaveK * 0.0001, (1 + sq * 0.55) * shrink);
 
   // ---- Pivot: waddle, lie, roll ----
   rig.pivot.rotation.set(
-    -0.13 * sit * (1 - lie) + roll + Math.sin(tp * 2.4) * 0.015 * walk,
-    Math.sin(phase * 0.5) * 0.04 * walk,
-    sw * 0.075 * walk + lie * 1.36 + Math.sin(t * 7.5) * 0.06 * wave,
+    -0.13 * sit * (1 - lie) + roll + Math.sin(tp * 2.4) * 0.015 * walk + p.swayX * held + 0.2 * swim,
+    Math.sin(phase * 0.5) * 0.04 * walk + paddle * 0.07 * swim,
+    sw * 0.075 * walk + lie * 1.36 + Math.sin(t * 7.5) * 0.06 * wave + p.swayZ * held + paddle * 0.05 * swim,
   );
   rig.pivot.position.y = PIVOT_Y;
 
@@ -136,9 +167,9 @@ export function animateRig(rig: PandaRig, b: Brain, p: PoseState, dt: number, t:
   const chew = Math.sin(t * 7.5) * 0.045 * eat;
   rig.neck.position.y = NECK.y - PIVOT_Y + br * 0.006;
   rig.neck.rotation.set(
-    p.pitch + chew + 0.12 * eat + 0.18 * p.sleepy - 0.08 * cheer + 0.55 * tuck,
+    p.pitch + chew + 0.12 * eat + 0.18 * p.sleepy - 0.08 * cheer + 0.55 * tuck - 0.16 * swim - p.swayX * held * 0.5,
     p.yaw * (1 - lie * 0.8) + Math.sin(t * 6) * 0.05 * wave,
-    Math.sin(tp * 0.55) * 0.045 - 0.25 * p.sleepy + 0.12 * wave,
+    Math.sin(tp * 0.55) * 0.045 - 0.25 * p.sleepy + 0.12 * wave + tilt - p.swayZ * held * 0.5,
   );
 
   // ---- Eyes ----
@@ -150,20 +181,23 @@ export function animateRig(rig: PandaRig, b: Brain, p: PoseState, dt: number, t:
   const armUp = cheer * 1.7;
   const waveArm = wave * (2.55 + Math.sin(t * 10) * 0.32);
   rig.armL.rotation.set(
-    0.05 + armSwing - 0.4 * sit - 0.55 * lie - 1.95 * eat - 1.2 * tuck,
+    0.05 + armSwing - 0.4 * sit - 0.55 * lie - 1.95 * eat - 1.2 * tuck - (1.15 + paddle * 0.6) * swim,
     0,
-    -0.2 - 0.18 * sit - armUp + 0.52 * eat,
+    -0.2 - 0.18 * sit - armUp + 0.52 * eat - (0.85 + dangle * 0.18) * held - 0.3 * swim,
   );
   rig.armR.rotation.set(
-    0.05 - armSwing - 0.4 * sit - 0.55 * lie - 1.8 * eat - 1.2 * tuck,
+    0.05 - armSwing - 0.4 * sit - 0.55 * lie - 1.8 * eat - 1.2 * tuck - (1.15 - paddle * 0.6) * swim,
     0,
-    0.2 + 0.18 * sit + armUp - 0.48 * eat + waveArm * (1 - eat),
+    0.2 + 0.18 * sit + armUp - 0.48 * eat + waveArm * (1 - eat) + (0.85 - dangle * 0.18) * held + 0.3 * swim,
   );
 
   // ---- Legs ----
   const legSwing = sw * 0.55 * walk;
-  rig.legL.rotation.set(legSwing - 1.42 * sit * (1 - lie) - 0.5 * lie - 0.9 * tuck, 0, -0.24 * sit);
-  rig.legR.rotation.set(-legSwing - 1.42 * sit * (1 - lie) - 0.35 * lie - 0.9 * tuck, 0, 0.24 * sit);
+  // Dangling legs kick when carried; a slow flutter kick in the water.
+  const kick = dangle * 0.5 * held + paddle * 0.4 * swim;
+  const hang = 0.12 * held + 0.25 * swim;
+  rig.legL.rotation.set(legSwing - 1.42 * sit * (1 - lie) - 0.5 * lie - 0.9 * tuck + kick + hang, 0, -0.24 * sit - 0.1 * held);
+  rig.legR.rotation.set(-legSwing - 1.42 * sit * (1 - lie) - 0.35 * lie - 0.9 * tuck - kick + hang, 0, 0.24 * sit + 0.1 * held);
 
   // ---- Bamboo snack ----
   rig.bamboo.visible = eat > 0.02;

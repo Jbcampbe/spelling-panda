@@ -48,8 +48,8 @@ function getStudio(): Studio | null {
     rim.position.set(-2.5, 1.5, -2.5);
     scene.add(rim);
     const camera = new THREE.PerspectiveCamera(24, 1, 0.1, 20);
-    camera.position.set(0.34, 1.0, 2.6);
-    camera.lookAt(0, 0.76, 0);
+    camera.position.set(0.36, 1.04, 2.78);
+    camera.lookAt(0, 0.79, 0);
     studio = { renderer, scene, camera, rigs: new Map() };
   } catch {
     studio = null;

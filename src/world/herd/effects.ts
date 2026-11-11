@@ -3,7 +3,7 @@
  * soft "poof" puffs, golden sparkles, nap Zzz's and contact-shadow blobs.
  */
 import * as THREE from 'three';
-import { getBlobMaterial, getZzzTexture, worldUniforms } from '../materials';
+import { getBlobMaterial, getHeartTexture, getZzzTexture, worldUniforms } from '../materials';
 
 const tmpM = new THREE.Matrix4();
 const tmpQ = new THREE.Quaternion();
@@ -220,6 +220,59 @@ export function createZzz(maxPandas = 12): Zzz {
         }
       }
       geo.setDrawRange(0, count * Z_PER_PANDA);
+      geo.attributes.position.needsUpdate = true;
+      geo.attributes.color.needsUpdate = true;
+    },
+  };
+}
+
+// ---------------------------------------------------------------- hearts
+export const HEARTS_PER_PANDA = 3;
+
+export interface Hearts {
+  points: THREE.Points | null;
+  /** Hearts drifting up from happy pandas; `k` fades them in and out. */
+  update(lovers: readonly { x: number; y: number; z: number; k: number; seed: number }[], t: number): void;
+}
+
+export function createHearts(maxPandas = 12): Hearts {
+  const tex = getHeartTexture();
+  if (!tex) return { points: null, update() {} };
+  const n = maxPandas * HEARTS_PER_PANDA;
+  const geo = new THREE.BufferGeometry();
+  const pos = new Float32Array(n * 3);
+  const col = new Float32Array(n * 4).fill(1);
+  geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  geo.setAttribute('color', new THREE.BufferAttribute(col, 4));
+  geo.setDrawRange(0, 0);
+  const mat = new THREE.PointsMaterial({
+    map: tex,
+    size: 0.34,
+    sizeAttenuation: true,
+    transparent: true,
+    depthWrite: false,
+    vertexColors: true,
+  });
+  const points = new THREE.Points(geo, mat);
+  points.frustumCulled = false;
+  points.renderOrder = 3;
+  return {
+    points,
+    update(lovers, t) {
+      const count = Math.min(maxPandas, lovers.length);
+      for (let p = 0; p < count; p++) {
+        const s = lovers[p];
+        for (let j = 0; j < HEARTS_PER_PANDA; j++) {
+          const i = p * HEARTS_PER_PANDA + j;
+          const u = (t * 0.55 + j / HEARTS_PER_PANDA + s.seed) % 1;
+          const a = j * 2.1 + s.seed * 6;
+          pos[i * 3] = s.x + Math.cos(a) * 0.22 + Math.sin(u * 6 + a) * 0.07;
+          pos[i * 3 + 1] = s.y + 1.05 + u * 0.75;
+          pos[i * 3 + 2] = s.z + Math.sin(a) * 0.22;
+          col[i * 4 + 3] = Math.sin(Math.PI * u) * s.k;
+        }
+      }
+      geo.setDrawRange(0, count * HEARTS_PER_PANDA);
       geo.attributes.position.needsUpdate = true;
       geo.attributes.color.needsUpdate = true;
     },

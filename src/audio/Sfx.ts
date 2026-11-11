@@ -7,7 +7,11 @@ export type SfxName =
   | 'key'
   | 'fanfare'
   | 'fanfareGolden'
-  | 'reveal';
+  | 'reveal'
+  | 'pickup'
+  | 'drop'
+  | 'splash'
+  | 'munch';
 
 export interface SfxEngine {
   /** Must be called from a user gesture once to unlock audio on iOS. Safe to call repeatedly. */

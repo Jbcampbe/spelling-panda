@@ -54,7 +54,7 @@ function furCompile(golden: boolean) {
          vec3 V = normalize(vViewPosition);
          float fres = pow(1.0 - clamp(dot(V, normal), 0.0, 1.0), 2.6);
          // Plush, velvety rim so the fur reads soft rather than plastic.
-         totalEmissiveRadiance += vColor.rgb * fres * 0.22;
+         totalEmissiveRadiance += vColor.rgb * fres * 0.15;
          ${
            golden
              ? `float sweep = pow(max(0.0, sin(dot(vWPos, vec3(1.7, 2.6, 1.1)) * 1.6 - uTime * 1.7)), 14.0);
@@ -91,19 +91,12 @@ export function getFurMaterial(color: PandaColor): THREE.MeshStandardMaterial {
 }
 
 let eyeMat: THREE.MeshStandardMaterial | null = null;
-/** Glossy eyes; the white highlight vertices glow slightly so they always sparkle. */
+/**
+ * Glossy eyes. Fully lit (no emissive), so the catch-light is shaded and tone mapped like
+ * the rest of the panda instead of glowing; the low roughness adds a real sun glint.
+ */
 export function getEyeMaterial(): THREE.MeshStandardMaterial {
-  if (!eyeMat) {
-    eyeMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.18, metalness: 0 });
-    eyeMat.onBeforeCompile = (shader) => {
-      shader.fragmentShader = shader.fragmentShader.replace(
-        '#include <emissivemap_fragment>',
-        `#include <emissivemap_fragment>
-         totalEmissiveRadiance += step(0.7, vColor.r) * vColor.rgb * 0.9;`,
-      );
-    };
-    eyeMat.customProgramCacheKey = () => 'pw-eye';
-  }
+  if (!eyeMat) eyeMat = new THREE.MeshStandardMaterial({ vertexColors: true, roughness: 0.16, metalness: 0 });
   return eyeMat;
 }
 
@@ -232,4 +225,32 @@ export function getZzzTexture(): THREE.Texture | null {
   zTex = new THREE.CanvasTexture(c);
   zTex.colorSpace = THREE.SRGBColorSpace;
   return zTex;
+}
+
+let heartTex: THREE.Texture | null = null;
+/** A soft pink heart for happy, well-fed pandas (drawn on a 2D canvas). */
+export function getHeartTexture(): THREE.Texture | null {
+  if (heartTex) return heartTex;
+  if (typeof document === 'undefined') return null;
+  const c = document.createElement('canvas');
+  c.width = c.height = 64;
+  const ctx = c.getContext('2d');
+  if (!ctx) return null;
+  ctx.translate(32, 34);
+  ctx.beginPath();
+  ctx.moveTo(0, 20);
+  ctx.bezierCurveTo(-30, 0, -22, -24, -11, -24);
+  ctx.bezierCurveTo(-4, -24, 0, -18, 0, -13);
+  ctx.bezierCurveTo(0, -18, 4, -24, 11, -24);
+  ctx.bezierCurveTo(22, -24, 30, 0, 0, 20);
+  ctx.closePath();
+  ctx.lineJoin = 'round';
+  ctx.lineWidth = 7;
+  ctx.strokeStyle = 'rgba(255,255,255,0.95)';
+  ctx.stroke();
+  ctx.fillStyle = '#ff7f9f';
+  ctx.fill();
+  heartTex = new THREE.CanvasTexture(c);
+  heartTex.colorSpace = THREE.SRGBColorSpace;
+  return heartTex;
 }

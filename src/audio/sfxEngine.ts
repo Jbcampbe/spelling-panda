@@ -77,6 +77,18 @@ export function createSfxEngine(): SfxEngine {
     tap: (c) => note(c, 700, c.currentTime + 0.005, 0.05, 0.1, 'triangle', 450),
     key: (c) => note(c, 1200, c.currentTime + 0.005, 0.025, 0.04, 'sine', 900),
     reveal: (c) => arp(c, [440, 554.37], 0.12, 0.4, 0.14),
+    // Island play: pick a panda up, put it down, pond splash, bamboo munching.
+    pickup: (c) => note(c, 520, c.currentTime + 0.005, 0.14, 0.13, 'triangle', 1040),
+    drop: (c) => note(c, 420, c.currentTime + 0.005, 0.16, 0.14, 'sine', 180),
+    splash: (c) => {
+      const t = c.currentTime + 0.005;
+      note(c, 300, t, 0.2, 0.13, 'sine', 90);
+      for (let i = 0; i < 5; i++) note(c, 900 + ((i * 421) % 900), t + 0.04 + i * 0.045, 0.09, 0.05, 'sine', 1900);
+    },
+    munch: (c) => {
+      const t = c.currentTime + 0.01;
+      for (let i = 0; i < 4; i++) note(c, 250 + (i % 2) * 70, t + i * 0.19, 0.07, 0.15, 'triangle', 140);
+    },
     fanfare: (c) => {
       arp(c, [523.25, 659.25, 783.99, 1046.5, 1318.5], 0.11, 0.5, 0.2);
     },
