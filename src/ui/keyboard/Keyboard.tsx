@@ -9,7 +9,8 @@ const ROW3 = 'zxcvbnm'.split('');
 export interface KeyboardProps {
   onLetter: (ch: string) => void;
   onBackspace: () => void;
-  onEnter: () => void;
+  /** Omit to hide the Enter key (e.g. when the screen has its own submit button). */
+  onEnter?: () => void;
   disabled?: boolean;
   /** Icon shown on the Enter key (defaults to the return arrow). */
   enterIcon?: ReactNode;
@@ -92,16 +93,26 @@ export default function Keyboard({ onLetter, onBackspace, onEnter, disabled, ent
         ))}
       </div>
       <div className="kb-row">
-        <Key
-          label={enterIcon ?? <EnterIcon size={28} />}
-          ariaLabel="Enter"
-          span={3}
-          variant="enter"
-          disabled={disabled}
-          onPress={onEnter}
-        />
-        {ROW3.map((c) => (
-          <Key key={c} label={c} ariaLabel={c} span={2} disabled={disabled} onPress={() => onLetter(c)} />
+        {onEnter && (
+          <Key
+            label={enterIcon ?? <EnterIcon size={28} />}
+            ariaLabel="Enter"
+            span={3}
+            variant="enter"
+            disabled={disabled}
+            onPress={onEnter}
+          />
+        )}
+        {ROW3.map((c, i) => (
+          <Key
+            key={c}
+            label={c}
+            ariaLabel={c}
+            span={2}
+            start={i === 0 ? 4 : undefined}
+            disabled={disabled}
+            onPress={() => onLetter(c)}
+          />
         ))}
         <Key
           label={<BackspaceIcon size={28} />}

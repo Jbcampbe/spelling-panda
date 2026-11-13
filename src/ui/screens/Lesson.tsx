@@ -224,6 +224,20 @@ export default function Lesson({ setup, speech, onFinish, onLeave }: Props) {
             wobbleKey={wobble}
             previous={prev}
             state={attempt.status === 'correct' ? 'correct' : 'idle'}
+            action={
+              <button
+                type="button"
+                className="btn btn-primary answer-submit"
+                aria-label="Check my spelling"
+                disabled={!typing || confirming || entry.value.length === 0}
+                onClick={() => {
+                  sfx.play('tap');
+                  onEnter();
+                }}
+              >
+                <CheckIcon size={40} />
+              </button>
+            }
           />
         )}
 
@@ -251,7 +265,6 @@ export default function Lesson({ setup, speech, onFinish, onLeave }: Props) {
         <Keyboard
           onLetter={entry.letter}
           onBackspace={entry.backspace}
-          onEnter={onEnter}
           disabled={!typing || confirming}
         />
         {attempt.status === 'revealed' && !confirming && (

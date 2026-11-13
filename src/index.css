@@ -561,6 +561,23 @@ ol {
 .answer-large .answer-field {
   min-height: 84px;
 }
+.answer-row {
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+}
+.answer-row .answer-field {
+  flex: 1;
+  min-width: 0;
+}
+.answer-submit {
+  flex: none;
+  width: clamp(64px, 10dvh, 92px);
+  min-width: 0;
+  min-height: 0;
+  padding: 0;
+  border-radius: 26px;
+}
 
 /* ---------- home HUD ---------- */
 .hud {
@@ -1262,6 +1279,9 @@ ol {
   }
   .answer-field {
     min-height: 56px;
+  }
+  .answer-submit {
+    width: 56px;
   }
   .stage-ear,
   .stage-check {
