@@ -14,7 +14,8 @@ interface Props {
 }
 
 const isIos = () =>
-  /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
 const isStandalone = () =>
   window.matchMedia?.('(display-mode: standalone)').matches === true ||
   (navigator as unknown as { standalone?: boolean }).standalone === true;
@@ -46,15 +47,18 @@ export default function Parent({ speech, settings, profile, onChange, onDelete, 
           <p className="notice" role="alert">
             <WarnIcon size={22} />
             <span>
-              Speech is not available in this browser, so words cannot be read aloud. Medium and Hard lessons need
-              sound. Try Safari, Chrome or Edge.
+              Speech is not available in this browser, so words cannot be read aloud. Medium and
+              Hard lessons need sound. Try Safari, Chrome or Edge.
             </span>
           </p>
         )}
 
         <section className="panel">
           <h2>Voice</h2>
-          <p>Choose the voice that reads the words. Natural or enhanced voices usually sound best.</p>
+          <p>
+            Choose the voice that reads the words. Automatic uses a natural AI voice when online,
+            and the device voice when offline. You can also pick one of this device&apos;s voices.
+          </p>
           <div className="field-row">
             <select
               className="select"
@@ -62,7 +66,7 @@ export default function Parent({ speech, settings, profile, onChange, onDelete, 
               value={settings.voiceURI ?? ''}
               onChange={(e) => onChange({ voiceURI: e.target.value || undefined })}
             >
-              <option value="">Automatic (best US English voice)</option>
+              <option value="">Automatic (natural AI voice)</option>
               {voices.map((v) => (
                 <option key={v.voiceURI} value={v.voiceURI}>
                   {v.name}
@@ -73,12 +77,20 @@ export default function Parent({ speech, settings, profile, onChange, onDelete, 
               type="button"
               className="btn btn-soft"
               disabled={!available}
-              onClick={() => void speech.speakTest('Hello! Can you spell panda?', settings.voiceURI).catch(() => {})}
+              onClick={() =>
+                void speech
+                  .speakTest('Hello! Can you spell panda?', settings.voiceURI)
+                  .catch(() => {})
+              }
             >
               Test
             </button>
           </div>
-          {available && voices.length === 0 && <p className="muted">No US English voices were found. The device default will be used.</p>}
+          {available && voices.length === 0 && (
+            <p className="muted">
+              No US English voices were found. The device default will be used.
+            </p>
+          )}
         </section>
 
         <section className="panel">
@@ -110,8 +122,8 @@ export default function Parent({ speech, settings, profile, onChange, onDelete, 
           ) : (
             <>
               <p>
-                Installing the app helps protect progress, because browsers are less likely to clear saved data for
-                installed apps. It also lets the game work offline.
+                Installing the app helps protect progress, because browsers are less likely to clear
+                saved data for installed apps. It also lets the game work offline.
               </p>
               {ios ? (
                 <ol className="steps">
@@ -132,7 +144,8 @@ export default function Parent({ speech, settings, profile, onChange, onDelete, 
                 </button>
               ) : (
                 <p className="muted">
-                  Use your browser menu and choose Install app (or Add to Home Screen) if it is offered.
+                  Use your browser menu and choose Install app (or Add to Home Screen) if it is
+                  offered.
                 </p>
               )}
             </>
@@ -143,7 +156,8 @@ export default function Parent({ speech, settings, profile, onChange, onDelete, 
           <section className="panel panel-danger">
             <h2>Delete player</h2>
             <p>
-              Delete <strong>{profile.name}</strong> and all of their pandas and progress. This cannot be undone.
+              Delete <strong>{profile.name}</strong> and all of their pandas and progress. This
+              cannot be undone.
             </p>
             {!confirmDelete ? (
               <button type="button" className="btn btn-soft" onClick={() => setConfirmDelete(true)}>
@@ -164,7 +178,11 @@ export default function Parent({ speech, settings, profile, onChange, onDelete, 
                   <TrashIcon size={22} />
                   <span>Yes, delete everything</span>
                 </button>
-                <button type="button" className="btn btn-soft" onClick={() => setConfirmDelete(false)}>
+                <button
+                  type="button"
+                  className="btn btn-soft"
+                  onClick={() => setConfirmDelete(false)}
+                >
                   Cancel
                 </button>
               </div>

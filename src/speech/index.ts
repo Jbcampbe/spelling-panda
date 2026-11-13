@@ -1,11 +1,12 @@
 import { MockSpeechProvider } from './mockSpeechProvider';
 import type { SpeakingListener, SpeechProvider } from './SpeechProvider';
-import { WebSpeechProvider } from './webSpeechProvider';
+import { ElevenLabsSpeechProvider } from './elevenLabsProvider';
 import type { VoiceLike } from './voiceSelect';
 
 export type { SpeechProvider, SpeakingListener } from './SpeechProvider';
 export { MockSpeechProvider } from './mockSpeechProvider';
 export { WebSpeechProvider } from './webSpeechProvider';
+export { ElevenLabsSpeechProvider } from './elevenLabsProvider';
 export { pickVoice, listUsVoices } from './voiceSelect';
 export type { VoiceLike } from './voiceSelect';
 export { startEasyFlash } from './easyFlash';
@@ -48,5 +49,5 @@ class MockAppProvider extends MockSpeechProvider implements AppSpeechProvider {
 }
 
 export function createSpeechProvider(): AppSpeechProvider {
-  return shouldMock() ? new MockAppProvider() : new WebSpeechProvider();
+  return shouldMock() ? new MockAppProvider() : new ElevenLabsSpeechProvider();
 }

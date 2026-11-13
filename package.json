@@ -13,6 +13,7 @@
     "validate:words": "tsx scripts/validate-words.ts"
   },
   "dependencies": {
+    "@elevenlabs/elevenlabs-js": "^2.78.0",
     "@react-three/drei": "^10.7.9",
     "@react-three/fiber": "^9.8.2",
     "idb": "^8.0.4",
