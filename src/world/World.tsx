@@ -183,9 +183,14 @@ export default function World(props: WorldProps) {
   const visible = usePageVisible();
 
   const forced = forceQualityTier === undefined ? null : clampTier(forceQualityTier);
-  const [adaptiveTier, setAdaptiveTier] = useState(initialTierIndex);
+  const [startTier] = useState(initialTierIndex);
+  const [adaptiveTier, setAdaptiveTier] = useState(startTier);
   const tierIndex = forced ?? adaptiveTier;
   const tier = QUALITY_TIERS[tierIndex];
+  // Grass/flower density is fixed at the starting tier: changing it mid-session makes a chunk of
+  // the foliage pop out of view, and the instanced draw cost it saves is tiny (DPR and shadows do
+  // the real work when the adaptive tier drops).
+  const decorDensity = QUALITY_TIERS[forced ?? startTier].decorDensity;
 
   const capRef = useRef(onPandaCapChange);
   useEffect(() => {
@@ -234,7 +239,7 @@ export default function World(props: WorldProps) {
         <FrameSetup />
         <Lights shadows={tier.shadows} mapSize={tier.shadowMapSize} />
         <Bob amount={reducedMotion ? 0.3 : 1}>
-          <Island decorDensity={tier.decorDensity} shadows={tier.shadows} />
+          <Island decorDensity={decorDensity} shadows={tier.shadows} />
           <Herd
             pandas={shown}
             arrivalPandaId={arrivalPandaId}
